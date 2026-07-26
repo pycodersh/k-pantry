@@ -3,13 +3,19 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import RecipeCard from './RecipeCard'
 import { getPantryMatches, getUserPantry } from '@/lib/recipes'
+import { getUserPlan, canAccess } from '@/lib/subscription'
 import { createClient } from '@/lib/supabase'
+import PaywallModal from '@/components/paywall/PaywallModal'
+import AuthModal from '@/components/auth/AuthModal'
 
 export default function PantryResultsView() {
   const router = useRouter()
   const [matches, setMatches] = useState<{ ready: any[], addOne: any[], addTwo: any[] } | null>(null)
   const [pantry, setPantry] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
+  const [plan, setPlan] = useState<'free' | 'pro'>('free')
+  const [paywallFeature, setPaywallFeature] = useState<string | null>(null)
+  const [showAuth, setShowAuth] = useState(false)
 
   useEffect(() => {
     async function load() {
@@ -21,12 +27,14 @@ export default function PantryResultsView() {
         return
       }
 
-      const [m, p] = await Promise.all([
+      const [m, p, userPlan] = await Promise.all([
         getPantryMatches(user.id),
         getUserPantry(user.id),
+        getUserPlan(user.id),
       ])
       setMatches(m)
       setPantry(p ?? [])
+      setPlan(userPlan)
       setLoading(false)
     }
     load()
@@ -199,7 +207,7 @@ export default function PantryResultsView() {
       )}
 
       {matches.addOne.length > 0 && (
-        <section style={{ padding: '0 0 20px' }}>
+        <section style={{ padding: '0 0 20px', position: 'relative' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0 16px', marginBottom: 12 }}>
             <div>
               <h3 style={{ fontFamily: 'Inter, sans-serif', fontSize: 17, fontWeight: 700, color: '#1A1A1A', margin: 0 }}>
@@ -213,7 +221,7 @@ export default function PantryResultsView() {
               View all ›
             </button>
           </div>
-          <div style={{ display: 'flex', gap: 12, overflowX: 'auto', padding: '0 16px', scrollbarWidth: 'none' }}>
+          <div style={{ display: 'flex', gap: 12, overflowX: 'auto', padding: '0 16px', scrollbarWidth: 'none', filter: canAccess('pantry_plus1', plan) ? 'none' : 'blur(4px)', pointerEvents: canAccess('pantry_plus1', plan) ? 'auto' : 'none' }}>
             {matches.addOne.slice(0, 6).map(r => (
               <RecipeCard
                 key={r.id}
@@ -226,11 +234,41 @@ export default function PantryResultsView() {
               />
             ))}
           </div>
+          {!canAccess('pantry_plus1', plan) && (
+            <div style={{
+              position: 'absolute',
+              inset: 0,
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: 8,
+              zIndex: 10,
+            }}>
+              <span style={{ fontSize: 28 }}>🔒</span>
+              <button
+                onClick={() => setPaywallFeature('pantry_plus1')}
+                style={{
+                  padding: '10px 20px',
+                  backgroundColor: '#C4622D',
+                  color: '#FFFFFF',
+                  border: 'none',
+                  borderRadius: 20,
+                  fontFamily: 'Inter, sans-serif',
+                  fontSize: 13,
+                  fontWeight: 600,
+                  cursor: 'pointer',
+                }}
+              >
+                Upgrade to See More
+              </button>
+            </div>
+          )}
         </section>
       )}
 
       {matches.addTwo.length > 0 && (
-        <section style={{ padding: '0 0 20px' }}>
+        <section style={{ padding: '0 0 20px', position: 'relative' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0 16px', marginBottom: 12 }}>
             <div>
               <h3 style={{ fontFamily: 'Inter, sans-serif', fontSize: 17, fontWeight: 700, color: '#1A1A1A', margin: 0 }}>
@@ -244,7 +282,7 @@ export default function PantryResultsView() {
               View all ›
             </button>
           </div>
-          <div style={{ display: 'flex', gap: 12, overflowX: 'auto', padding: '0 16px', scrollbarWidth: 'none' }}>
+          <div style={{ display: 'flex', gap: 12, overflowX: 'auto', padding: '0 16px', scrollbarWidth: 'none', filter: canAccess('pantry_plus2', plan) ? 'none' : 'blur(4px)', pointerEvents: canAccess('pantry_plus2', plan) ? 'auto' : 'none' }}>
             {matches.addTwo.slice(0, 6).map(r => (
               <RecipeCard
                 key={r.id}
@@ -257,6 +295,36 @@ export default function PantryResultsView() {
               />
             ))}
           </div>
+          {!canAccess('pantry_plus2', plan) && (
+            <div style={{
+              position: 'absolute',
+              inset: 0,
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: 8,
+              zIndex: 10,
+            }}>
+              <span style={{ fontSize: 28 }}>🔒</span>
+              <button
+                onClick={() => setPaywallFeature('pantry_plus2')}
+                style={{
+                  padding: '10px 20px',
+                  backgroundColor: '#C4622D',
+                  color: '#FFFFFF',
+                  border: 'none',
+                  borderRadius: 20,
+                  fontFamily: 'Inter, sans-serif',
+                  fontSize: 13,
+                  fontWeight: 600,
+                  cursor: 'pointer',
+                }}
+              >
+                Upgrade to See More
+              </button>
+            </div>
+          )}
         </section>
       )}
 
@@ -299,6 +367,20 @@ export default function PantryResultsView() {
           Edit Ingredients
         </button>
       </div>
+
+      {paywallFeature && (
+        <PaywallModal
+          feature={paywallFeature}
+          onClose={() => setPaywallFeature(null)}
+          onSignIn={() => { setPaywallFeature(null); setShowAuth(true) }}
+        />
+      )}
+      {showAuth && (
+        <AuthModal
+          onClose={() => setShowAuth(false)}
+          onSuccess={() => { setShowAuth(false); window.location.reload() }}
+        />
+      )}
     </div>
   )
 }

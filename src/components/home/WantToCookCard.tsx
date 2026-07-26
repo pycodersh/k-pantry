@@ -1,24 +1,30 @@
 'use client'
+import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
-
-const SELECTED_DISH = {
-  name: 'Bulgogi',
-  cookingTime: '30 min',
-  difficulty: 'Easy',
-  emoji: '🥩',
-}
+import { getSelectedDish, SelectedDish } from '@/lib/dishes'
 
 export default function WantToCookCard() {
   const router = useRouter()
+  const [selectedDish, setSelectedDish] = useState<SelectedDish | null>(null)
+
+  useEffect(() => {
+    setSelectedDish(getSelectedDish())
+  }, [])
+
+  const displayName = selectedDish?.nameEn ?? 'Bulgogi'
+  const displayTime = selectedDish?.cookingTimeMin ?? 30
+  const displayDiff = selectedDish
+    ? selectedDish.difficulty.charAt(0).toUpperCase() + selectedDish.difficulty.slice(1)
+    : 'Easy'
 
   return (
     <div style={{
       margin: '0 16px 12px',
-      backgroundColor: '#FDF5EE',
+      backgroundColor: '#FFFFFF',
       borderRadius: 20,
       padding: '20px',
       boxShadow: '0 2px 12px rgba(0,0,0,0.06)',
-      border: '1px solid #F0E0D0',
+      border: '1px solid #E8E0D0',
     }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
         <div style={{ flex: 1 }}>
@@ -26,15 +32,14 @@ export default function WantToCookCard() {
             width: 44,
             height: 44,
             borderRadius: 12,
-            backgroundColor: '#FAE8D8',
+            backgroundColor: '#FDF0E8',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
             marginBottom: 12,
           }}>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-              <path d="M12 2C12 2 8 6 8 10C8 12.21 9.79 14 12 14C14.21 14 16 12.21 16 10C16 6 12 2 12 2Z" stroke="#C4622D" strokeWidth="1.5" fill="none"/>
-              <path d="M8 22H16M10 14V22M14 14V22" stroke="#C4622D" strokeWidth="1.5" strokeLinecap="round"/>
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="#C4622D"/>
             </svg>
           </div>
 
@@ -69,72 +74,48 @@ export default function WantToCookCard() {
           fontSize: 52,
           flexShrink: 0,
         }}>
-          🍜
+          🍳
         </div>
       </div>
 
-      <div style={{
-        marginTop: 16,
-        backgroundColor: '#FFFFFF',
-        borderRadius: 14,
-        padding: '12px 14px',
-        display: 'flex',
-        alignItems: 'center',
-        gap: 12,
-        border: '1px solid #F0E0D0',
-      }}>
-        <div style={{
-          width: 44,
-          height: 44,
-          borderRadius: 10,
-          backgroundColor: '#F5E8D8',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          fontSize: 22,
-          flexShrink: 0,
-        }}>
-          {SELECTED_DISH.emoji}
-        </div>
-        <div style={{ flex: 1 }}>
+      <div style={{ marginTop: 16, padding: '14px', backgroundColor: '#FDF5EE', borderRadius: 14, border: '1px solid #F0E0D0' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <p style={{
             fontFamily: 'Playfair Display, serif',
-            fontSize: 15,
-            fontWeight: 600,
+            fontSize: 16,
+            fontWeight: 700,
             color: '#1A1A1A',
             margin: 0,
           }}>
-            {SELECTED_DISH.name}
+            {displayName}
           </p>
-          <div style={{ display: 'flex', gap: 8, marginTop: 4 }}>
-            <span style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: '#6B6B6B' }}>
-              ⏱ {SELECTED_DISH.cookingTime}
-            </span>
-            <span style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: '#6B6B6B' }}>
-              📊 {SELECTED_DISH.difficulty}
-            </span>
-          </div>
+          <button
+            onClick={() => router.push('/dishes')}
+            style={{
+              fontFamily: 'Inter, sans-serif',
+              fontSize: 13,
+              color: '#C4622D',
+              fontWeight: 600,
+              background: 'none',
+              border: 'none',
+              cursor: 'pointer',
+              padding: 0,
+            }}
+          >
+            Change
+          </button>
         </div>
-        <button
-          onClick={() => router.push('/dishes')}
-          style={{
-            fontFamily: 'Inter, sans-serif',
-            fontSize: 13,
-            color: '#C4622D',
-            fontWeight: 600,
-            background: 'none',
-            border: '1.5px solid #C4622D',
-            borderRadius: 10,
-            padding: '6px 12px',
-            cursor: 'pointer',
-          }}
-        >
-          Change
-        </button>
+        <div style={{ display: 'flex', gap: 12, marginTop: 6 }}>
+          <span style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: '#6B6B6B' }}>⏱ {displayTime} min</span>
+          <span style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: '#6B6B6B' }}>📊 {displayDiff}</span>
+        </div>
       </div>
 
       <button
-        onClick={() => router.push('/recipes/bulgogi')}
+        onClick={() => selectedDish
+          ? router.push(`/recipes/${selectedDish.id}`)
+          : router.push('/dishes')
+        }
         style={{
           marginTop: 12,
           width: '100%',

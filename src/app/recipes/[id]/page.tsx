@@ -13,7 +13,10 @@ import {
   addToShoppingList,
   getUserPantry,
 } from '@/lib/recipes'
+import { getUserPlan, canAccess } from '@/lib/subscription'
 import { createClient } from '@/lib/supabase'
+import PaywallModal from '@/components/paywall/PaywallModal'
+import AuthModal from '@/components/auth/AuthModal'
 
 export default function RecipeDetailPage() {
   const params = useParams()
@@ -25,6 +28,9 @@ export default function RecipeDetailPage() {
   const [userPantryIds, setUserPantryIds] = useState<string[]>([])
   const [loading, setLoading] = useState(true)
   const [toastMsg, setToastMsg] = useState<string | null>(null)
+  const [plan, setPlan] = useState<'free' | 'pro'>('free')
+  const [showPaywall, setShowPaywall] = useState(false)
+  const [showAuth, setShowAuth] = useState(false)
 
   useEffect(() => {
     async function load() {
@@ -35,12 +41,14 @@ export default function RecipeDetailPage() {
       setRecipe(recipeData)
 
       if (user) {
-        const [savedStatus, pantry] = await Promise.all([
+        const [savedStatus, pantry, userPlan] = await Promise.all([
           isRecipeSaved(recipeId, user.id),
           getUserPantry(user.id),
+          getUserPlan(user.id),
         ])
         setSaved(savedStatus)
         setUserPantryIds(pantry?.map((p: any) => p.ingredient_id) ?? [])
+        setPlan(userPlan)
       }
 
       setLoading(false)
@@ -52,7 +60,7 @@ export default function RecipeDetailPage() {
     const supabase = createClient()
     const { data: { user } } = await supabase.auth.getUser()
     if (!user) {
-      showToast('Sign in to save recipes')
+      setShowAuth(true)
       return
     }
     await toggleSaveRecipe(recipeId, user.id, saved)
@@ -64,7 +72,11 @@ export default function RecipeDetailPage() {
     const supabase = createClient()
     const { data: { user } } = await supabase.auth.getUser()
     if (!user) {
-      showToast('Sign in to use shopping list')
+      setShowAuth(true)
+      return
+    }
+    if (!canAccess('shopping_list', plan)) {
+      setShowPaywall(true)
       return
     }
     await addToShoppingList(ingredientId, recipeId, user.id)
@@ -203,6 +215,20 @@ export default function RecipeDetailPage() {
         }}>
           {toastMsg}
         </div>
+      )}
+
+      {showPaywall && (
+        <PaywallModal
+          feature="shopping_list"
+          onClose={() => setShowPaywall(false)}
+          onSignIn={() => { setShowPaywall(false); setShowAuth(true) }}
+        />
+      )}
+      {showAuth && (
+        <AuthModal
+          onClose={() => setShowAuth(false)}
+          onSuccess={() => { setShowAuth(false); window.location.reload() }}
+        />
       )}
 
       <BottomNav />
