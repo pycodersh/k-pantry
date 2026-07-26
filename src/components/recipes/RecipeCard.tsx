@@ -14,6 +14,32 @@ interface RecipeCardProps {
   variant?: 'default' | 'featured' | 'horizontal' | 'pantry'
 }
 
+function ImageBox({ heroImageUrl, size, fallbackColor = '#F5E8D8' }: {
+  heroImageUrl?: string
+  size: { width?: string | number; height: number }
+  fallbackColor?: string
+}) {
+  return (
+    <div style={{
+      height: size.height,
+      width: size.width,
+      backgroundColor: fallbackColor,
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      overflow: 'hidden',
+      flexShrink: 0,
+    }}>
+      {heroImageUrl ? (
+        <img src={heroImageUrl} alt=""
+          style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+      ) : (
+        <span style={{ fontSize: size.height * 0.4 }}>🍲</span>
+      )}
+    </div>
+  )
+}
+
 export default function RecipeCard({
   id, nameEn, nameKo, description,
   cookingTimeMin, difficulty, calories,
@@ -65,16 +91,7 @@ export default function RecipeCard({
           </div>
         )}
 
-        <div style={{
-          height: 110,
-          backgroundColor: '#F5E8D8',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          fontSize: 44,
-        }}>
-          🍲
-        </div>
+        <ImageBox heroImageUrl={heroImageUrl} size={{ height: 110 }} />
 
         <div style={{ padding: '10px 10px 12px' }}>
           <p style={{
@@ -121,18 +138,8 @@ export default function RecipeCard({
           alignItems: 'center',
         }}
       >
-        <div style={{
-          width: 64,
-          height: 64,
-          borderRadius: 10,
-          backgroundColor: '#F5E8D8',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          fontSize: 28,
-          flexShrink: 0,
-        }}>
-          🍲
+        <div style={{ width: 64, height: 64, borderRadius: 10, overflow: 'hidden', flexShrink: 0 }}>
+          <ImageBox heroImageUrl={heroImageUrl} size={{ width: 64, height: 64 }} />
         </div>
         <div style={{ flex: 1 }}>
           <p style={{
@@ -186,16 +193,7 @@ export default function RecipeCard({
         cursor: 'pointer',
       }}
     >
-      <div style={{
-        height: 100,
-        backgroundColor: '#F5E8D8',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        fontSize: 40,
-      }}>
-        🍲
-      </div>
+      <ImageBox heroImageUrl={heroImageUrl} size={{ height: 100 }} />
       <div style={{ padding: '10px 10px 12px' }}>
         <p style={{
           fontFamily: 'Inter, sans-serif',

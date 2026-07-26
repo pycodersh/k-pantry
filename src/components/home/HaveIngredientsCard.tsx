@@ -10,6 +10,8 @@ const MY_INGREDIENTS = [
 ]
 const EXTRA_COUNT = 4
 
+const IMG_URL = process.env.NEXT_PUBLIC_IMG_INGREDIENTS
+
 export default function HaveIngredientsCard() {
   const router = useRouter()
 
@@ -65,14 +67,20 @@ export default function HaveIngredientsCard() {
           width: 120,
           height: 120,
           borderRadius: 12,
-          backgroundColor: '#F0EAD8',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          fontSize: 52,
+          overflow: 'hidden',
           flexShrink: 0,
+          backgroundColor: '#F0EAD8',
         }}>
-          🧺
+          {IMG_URL ? (
+            <img src={IMG_URL} alt="Ingredients"
+              style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+          ) : (
+            <div style={{
+              width: '100%', height: '100%',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              fontSize: 52,
+            }}>🧺</div>
+          )}
         </div>
       </div>
 

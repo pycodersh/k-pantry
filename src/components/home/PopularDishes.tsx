@@ -1,15 +1,17 @@
 'use client'
+import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
-
-const POPULAR_DISHES = [
-  { name: 'Kimchi Jjigae', desc: 'Spicy Kimchi Stew', time: '25 min', emoji: '🍲' },
-  { name: 'Bibimbap', desc: 'Mixed Rice Bowl', time: '20 min', emoji: '🥗' },
-  { name: 'Tteokbokki', desc: 'Spicy Rice Cakes', time: '20 min', emoji: '🍢' },
-  { name: 'Japchae', desc: 'Stir-fried Glass Noodles', time: '25 min', emoji: '🍜' },
-]
+import { getPopularRecipes } from '@/lib/recipes'
 
 export default function PopularDishes() {
   const router = useRouter()
+  const [dishes, setDishes] = useState<any[]>([])
+
+  useEffect(() => {
+    getPopularRecipes().then(d => setDishes(d ?? [])).catch(() => {})
+  }, [])
+
+  if (dishes.length === 0) return null
 
   return (
     <section style={{ padding: '8px 16px 0' }}>
@@ -42,11 +44,11 @@ export default function PopularDishes() {
         </button>
       </div>
 
-      <div style={{ display: 'flex', gap: 12, overflowX: 'auto', paddingBottom: 8 }}>
-        {POPULAR_DISHES.map((dish) => (
+      <div style={{ display: 'flex', gap: 12, overflowX: 'auto', paddingBottom: 8, scrollbarWidth: 'none' }}>
+        {dishes.map((dish) => (
           <div
-            key={dish.name}
-            onClick={() => router.push(`/recipes/${dish.name.toLowerCase().replace(/ /g, '-')}`)}
+            key={dish.id}
+            onClick={() => router.push(`/recipes/${dish.id}`)}
             style={{
               flexShrink: 0,
               width: 140,
@@ -60,12 +62,17 @@ export default function PopularDishes() {
             <div style={{
               height: 100,
               backgroundColor: '#F5E8D8',
+              overflow: 'hidden',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              fontSize: 44,
             }}>
-              {dish.emoji}
+              {dish.hero_image_url ? (
+                <img src={dish.hero_image_url} alt={dish.name_en}
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              ) : (
+                <span style={{ fontSize: 44 }}>🍲</span>
+              )}
             </div>
             <div style={{ padding: '10px 10px 12px' }}>
               <p style={{
@@ -75,7 +82,7 @@ export default function PopularDishes() {
                 color: '#1A1A1A',
                 margin: 0,
               }}>
-                {dish.name}
+                {dish.name_en}
               </p>
               <p style={{
                 fontFamily: 'Inter, sans-serif',
@@ -83,7 +90,7 @@ export default function PopularDishes() {
                 color: '#9E9E9E',
                 margin: '2px 0 4px',
               }}>
-                {dish.desc}
+                {dish.description?.slice(0, 28) ?? ''}
               </p>
               <p style={{
                 fontFamily: 'Inter, sans-serif',
@@ -91,7 +98,7 @@ export default function PopularDishes() {
                 color: '#6B6B6B',
                 margin: 0,
               }}>
-                ⏱ {dish.time}
+                ⏱ {dish.cooking_time_min} min
               </p>
             </div>
           </div>

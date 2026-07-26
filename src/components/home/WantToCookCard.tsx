@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { getSelectedDish, SelectedDish } from '@/lib/dishes'
 
+const IMG_URL = process.env.NEXT_PUBLIC_IMG_WANT_TO_COOK
+
 export default function WantToCookCard() {
   const router = useRouter()
   const [selectedDish, setSelectedDish] = useState<SelectedDish | null>(null)
@@ -67,14 +69,20 @@ export default function WantToCookCard() {
           width: 120,
           height: 120,
           borderRadius: 12,
-          backgroundColor: '#F5E8D8',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          fontSize: 52,
+          overflow: 'hidden',
           flexShrink: 0,
+          backgroundColor: '#F5E8D8',
         }}>
-          🍳
+          {IMG_URL ? (
+            <img src={IMG_URL} alt="Cooking"
+              style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+          ) : (
+            <div style={{
+              width: '100%', height: '100%',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              fontSize: 52,
+            }}>🍳</div>
+          )}
         </div>
       </div>
 

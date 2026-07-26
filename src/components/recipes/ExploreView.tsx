@@ -10,9 +10,18 @@ import {
   getRecipes,
 } from '@/lib/recipes'
 
-const CATEGORY_ICONS: Record<string, string> = {
-  all: '🍽', stews: '🍲', rice: '🍚', noodles: '🍜',
-  side_dishes: '🥗', meat: '🥩', vegetables: '🥬', street_food: '🍢',
+const CATEGORY_IMAGES: Record<string, string | undefined> = {
+  stews:      process.env.NEXT_PUBLIC_IMG_CAT_STEWS,
+  rice:       process.env.NEXT_PUBLIC_IMG_CAT_RICE,
+  noodles:    process.env.NEXT_PUBLIC_IMG_CAT_NOODLES,
+  side_dishes: process.env.NEXT_PUBLIC_IMG_CAT_SIDES,
+}
+
+const CATEGORY_LABELS: Record<string, string> = {
+  stews: 'Stews & Soups',
+  rice: 'Rice & Grains',
+  noodles: 'Noodles',
+  side_dishes: 'Side Dishes',
 }
 
 export default function ExploreView() {
@@ -111,31 +120,46 @@ export default function ExploreView() {
               cursor: 'pointer',
             }}
           >
-            <div style={{
-              position: 'absolute',
-              inset: 0,
-              backgroundColor: '#3D2B1A',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              fontSize: 80,
-            }}>
-              🍲
-            </div>
+            {featured.hero_image_url ? (
+              <img src={featured.hero_image_url} alt={featured.name_en}
+                style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
+            ) : (
+              <div style={{
+                position: 'absolute',
+                inset: 0,
+                backgroundColor: '#3D2B1A',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontSize: 80,
+              }}>
+                🍲
+              </div>
+            )}
             <div style={{
               position: 'absolute',
               bottom: 0,
               left: 0,
               right: 0,
               padding: '20px',
-              background: 'linear-gradient(transparent, rgba(0,0,0,0.7))',
+              background: 'linear-gradient(transparent, rgba(0,0,0,0.75))',
             }}>
+              <span style={{
+                fontFamily: 'Inter, sans-serif',
+                fontSize: 11,
+                fontWeight: 600,
+                color: '#FFD700',
+                textTransform: 'uppercase',
+                letterSpacing: '0.06em',
+              }}>
+                ⭐ Featured Recipe
+              </span>
               <h2 style={{
                 fontFamily: 'Playfair Display, serif',
                 fontSize: 22,
                 fontWeight: 700,
                 color: '#FFFFFF',
-                margin: 0,
+                margin: '4px 0 0',
               }}>
                 {featured.name_en}
               </h2>
@@ -180,6 +204,7 @@ export default function ExploreView() {
                 cookingTimeMin={r.cooking_time_min}
                 calories={r.calories}
                 difficulty={r.difficulty}
+                heroImageUrl={r.hero_image_url}
               />
             ))}
           </div>
@@ -197,7 +222,7 @@ export default function ExploreView() {
             </button>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
-            {['stews', 'rice', 'noodles', 'side_dishes'].map(cat => (
+            {(['stews', 'rice', 'noodles', 'side_dishes'] as const).map(cat => (
               <div
                 key={cat}
                 onClick={() => setCategory(cat)}
@@ -213,12 +238,31 @@ export default function ExploreView() {
                   overflow: 'hidden',
                 }}
               >
-                <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-60%)', fontSize: 40 }}>
-                  {CATEGORY_ICONS[cat]}
-                </div>
-                <div>
+                {CATEGORY_IMAGES[cat] ? (
+                  <img
+                    src={CATEGORY_IMAGES[cat]}
+                    alt={cat}
+                    style={{
+                      position: 'absolute',
+                      inset: 0,
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover',
+                    }}
+                  />
+                ) : (
+                  <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-60%)', fontSize: 40 }}>
+                    🍽
+                  </div>
+                )}
+                <div style={{
+                  position: 'absolute',
+                  inset: 0,
+                  background: 'linear-gradient(transparent 30%, rgba(0,0,0,0.65))',
+                }} />
+                <div style={{ position: 'relative', zIndex: 1 }}>
                   <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 14, fontWeight: 600, color: '#FFFFFF', margin: 0 }}>
-                    {cat.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase())}
+                    {CATEGORY_LABELS[cat]}
                   </p>
                 </div>
               </div>
@@ -246,6 +290,7 @@ export default function ExploreView() {
                 nameKo={r.name_ko}
                 cookingTimeMin={r.cooking_time_min}
                 calories={r.calories}
+                heroImageUrl={r.hero_image_url}
                 variant="horizontal"
               />
             ))}
@@ -265,6 +310,7 @@ export default function ExploreView() {
                 cookingTimeMin={r.cooking_time_min}
                 calories={r.calories}
                 difficulty={r.difficulty}
+                heroImageUrl={r.hero_image_url}
               />
             ))}
           </div>
