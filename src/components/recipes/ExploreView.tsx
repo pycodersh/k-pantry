@@ -36,23 +36,33 @@ export default function ExploreView() {
   useEffect(() => {
     async function load() {
       setLoading(true)
-      const [f, p, r] = await Promise.all([
-        getFeaturedRecipe(),
-        getPopularRecipes(),
-        getRecentRecipes(),
-      ])
-      setFeatured(f)
-      setPopular(p ?? [])
-      setRecent(r ?? [])
-      setLoading(false)
+      try {
+        const [f, p, r] = await Promise.all([
+          getFeaturedRecipe(),
+          getPopularRecipes().catch(e => { console.error('[ExploreView] getPopularRecipes:', e); return [] }),
+          getRecentRecipes().catch(e => { console.error('[ExploreView] getRecentRecipes:', e); return [] }),
+        ])
+        setFeatured(f)
+        setPopular((p as any[]) ?? [])
+        setRecent((r as any[]) ?? [])
+      } catch (e) {
+        console.error('[ExploreView] load error:', e)
+      } finally {
+        setLoading(false)
+      }
     }
     load()
   }, [])
 
   useEffect(() => {
     async function loadFiltered() {
-      const data = await getRecipes(category === 'all' ? undefined : category)
-      setFiltered(data ?? [])
+      try {
+        const data = await getRecipes(category === 'all' ? undefined : category)
+        setFiltered(data ?? [])
+      } catch (e) {
+        console.error('[ExploreView] loadFiltered:', e)
+        setFiltered([])
+      }
     }
     loadFiltered()
   }, [category])

@@ -167,7 +167,7 @@ export default function HaveIngredientsCard() {
           marginTop: 16,
           width: '100%',
           padding: '16px',
-          backgroundColor: '#2D5016',
+          backgroundColor: '#111111',
           color: '#FFFFFF',
           border: 'none',
           borderRadius: 14,

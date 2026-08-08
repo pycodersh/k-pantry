@@ -14,7 +14,7 @@ export default function HomePage() {
           position: 'relative',
           height: 220,
           overflow: 'hidden',
-          backgroundColor: '#2D1A0A',
+          backgroundColor: '#111111',
         }}>
           <img
             src={HERO_IMG}
@@ -55,7 +55,7 @@ export default function HomePage() {
               fontFamily: 'Playfair Display, serif',
               fontSize: 34,
               fontWeight: 700,
-              color: '#FFFFFF',
+              color: '#FAF7F2',
               margin: 0,
               lineHeight: 1.1,
               textShadow: '0 2px 8px rgba(0,0,0,0.4)',
