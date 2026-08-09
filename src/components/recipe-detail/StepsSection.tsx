@@ -51,25 +51,6 @@ export default function StepsSection({ steps }: StepsSectionProps) {
                 alt={`Step ${step.step_order}`}
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />
-              {/* step 번호 배지 */}
-              <div style={{
-                position: 'absolute',
-                top: 5,
-                left: 5,
-                width: 20,
-                height: 20,
-                borderRadius: '50%',
-                backgroundColor: 'rgba(0,0,0,0.55)',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontFamily: 'Inter, sans-serif',
-                fontSize: 11,
-                fontWeight: 700,
-                color: '#FFFFFF',
-              }}>
-                {step.step_order}
-              </div>
             </div>
           ))}
         </div>
