@@ -3,50 +3,54 @@ interface NutritionBarProps {
   proteinG: number
   carbsG: number
   fatG: number
-  servings: number
+  servings?: number  // kept for compatibility, not displayed
 }
 
 const NUTRITION_ITEMS = [
-  { key: 'calories', label: 'Per serving', icon: '🔥', unit: 'kcal', color: '#C4622D' },
-  { key: 'proteinG', label: 'Protein', icon: '💪', unit: 'g', color: '#2D5016' },
-  { key: 'carbsG', label: 'Carbs', icon: '🌾', unit: 'g', color: '#B8860B' },
-  { key: 'fatG', label: 'Fat', icon: '💧', unit: 'g', color: '#6B6B6B' },
-  { key: 'servings', label: 'Servings', icon: '🍽', unit: '', color: '#4A7C2F' },
+  { key: 'calories',  label: 'kcal',    unit: '' },
+  { key: 'proteinG',  label: 'Protein', unit: 'g' },
+  { key: 'carbsG',    label: 'Carbs',   unit: 'g' },
+  { key: 'fatG',      label: 'Fat',     unit: 'g' },
 ]
 
 export default function NutritionBar({
-  calories, proteinG, carbsG, fatG, servings
+  calories, proteinG, carbsG, fatG,
 }: NutritionBarProps) {
-  const values: Record<string, number> = { calories, proteinG, carbsG, fatG, servings }
+  const values: Record<string, number> = { calories, proteinG, carbsG, fatG }
 
   return (
     <div style={{
-      margin: '0 16px',
+      margin: '16px 16px 0',
       backgroundColor: '#FFFFFF',
-      borderRadius: 16,
+      borderRadius: 12,
       padding: '16px',
-      border: '1px solid #E8E0D0',
       display: 'flex',
       justifyContent: 'space-between',
-      transform: 'translateY(-20px)',
-      boxShadow: '0 4px 20px rgba(0,0,0,0.08)',
+      boxShadow: '0 2px 8px rgba(0,0,0,0.06)',
     }}>
-      {NUTRITION_ITEMS.map(item => (
-        <div key={item.key} style={{ textAlign: 'center', flex: 1 }}>
-          <span style={{ fontSize: 20 }}>{item.icon}</span>
+      {NUTRITION_ITEMS.map((item, idx) => (
+        <div
+          key={item.key}
+          style={{
+            flex: 1,
+            textAlign: 'center',
+            borderLeft: idx > 0 ? '1px solid #F0EBE3' : 'none',
+          }}
+        >
           <p style={{
             fontFamily: 'Inter, sans-serif',
-            fontSize: 15,
+            fontSize: 20,
             fontWeight: 700,
-            color: item.color,
-            margin: '4px 0 2px',
+            color: '#111111',
+            margin: '0 0 3px',
+            lineHeight: 1,
           }}>
-            {values[item.key]}{item.unit}
+            {values[item.key] ?? '—'}{item.unit}
           </p>
           <p style={{
             fontFamily: 'Inter, sans-serif',
-            fontSize: 10,
-            color: '#9E9E9E',
+            fontSize: 11,
+            color: '#999999',
             margin: 0,
           }}>
             {item.label}
