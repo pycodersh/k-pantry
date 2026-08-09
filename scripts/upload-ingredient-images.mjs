@@ -1,99 +1,71 @@
 import { createClient } from '@supabase/supabase-js'
 import { readFileSync, readdirSync } from 'fs'
-import { join, extname, basename } from 'path'
+import { join } from 'path'
 
-// Service role key bypasses RLS for storage + DB updates
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
   process.env.SUPABASE_SERVICE_ROLE_KEY
 )
 
-const IMAGE_DIR = 'C:/Users/msj15/Downloads/ingredients_v2/ingredients_v2'
-const BUCKET = 'ingredients'
+const IMG_DIR = 'C:\\Users\\msj15\\Downloads\\ingredients_v3\\ingredients_v3'
+const BUCKET  = 'ingredients'
 
-// green-onion.png → "Green Onion"
-function filenameToName(filename) {
-  return basename(filename, extname(filename))
+// "korean-rice-cakes.png" → "Korean Rice Cakes"
+function fileNameToIngredientName(filename) {
+  return filename
+    .replace(/\.png$/i, '')
     .split('-')
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
     .join(' ')
 }
 
-async function ensureBucket() {
-  const { data: buckets } = await supabase.storage.listBuckets()
-  const exists = buckets?.some(b => b.name === BUCKET)
-  if (!exists) {
-    const { error } = await supabase.storage.createBucket(BUCKET, { public: true })
-    if (error) throw new Error(`Failed to create bucket: ${error.message}`)
-    console.log(`✅ Created bucket: ${BUCKET}`)
-  } else {
-    console.log(`✅ Bucket "${BUCKET}" already exists`)
-  }
-}
+const files = readdirSync(IMG_DIR).filter(f => f.endsWith('.png'))
+console.log(`파일 ${files.length}개 발견\n`)
 
-async function main() {
-  await ensureBucket()
+const { data: allIngredients } = await supabase
+  .from('ingredients')
+  .select('id, name, image_url')
+const ingMap = {}
+allIngredients.forEach(i => { ingMap[i.name.toLowerCase()] = i })
 
-  const files = readdirSync(IMAGE_DIR).filter(f => extname(f) === '.png')
-  console.log(`\n📦 ${files.length}개 이미지 업로드 시작...\n`)
+let uploaded = 0, skipped = 0, errors = 0
 
-  let uploaded = 0
-  let updated = 0
-  let errors = 0
+for (const file of files) {
+  const ingName = fileNameToIngredientName(file)
+  const ing = ingMap[ingName.toLowerCase()]
 
-  for (const file of files) {
-    const ingredientName = filenameToName(file)
-    const filePath = join(IMAGE_DIR, file)
-    const fileData = readFileSync(filePath)
-    const storagePath = file  // ingredients/<file>
-
-    // 1. Upload to Supabase Storage (upsert: overwrite if exists)
-    const { error: uploadErr } = await supabase.storage
-      .from(BUCKET)
-      .upload(storagePath, fileData, {
-        contentType: 'image/png',
-        upsert: true,
-      })
-
-    if (uploadErr) {
-      console.error(`  ❌ Upload failed [${file}]: ${uploadErr.message}`)
-      errors++
-      continue
-    }
-    uploaded++
-
-    // 2. Get public URL
-    const { data: { publicUrl } } = supabase.storage
-      .from(BUCKET)
-      .getPublicUrl(storagePath)
-
-    // 3. Update ingredients table
-    const { data, error: dbErr } = await supabase
-      .from('ingredients')
-      .update({ image_url: publicUrl })
-      .eq('name', ingredientName)
-      .select('id, name')
-
-    if (dbErr) {
-      console.error(`  ❌ DB update failed [${ingredientName}]: ${dbErr.message}`)
-      errors++
-    } else if (!data || data.length === 0) {
-      console.warn(`  ⚠️  No ingredient found for "${ingredientName}" (${file})`)
-    } else {
-      console.log(`  ✅ ${ingredientName}`)
-      updated++
-    }
+  if (!ing) {
+    console.log(`⚠️  재료 없음: ${file} → "${ingName}"`)
+    skipped++
+    continue
   }
 
-  console.log(`
-🎉 완료!
-   업로드: ${uploaded}개
-   DB 업데이트: ${updated}개
-   오류: ${errors}개
-  `)
+  const fileBuffer = readFileSync(join(IMG_DIR, file))
+  const { error: uploadError } = await supabase.storage
+    .from(BUCKET)
+    .upload(file, fileBuffer, { contentType: 'image/png', upsert: true })
+
+  if (uploadError) {
+    console.log(`❌ 업로드 실패: ${file} — ${uploadError.message}`)
+    errors++
+    continue
+  }
+
+  const publicUrl = `${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/${BUCKET}/${file}`
+
+  const { error: dbError } = await supabase
+    .from('ingredients')
+    .update({ image_url: publicUrl })
+    .eq('id', ing.id)
+
+  if (dbError) {
+    console.log(`❌ DB 실패: ${ingName} — ${dbError.message}`)
+    errors++
+    continue
+  }
+
+  console.log(`✅ ${ingName}`)
+  uploaded++
 }
 
-main().catch(err => {
-  console.error('Fatal error:', err)
-  process.exit(1)
-})
+console.log(`\n완료: ${uploaded}개 업로드+업데이트, 스킵: ${skipped}개, 오류: ${errors}개`)

@@ -11,6 +11,8 @@ interface StepsSectionProps {
 }
 
 export default function StepsSection({ steps }: StepsSectionProps) {
+  const stepsWithImages = steps.filter(s => s.image_url)
+
   return (
     <section style={{ padding: '0 16px 20px' }}>
       <h2 style={{
@@ -23,16 +25,61 @@ export default function StepsSection({ steps }: StepsSectionProps) {
         Steps
       </h2>
 
+      {/* 상단: 이미지 가로 3개 나란히 */}
+      {stepsWithImages.length > 0 && (
+        <div style={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          gap: 6,
+          marginBottom: 20,
+        }}>
+          {stepsWithImages.map((step) => (
+            <div
+              key={step.id}
+              style={{
+                width: 'calc((100vw - 48px) / 3)',
+                height: 'calc((100vw - 48px) / 3)',
+                borderRadius: 8,
+                overflow: 'hidden',
+                flexShrink: 0,
+                backgroundColor: '#F5F0E8',
+                position: 'relative',
+              }}
+            >
+              <img
+                src={step.image_url}
+                alt={`Step ${step.step_order}`}
+                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+              />
+              {/* step 번호 배지 */}
+              <div style={{
+                position: 'absolute',
+                top: 5,
+                left: 5,
+                width: 20,
+                height: 20,
+                borderRadius: '50%',
+                backgroundColor: 'rgba(0,0,0,0.55)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontFamily: 'Inter, sans-serif',
+                fontSize: 11,
+                fontWeight: 700,
+                color: '#FFFFFF',
+              }}>
+                {step.step_order}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* 하단: 번호 + 제목 + 설명 세로 나열 */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
         {steps.map((step) => (
-          <div
-            key={step.id}
-            style={{
-              display: 'flex',
-              gap: 14,
-              alignItems: 'flex-start',
-            }}
-          >
+          <div key={step.id} style={{ display: 'flex', gap: 14, alignItems: 'flex-start' }}>
+            {/* 번호 */}
             <div style={{
               width: 32,
               height: 32,
@@ -52,49 +99,26 @@ export default function StepsSection({ steps }: StepsSectionProps) {
               {step.step_order}
             </div>
 
+            {/* 텍스트 */}
             <div style={{ flex: 1 }}>
-              <div style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
-                <div style={{
-                  width: 72,
-                  height: 72,
-                  borderRadius: 12,
-                  backgroundColor: '#F5E8D8',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontSize: 28,
-                  flexShrink: 0,
-                  overflow: 'hidden',
-                }}>
-                  {step.image_url ? (
-                    <img src={step.image_url} alt={step.title}
-                      style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                  ) : (
-                    (['🔪', '🥣', '🍳', '🍽'][step.step_order - 1] ?? '🍳')
-                  )}
-                </div>
-
-                <div style={{ flex: 1 }}>
-                  <p style={{
-                    fontFamily: 'Inter, sans-serif',
-                    fontSize: 14,
-                    fontWeight: 600,
-                    color: '#1A1A1A',
-                    margin: '0 0 4px',
-                  }}>
-                    {step.title}
-                  </p>
-                  <p style={{
-                    fontFamily: 'Inter, sans-serif',
-                    fontSize: 13,
-                    color: '#6B6B6B',
-                    margin: 0,
-                    lineHeight: 1.5,
-                  }}>
-                    {step.description}
-                  </p>
-                </div>
-              </div>
+              <p style={{
+                fontFamily: 'Inter, sans-serif',
+                fontSize: 14,
+                fontWeight: 600,
+                color: '#1A1A1A',
+                margin: '0 0 4px',
+              }}>
+                {step.title}
+              </p>
+              <p style={{
+                fontFamily: 'Inter, sans-serif',
+                fontSize: 13,
+                color: '#6B6B6B',
+                margin: 0,
+                lineHeight: 1.5,
+              }}>
+                {step.description}
+              </p>
 
               {step.step_order < steps.length && (
                 <div style={{

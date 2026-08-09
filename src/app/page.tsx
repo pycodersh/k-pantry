@@ -2,12 +2,13 @@ import BottomNav from '@/components/layout/BottomNav'
 import HaveIngredientsCard from '@/components/home/HaveIngredientsCard'
 import WantToCookCard from '@/components/home/WantToCookCard'
 import PopularDishes from '@/components/home/PopularDishes'
+import KoreanPantrySection from '@/components/home/KoreanPantrySection'
 
 const HERO_IMG = process.env.NEXT_PUBLIC_IMG_HERO
 
 export default function HomePage() {
   return (
-    <div style={{ backgroundColor: '#F5F0E8', minHeight: '100vh', paddingBottom: 100 }}>
+    <div style={{ backgroundColor: '#F5F0E8', minHeight: '100vh', paddingBottom: 'calc(64px + env(safe-area-inset-bottom))' }}>
       {/* Hero Banner */}
       {HERO_IMG && (
         <div style={{
@@ -148,6 +149,7 @@ export default function HomePage() {
       <HaveIngredientsCard />
       <WantToCookCard />
       <PopularDishes />
+      <KoreanPantrySection />
 
       <BottomNav />
     </div>

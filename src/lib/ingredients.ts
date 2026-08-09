@@ -41,3 +41,23 @@ export async function loadPantry(userId: string) {
   if (error) throw error
   return data?.map(p => p.ingredient_id) ?? []
 }
+
+export async function getPantryEssentials(names: string[]) {
+  const supabase = createClient()
+  const { data, error } = await supabase
+    .from('ingredients')
+    .select('id, name, name_ko, image_url')
+    .in('name', names)
+  if (error) throw error
+  return data ?? []
+}
+
+export async function getIngredientById(id: string) {
+  const supabase = createClient()
+  const { data } = await supabase
+    .from('ingredients')
+    .select('id, name, name_ko, image_url')
+    .eq('id', id)
+    .single()
+  return data
+}

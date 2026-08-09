@@ -4,15 +4,21 @@ import { Suspense } from 'react'
 import BottomNav from '@/components/layout/BottomNav'
 import ExploreView from '@/components/recipes/ExploreView'
 import PantryResultsView from '@/components/recipes/PantryResultsView'
+import IngredientFilterView from '@/components/recipes/IngredientFilterView'
 
 function RecipesContent() {
   const searchParams = useSearchParams()
   const mode = searchParams.get('mode')
-  const isPantryMode = mode === 'pantry'
+  const ingredientId = searchParams.get('ingredient')
 
   return (
-    <div style={{ backgroundColor: '#F5F0E8', minHeight: '100vh', paddingBottom: 100 }}>
-      {isPantryMode ? <PantryResultsView /> : <ExploreView />}
+    <div style={{ backgroundColor: '#F5F0E8', minHeight: '100vh', paddingBottom: 'calc(64px + env(safe-area-inset-bottom))' }}>
+      {ingredientId
+        ? <IngredientFilterView ingredientId={ingredientId} />
+        : mode === 'pantry'
+          ? <PantryResultsView />
+          : <ExploreView />
+      }
       <BottomNav />
     </div>
   )

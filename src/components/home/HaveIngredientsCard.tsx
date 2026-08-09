@@ -1,12 +1,20 @@
 'use client'
 import { useRouter } from 'next/navigation'
 
+const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL
+
+function ingredientImageUrl(name: string): string | null {
+  if (!SUPABASE_URL) return null
+  const slug = name.toLowerCase().replace(/\s+/g, '-')
+  return `${SUPABASE_URL}/storage/v1/object/public/ingredients/${slug}.png`
+}
+
 const MY_INGREDIENTS = [
-  { name: 'Kimchi', emoji: '🥬' },
-  { name: 'Egg', emoji: '🥚' },
-  { name: 'Rice', emoji: '🍚' },
-  { name: 'Green Onion', emoji: '🌿' },
-  { name: 'Onion', emoji: '🧅' },
+  { name: 'Kimchi',       emoji: '🥬' },
+  { name: 'Egg',          emoji: '🥚' },
+  { name: 'Rice',         emoji: '🍚' },
+  { name: 'Green Onion',  emoji: '🌿' },
+  { name: 'Onion',        emoji: '🧅' },
 ]
 const EXTRA_COUNT = 4
 
@@ -125,8 +133,22 @@ export default function HaveIngredientsCard() {
                 alignItems: 'center',
                 justifyContent: 'center',
                 fontSize: 24,
+                overflow: 'hidden',
               }}>
-                {ing.emoji}
+                {ingredientImageUrl(ing.name) ? (
+                  <img
+                    src={ingredientImageUrl(ing.name)!}
+                    alt={ing.name}
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    onError={(e) => {
+                      const target = e.currentTarget
+                      target.style.display = 'none'
+                      target.parentElement!.innerHTML = ing.emoji
+                    }}
+                  />
+                ) : (
+                  ing.emoji
+                )}
               </div>
               <span style={{ fontFamily: 'Inter, sans-serif', fontSize: 10, color: '#6B6B6B', textAlign: 'center' }}>
                 {ing.name}

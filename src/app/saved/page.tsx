@@ -70,7 +70,7 @@ export default function SavedPage() {
 
   if (!userId) {
     return (
-      <div style={{ backgroundColor: '#F5F0E8', minHeight: '100vh', paddingBottom: 100 }}>
+      <div style={{ backgroundColor: '#F5F0E8', minHeight: '100vh', paddingBottom: 'calc(64px + env(safe-area-inset-bottom))' }}>
         <div style={{ padding: '60px 20px 0', textAlign: 'center' }}>
           <h1 style={{
             fontFamily: 'Playfair Display, serif',

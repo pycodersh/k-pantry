@@ -139,6 +139,29 @@ export async function addToShoppingList(
     }, { onConflict: 'user_id,ingredient_id' })
 }
 
+export async function getRecipesByIngredient(ingredientId: string) {
+  const supabase = createClient()
+
+  // Step 1: get all recipe_ids that use this ingredient
+  const { data: riData, error: riError } = await supabase
+    .from('recipe_ingredients')
+    .select('recipe_id')
+    .eq('ingredient_id', ingredientId)
+  if (riError) throw riError
+
+  const recipeIds = riData?.map((r: any) => r.recipe_id) ?? []
+  if (recipeIds.length === 0) return []
+
+  // Step 2: fetch those recipes
+  const { data, error } = await supabase
+    .from('recipes')
+    .select('id, name_en, name_ko, description, category, hero_image_url, cooking_time_min, difficulty, calories')
+    .in('id', recipeIds)
+    .order('name_en')
+  if (error) throw error
+  return data ?? []
+}
+
 export async function getPantryMatches(userId: string) {
   const supabase = createClient()
 
