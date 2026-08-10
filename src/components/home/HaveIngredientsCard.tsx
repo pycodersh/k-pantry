@@ -1,13 +1,7 @@
 'use client'
+import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
-
-const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL
-
-function ingredientImageUrl(name: string): string | null {
-  if (!SUPABASE_URL) return null
-  const slug = name.toLowerCase().replace(/\s+/g, '-')
-  return `${SUPABASE_URL}/storage/v1/object/public/ingredients/${slug}.png`
-}
+import { getPantryEssentials } from '@/lib/ingredients'
 
 const MY_INGREDIENTS = [
   { name: 'Kimchi',       emoji: '🥬' },
@@ -20,8 +14,23 @@ const EXTRA_COUNT = 4
 
 const IMG_URL = process.env.NEXT_PUBLIC_IMG_INGREDIENTS
 
+type IngRow = { id: string; name: string; image_url: string | null }
+
 export default function HaveIngredientsCard() {
   const router = useRouter()
+  const [dbData, setDbData] = useState<IngRow[]>([])
+
+  useEffect(() => {
+    getPantryEssentials(MY_INGREDIENTS.map(i => i.name))
+      .then(data => setDbData((data as IngRow[]) ?? []))
+      .catch(() => {})
+  }, [])
+
+  // Merge hardcoded list with DB image_url
+  const ingredients = MY_INGREDIENTS.map(item => {
+    const row = dbData.find(d => d.name === item.name)
+    return { ...item, imageUrl: row?.image_url ?? null }
+  })
 
   return (
     <div style={{
@@ -71,6 +80,7 @@ export default function HaveIngredientsCard() {
           </p>
         </div>
 
+        {/* Right card image */}
         <div style={{
           width: 120,
           height: 120,
@@ -115,7 +125,7 @@ export default function HaveIngredientsCard() {
         </div>
 
         <div style={{ display: 'flex', gap: 8, flexWrap: 'nowrap', overflowX: 'auto' }}>
-          {MY_INGREDIENTS.map((ing) => (
+          {ingredients.map((ing) => (
             <div key={ing.name} style={{
               display: 'flex',
               flexDirection: 'column',
@@ -135,19 +145,24 @@ export default function HaveIngredientsCard() {
                 fontSize: 24,
                 overflow: 'hidden',
               }}>
-                {ingredientImageUrl(ing.name) ? (
+                {ing.imageUrl ? (
                   <img
-                    src={ingredientImageUrl(ing.name)!}
+                    src={ing.imageUrl}
                     alt={ing.name}
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                     onError={(e) => {
-                      const target = e.currentTarget
-                      target.style.display = 'none'
-                      target.parentElement!.innerHTML = ing.emoji
+                      // Fallback to emoji on load failure
+                      const parent = e.currentTarget.parentElement
+                      if (parent) {
+                        e.currentTarget.style.display = 'none'
+                        const span = document.createElement('span')
+                        span.textContent = ing.emoji
+                        parent.appendChild(span)
+                      }
                     }}
                   />
                 ) : (
-                  ing.emoji
+                  <span>{ing.emoji}</span>
                 )}
               </div>
               <span style={{ fontFamily: 'Inter, sans-serif', fontSize: 10, color: '#6B6B6B', textAlign: 'center' }}>
@@ -156,6 +171,7 @@ export default function HaveIngredientsCard() {
             </div>
           ))}
 
+          {/* +N badge */}
           <div style={{
             display: 'flex',
             flexDirection: 'column',
