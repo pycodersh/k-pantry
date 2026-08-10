@@ -1,0 +1,655 @@
+[
+  {
+    "id": "9b1e634c-040e-4e1d-9594-f65452918e2e",
+    "name_en": "Broccoli Muchim",
+    "name_ko": "브로콜리무침",
+    "description": "Blanched broccoli tossed in a garlicky soy dressing.",
+    "category": "vegetables",
+    "cooking_time_min": 10,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 60,
+    "protein_g": 4,
+    "carbs_g": 8,
+    "fat_g": 2,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.993777+00:00",
+    "ingredients": [
+      {
+        "name": "Broccoli",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1/2 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Blanch",
+        "description": "Blanch broccoli florets for 2 minutes. Drain and cool."
+      },
+      {
+        "step_order": 2,
+        "title": "Season",
+        "description": "Mix with soy sauce, sesame oil, and garlic."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "f2aa82c8-3389-4c09-9625-c929e6508f9e",
+    "name_en": "Buchu Jeon",
+    "name_ko": "부추전",
+    "description": "Crispy chive pancakes — simple and satisfying.",
+    "category": "vegetables",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 180,
+    "protein_g": 6,
+    "carbs_g": 24,
+    "fat_g": 8,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:20.196935+00:00",
+    "ingredients": [
+      {
+        "name": "Chives",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/4 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp dipping",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make batter",
+        "description": "Mix 1/2 cup flour, eggs, 1/2 cup water, and salt. Add chopped chives."
+      },
+      {
+        "step_order": 2,
+        "title": "Pan-fry",
+        "description": "Cook in oiled pan over medium-high heat until golden on both sides."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Serve with soy sauce dip."
+      }
+    ]
+  },
+  {
+    "id": "212a7194-cee2-4573-98a1-3f1943d98053",
+    "name_en": "Cabbage Doenjang Muchim",
+    "name_ko": "양배추된장무침",
+    "description": "Quick cabbage salad with doenjang dressing.",
+    "category": "vegetables",
+    "cooking_time_min": 10,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 60,
+    "protein_g": 3,
+    "carbs_g": 10,
+    "fat_g": 2,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:20.049685+00:00",
+    "ingredients": [
+      {
+        "name": "Cabbage",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Doenjang",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "essential"
+      },
+      {
+        "name": "Vinegar",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Shred cabbage",
+        "description": "Shred cabbage thinly. Blanch briefly or eat raw."
+      },
+      {
+        "step_order": 2,
+        "title": "Mix dressing",
+        "description": "Mix doenjang, sesame oil, garlic, and vinegar."
+      },
+      {
+        "step_order": 3,
+        "title": "Toss and serve",
+        "description": "Toss cabbage with dressing. Garnish with sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "aa58e15d-c5f2-4af7-b3bf-cc5df7e27a7c",
+    "name_en": "Gamja Guk",
+    "name_ko": "감자국",
+    "description": "Simple potato soup in a light anchovy broth.",
+    "category": "vegetables",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 120,
+    "protein_g": 4,
+    "carbs_g": 22,
+    "fat_g": 3,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:20.256848+00:00",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "amount": "2 medium",
+        "type": "essential"
+      },
+      {
+        "name": "Anchovy Broth",
+        "amount": "3 cups",
+        "type": "essential"
+      },
+      {
+        "name": "Doenjang",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/4 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make broth",
+        "description": "Bring anchovy broth to boil. Dissolve doenjang with garlic."
+      },
+      {
+        "step_order": 2,
+        "title": "Add potato",
+        "description": "Add cubed potato. Simmer 12 minutes until tender."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Season with salt. Garnish with green onion and sesame oil."
+      }
+    ]
+  },
+  {
+    "id": "353a418e-4a8d-4119-952a-ac38a574d44d",
+    "name_en": "Hobak Doenjang Muchim",
+    "name_ko": "호박된장무침",
+    "description": "Zucchini seasoned with doenjang — nutty and savory.",
+    "category": "vegetables",
+    "cooking_time_min": 10,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 70,
+    "protein_g": 3,
+    "carbs_g": 10,
+    "fat_g": 3,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.867209+00:00",
+    "ingredients": [
+      {
+        "name": "Zucchini",
+        "amount": "1 medium",
+        "type": "essential"
+      },
+      {
+        "name": "Doenjang",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Slice zucchini",
+        "description": "Slice zucchini into half-moons. Sauté in a little oil until soft."
+      },
+      {
+        "step_order": 2,
+        "title": "Season",
+        "description": "Mix with doenjang, sesame oil, and garlic."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with green onion and sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "4077385d-6e8d-4e17-b605-d4acfde8b31d",
+    "name_en": "Homemade Kimchi",
+    "name_ko": "홈메이드 김치",
+    "description": "Traditional homemade napa cabbage kimchi.",
+    "category": "vegetables",
+    "cooking_time_min": 60,
+    "difficulty": "hard",
+    "servings": 10,
+    "calories": 30,
+    "protein_g": 2,
+    "carbs_g": 6,
+    "fat_g": 0,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.79608+00:00",
+    "ingredients": [
+      {
+        "name": "Napa Cabbage",
+        "amount": "1 head",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "5 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "8 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "4 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "5 stalks",
+        "type": "essential"
+      },
+      {
+        "name": "Fish Sauce",
+        "amount": "2 tbsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Ginger",
+        "amount": "1 tbsp grated",
+        "type": "recommended"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Salt cabbage",
+        "description": "Quarter cabbage and salt between leaves. Let sit 2 hours, turning occasionally. Rinse and drain."
+      },
+      {
+        "step_order": 2,
+        "title": "Make paste",
+        "description": "Mix gochugaru, garlic, ginger, fish sauce, and sugar into a paste."
+      },
+      {
+        "step_order": 3,
+        "title": "Mix",
+        "description": "Toss cabbage and green onion with paste, coating every leaf."
+      },
+      {
+        "step_order": 4,
+        "title": "Ferment",
+        "description": "Pack into jar. Leave at room temperature 1-2 days, then refrigerate."
+      }
+    ]
+  },
+  {
+    "id": "87299c9e-5c7d-46a6-91a1-ff282e818aac",
+    "name_en": "Japchae Namul Bowl",
+    "name_ko": "잡채나물 덮밥",
+    "description": "Light noodle and vegetable bowl seasoned with soy and sesame.",
+    "category": "vegetables",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 280,
+    "protein_g": 8,
+    "carbs_g": 48,
+    "fat_g": 8,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:20.329161+00:00",
+    "ingredients": [
+      {
+        "name": "Glass Noodles",
+        "amount": "150g",
+        "type": "essential"
+      },
+      {
+        "name": "Spinach",
+        "amount": "100g",
+        "type": "essential"
+      },
+      {
+        "name": "Bean Sprouts",
+        "amount": "100g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "recommended"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1/2",
+        "type": "optional"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Cook noodles and veg",
+        "description": "Cook glass noodles 3 minutes, drain. Blanch spinach and sprouts separately."
+      },
+      {
+        "step_order": 2,
+        "title": "Season",
+        "description": "Toss everything with soy sauce, sesame oil, and garlic."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Plate and garnish with sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "21c922d8-d13e-4e64-a4e4-129751d0f062",
+    "name_en": "Mu Doenjang Guk",
+    "name_ko": "무된장국",
+    "description": "Simple radish and doenjang soup.",
+    "category": "vegetables",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 90,
+    "protein_g": 4,
+    "carbs_g": 14,
+    "fat_g": 3,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.931343+00:00",
+    "ingredients": [
+      {
+        "name": "Radish",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Doenjang",
+        "amount": "1.5 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "essential"
+      },
+      {
+        "name": "Anchovy Broth",
+        "amount": "3 cups",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Tofu",
+        "amount": "100g",
+        "type": "optional"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/4 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make broth",
+        "description": "Bring anchovy broth to boil. Dissolve doenjang."
+      },
+      {
+        "step_order": 2,
+        "title": "Add radish",
+        "description": "Add cubed radish and garlic. Simmer 12 minutes until tender."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Add tofu if using. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "4484bb3d-ac89-4869-9610-8dd1f14b7cf0",
+    "name_en": "Oi Naengchae",
+    "name_ko": "오이냉채",
+    "description": "Cold cucumber salad with a tangy-sweet dressing.",
+    "category": "vegetables",
+    "cooking_time_min": 10,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 50,
+    "protein_g": 1,
+    "carbs_g": 10,
+    "fat_g": 2,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:20.135614+00:00",
+    "ingredients": [
+      {
+        "name": "Cucumber",
+        "amount": "2 medium",
+        "type": "essential"
+      },
+      {
+        "name": "Vinegar",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/2 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prep cucumber",
+        "description": "Slice cucumber thinly. Salt and let sit 5 minutes. Squeeze out moisture."
+      },
+      {
+        "step_order": 2,
+        "title": "Season",
+        "description": "Mix with vinegar, sugar, sesame oil, and gochugaru."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with sesame seeds. Serve immediately chilled."
+      }
+    ]
+  }
+]

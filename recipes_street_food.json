@@ -1,0 +1,588 @@
+[
+  {
+    "id": "34d7768d-3f80-4e6d-b82f-b8fef8cc9d94",
+    "name_en": "Dak Twigim",
+    "name_ko": "닭튀김",
+    "description": "Crispy Korean fried chicken without the sauce.",
+    "category": "street_food",
+    "cooking_time_min": 30,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 420,
+    "protein_g": 30,
+    "carbs_g": 28,
+    "fat_g": 22,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.727302+00:00",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "amount": "500g",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Season chicken",
+        "description": "Season chicken with salt and garlic. Rest 15 minutes."
+      },
+      {
+        "step_order": 2,
+        "title": "Coat and fry",
+        "description": "Coat in starch and fry until golden and crispy, about 12 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with sesame seeds and green onion."
+      }
+    ]
+  },
+  {
+    "id": "3b551d41-b58f-4874-a1dd-405cec530894",
+    "name_en": "Eomuk Tang",
+    "name_ko": "어묵탕",
+    "description": "Fish cake skewers simmered in a savory broth — a beloved street food.",
+    "category": "street_food",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 3,
+    "calories": 180,
+    "protein_g": 10,
+    "carbs_g": 20,
+    "fat_g": 6,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.332875+00:00",
+    "ingredients": [
+      {
+        "name": "Fish Cake",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Anchovy Broth",
+        "amount": "4 cups",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make broth",
+        "description": "Bring anchovy broth to boil with garlic and soy sauce."
+      },
+      {
+        "step_order": 2,
+        "title": "Add fish cakes",
+        "description": "Thread fish cakes on skewers and simmer in broth 10 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with green onion. Serve with broth in a cup."
+      }
+    ]
+  },
+  {
+    "id": "c20dfa40-5e76-46e8-a0bf-bff0a2206d71",
+    "name_en": "Gunmandu",
+    "name_ko": "군만두",
+    "description": "Pan-fried Korean dumplings — crispy on the bottom, juicy inside.",
+    "category": "street_food",
+    "cooking_time_min": 25,
+    "difficulty": "medium",
+    "servings": 3,
+    "calories": 320,
+    "protein_g": 14,
+    "carbs_g": 36,
+    "fat_g": 14,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.499615+00:00",
+    "ingredients": [
+      {
+        "name": "Dumpling Wrappers",
+        "amount": "20 pieces",
+        "type": "essential"
+      },
+      {
+        "name": "Pork",
+        "amount": "200g ground",
+        "type": "essential"
+      },
+      {
+        "name": "Tofu",
+        "amount": "100g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Cabbage",
+        "amount": "100g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make filling",
+        "description": "Mix pork, crumbled tofu, garlic, soy sauce, sesame oil, and green onion."
+      },
+      {
+        "step_order": 2,
+        "title": "Wrap",
+        "description": "Place filling in wrappers, fold and seal edges."
+      },
+      {
+        "step_order": 3,
+        "title": "Pan-fry",
+        "description": "Fry in oiled pan until bottom is golden. Add 1/4 cup water, cover and steam 5 minutes."
+      }
+    ]
+  },
+  {
+    "id": "bba92518-8519-43ed-a378-14126650b10a",
+    "name_en": "Hotteok",
+    "name_ko": "호떡",
+    "description": "Sweet Korean pancakes filled with brown sugar and cinnamon.",
+    "category": "street_food",
+    "cooking_time_min": 40,
+    "difficulty": "medium",
+    "servings": 4,
+    "calories": 320,
+    "protein_g": 6,
+    "carbs_g": 58,
+    "fat_g": 10,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.256167+00:00",
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "amount": "4 tbsp brown sugar",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/4 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Cinnamon",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "2 tbsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Peanuts",
+        "amount": "2 tbsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make dough",
+        "description": "Mix 2 cups flour, 1 tsp yeast, 1 tsp sugar, 3/4 cup warm water. Rest 1 hour."
+      },
+      {
+        "step_order": 2,
+        "title": "Make filling",
+        "description": "Mix brown sugar, cinnamon, and sesame seeds."
+      },
+      {
+        "step_order": 3,
+        "title": "Pan-fry",
+        "description": "Flatten dough, add filling, seal. Pan-fry until golden, pressing flat with spatula."
+      }
+    ]
+  },
+  {
+    "id": "ba971f5e-a8cf-44ac-b435-36ac62ec5758",
+    "name_en": "Soondae Bokkeum",
+    "name_ko": "순대볶음",
+    "description": "Spicy stir-fried blood sausage with vegetables.",
+    "category": "street_food",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 380,
+    "protein_g": 18,
+    "carbs_g": 32,
+    "fat_g": 18,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.574373+00:00",
+    "ingredients": [
+      {
+        "name": "Soondae",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Slice soondae",
+        "description": "Slice soondae into bite-sized pieces."
+      },
+      {
+        "step_order": 2,
+        "title": "Stir-fry",
+        "description": "Stir-fry garlic and onion. Add soondae, gochujang, gochugaru, and soy sauce."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Toss with green onion and sesame oil."
+      }
+    ]
+  },
+  {
+    "id": "97566d15-ec87-40c7-aaa3-4c6ca57b2780",
+    "name_en": "Sundae Tteokbokki",
+    "name_ko": "순대떡볶이",
+    "description": "The ultimate Korean street food combo: tteokbokki with soondae.",
+    "category": "street_food",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 440,
+    "protein_g": 16,
+    "carbs_g": 62,
+    "fat_g": 14,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.657604+00:00",
+    "ingredients": [
+      {
+        "name": "Rice Cake",
+        "amount": "250g",
+        "type": "essential"
+      },
+      {
+        "name": "Soondae",
+        "amount": "150g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Fish Cake",
+        "amount": "100g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make sauce",
+        "description": "Mix gochujang, gochugaru, sugar, and soy sauce with 2 cups water."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook rice cakes",
+        "description": "Boil rice cakes in sauce for 10 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Add soondae",
+        "description": "Add soondae and fish cake. Cook 3 more minutes. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "0cac7965-de6f-4a6a-bc1d-083c788d93b7",
+    "name_en": "Tteokbokki",
+    "name_ko": "떡볶이",
+    "description": "Spicy, chewy rice cakes in a sweet and fiery gochujang sauce.",
+    "category": "street_food",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 320,
+    "protein_g": 8,
+    "carbs_g": 62,
+    "fat_g": 4,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:17.010025+00:00",
+    "ingredients": [
+      {
+        "name": "Rice Cake",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "optional"
+      },
+      {
+        "name": "Spam",
+        "amount": "100g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make the sauce",
+        "description": "Mix gochujang, gochugaru, sugar, and soy sauce with 2 cups of water in a pan."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook the rice cakes",
+        "description": "Bring sauce to a boil. Add rice cakes and cook on medium heat for 10–15 minutes, stirring often."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Once sauce thickens and coats the rice cakes, remove from heat. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "3be41c63-0c18-45a5-a22c-bf443d814237",
+    "name_en": "Twigim",
+    "name_ko": "튀김",
+    "description": "Korean street food fritters — vegetables and fish cake in crispy batter.",
+    "category": "street_food",
+    "cooking_time_min": 25,
+    "difficulty": "medium",
+    "servings": 3,
+    "calories": 340,
+    "protein_g": 8,
+    "carbs_g": 42,
+    "fat_g": 16,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.402851+00:00",
+    "ingredients": [
+      {
+        "name": "Zucchini",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Fish Cake",
+        "amount": "150g",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "1",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/4 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp dipping",
+        "type": "recommended"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make batter",
+        "description": "Mix 1 cup flour, 1 egg, 3/4 cup cold water, and salt."
+      },
+      {
+        "step_order": 2,
+        "title": "Coat and fry",
+        "description": "Dip vegetables and fish cake in batter. Deep or shallow fry until golden."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Drain on paper towel. Serve with soy sauce dip."
+      }
+    ]
+  }
+]

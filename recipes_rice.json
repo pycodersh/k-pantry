@@ -1,0 +1,1157 @@
+[
+  {
+    "id": "eaeed762-8fa6-4f84-ad6e-c27f6dc95194",
+    "name_en": "Bibim Gimbap",
+    "name_ko": "비빔김밥",
+    "description": "Spicy mixed rice wrapped in seaweed.",
+    "category": "rice",
+    "cooking_time_min": 30,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 360,
+    "protein_g": 12,
+    "carbs_g": 58,
+    "fat_g": 10,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.561553+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Seaweed Sheet",
+        "amount": "4 sheets",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "recommended"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Spinach",
+        "amount": "100g",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prepare fillings",
+        "description": "Make egg strips, blanch spinach, sauté carrots."
+      },
+      {
+        "step_order": 2,
+        "title": "Season rice",
+        "description": "Mix rice with gochujang and sesame oil."
+      },
+      {
+        "step_order": 3,
+        "title": "Roll and serve",
+        "description": "Spread rice on seaweed, add fillings, roll tightly. Slice and serve."
+      }
+    ]
+  },
+  {
+    "id": "b1fafe32-dc17-4200-97fd-dde5dbd9f369",
+    "name_en": "Bibimbap",
+    "name_ko": "비빔밥",
+    "description": "A colorful mixed rice bowl loaded with vegetables and gochujang.",
+    "category": "rice",
+    "cooking_time_min": 25,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 480,
+    "protein_g": 16,
+    "carbs_g": 72,
+    "fat_g": 14,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:16.7125+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Spinach",
+        "amount": "100g",
+        "type": "essential"
+      },
+      {
+        "name": "Bean Sprouts",
+        "amount": "100g",
+        "type": "essential"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "100g",
+        "type": "recommended"
+      },
+      {
+        "name": "Beef",
+        "amount": "150g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prepare vegetables",
+        "description": "Blanch spinach and bean sprouts. Sauté carrots and mushrooms separately with a little soy sauce and sesame oil."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook the egg",
+        "description": "Fry an egg sunny-side up."
+      },
+      {
+        "step_order": 3,
+        "title": "Assemble",
+        "description": "Place rice in a bowl. Arrange each vegetable in sections on top. Place the fried egg in the center."
+      },
+      {
+        "step_order": 4,
+        "title": "Mix and serve",
+        "description": "Add gochujang and sesame oil. Mix everything together vigorously before eating."
+      }
+    ]
+  },
+  {
+    "id": "d0755f5d-0b2c-4f96-a20a-a07d9f91e8e4",
+    "name_en": "Curry Rice",
+    "name_ko": "카레라이스",
+    "description": "Korean-style mild curry with tender vegetables and chicken.",
+    "category": "rice",
+    "cooking_time_min": 35,
+    "difficulty": "easy",
+    "servings": 3,
+    "calories": 460,
+    "protein_g": 20,
+    "carbs_g": 68,
+    "fat_g": 12,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.215271+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "3 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Curry Powder",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Potato",
+        "amount": "2 medium",
+        "type": "essential"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1",
+        "type": "essential"
+      },
+      {
+        "name": "Chicken",
+        "amount": "300g",
+        "type": "recommended"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "recommended"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Sauté vegetables",
+        "description": "Sauté onion, potato, carrot, and chicken in oil until lightly browned."
+      },
+      {
+        "step_order": 2,
+        "title": "Add water",
+        "description": "Add 3 cups water. Bring to boil and simmer 15 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Add curry",
+        "description": "Add curry powder and stir. Simmer 10 more minutes until thick."
+      },
+      {
+        "step_order": 4,
+        "title": "Serve",
+        "description": "Serve over rice."
+      }
+    ]
+  },
+  {
+    "id": "8133387a-d80b-4737-9bb1-5714951a8280",
+    "name_en": "Dakgalbi Bokkeumbap",
+    "name_ko": "닭갈비볶음밥",
+    "description": "Spicy stir-fried rice with chicken and gochujang sauce.",
+    "category": "rice",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 450,
+    "protein_g": 28,
+    "carbs_g": 55,
+    "fat_g": 12,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": true,
+    "created_at": "2026-08-09T04:51:14.333754+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Chicken",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Cheese",
+        "amount": "2 slices",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Cook chicken",
+        "description": "Stir-fry chicken with gochujang, soy sauce, and garlic until cooked."
+      },
+      {
+        "step_order": 2,
+        "title": "Add rice",
+        "description": "Add cooked rice and stir-fry everything together for 3 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Drizzle sesame oil, top with green onion. Add cheese if desired."
+      }
+    ]
+  },
+  {
+    "id": "304b3c71-0b3f-412c-baf8-16b943d09b38",
+    "name_en": "Doenjang Bibimbap",
+    "name_ko": "된장비빔밥",
+    "description": "Rustic bibimbap seasoned with savory soybean paste.",
+    "category": "rice",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 380,
+    "protein_g": 12,
+    "carbs_g": 65,
+    "fat_g": 10,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:14.924585+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Doenjang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Zucchini",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Bean Sprouts",
+        "amount": "100g",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "recommended"
+      },
+      {
+        "name": "Spinach",
+        "amount": "100g",
+        "type": "recommended"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prep vegetables",
+        "description": "Sauté zucchini and blanch bean sprouts and spinach separately."
+      },
+      {
+        "step_order": 2,
+        "title": "Fry egg",
+        "description": "Fry eggs sunny-side up."
+      },
+      {
+        "step_order": 3,
+        "title": "Assemble",
+        "description": "Place rice in bowl, arrange vegetables, top with egg and doenjang mixed with sesame oil."
+      }
+    ]
+  },
+  {
+    "id": "84489729-5d01-4c30-88be-4240557098b7",
+    "name_en": "Egg Rice Bowl",
+    "name_ko": "계란밥",
+    "description": "The simplest and most comforting Korean meal — rice topped with a runny egg.",
+    "category": "rice",
+    "cooking_time_min": 10,
+    "difficulty": "easy",
+    "servings": 1,
+    "calories": 280,
+    "protein_g": 10,
+    "carbs_g": 48,
+    "fat_g": 8,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:17.292821+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "1 cup cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "1",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1/2 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Fry the egg",
+        "description": "Fry an egg to your preferred doneness."
+      },
+      {
+        "step_order": 2,
+        "title": "Assemble",
+        "description": "Place egg on hot rice. Drizzle soy sauce and sesame oil."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with sesame seeds and mix before eating."
+      }
+    ]
+  },
+  {
+    "id": "8864f9c2-7932-41c3-b0de-5666e0831271",
+    "name_en": "Gimbap",
+    "name_ko": "김밥",
+    "description": "Korean seaweed rice rolls filled with colorful vegetables and egg.",
+    "category": "rice",
+    "cooking_time_min": 40,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 380,
+    "protein_g": 14,
+    "carbs_g": 62,
+    "fat_g": 10,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:14.678111+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Seaweed Sheet",
+        "amount": "4 sheets",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "3",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1",
+        "type": "recommended"
+      },
+      {
+        "name": "Spinach",
+        "amount": "100g",
+        "type": "recommended"
+      },
+      {
+        "name": "Crab Stick",
+        "amount": "4 sticks",
+        "type": "optional"
+      },
+      {
+        "name": "Pickled Radish",
+        "amount": "4 strips",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prepare fillings",
+        "description": "Make egg strips, blanch spinach, sauté carrots with salt and sesame oil."
+      },
+      {
+        "step_order": 2,
+        "title": "Season rice",
+        "description": "Mix cooked rice with sesame oil and salt."
+      },
+      {
+        "step_order": 3,
+        "title": "Roll",
+        "description": "Spread rice on seaweed sheet, add fillings, roll tightly."
+      },
+      {
+        "step_order": 4,
+        "title": "Slice and serve",
+        "description": "Brush outside with sesame oil. Slice into rounds and serve."
+      }
+    ]
+  },
+  {
+    "id": "17a20784-8931-45eb-bb84-9c54a11db554",
+    "name_en": "Jeyuk Dupbap",
+    "name_ko": "제육덮밥",
+    "description": "Spicy stir-fried pork served over steamed rice.",
+    "category": "rice",
+    "cooking_time_min": 25,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 480,
+    "protein_g": 28,
+    "carbs_g": 55,
+    "fat_g": 18,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.011153+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Pork",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "3 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Marinate pork",
+        "description": "Mix pork with gochujang, soy sauce, garlic, and sesame oil. Marinate 15 minutes."
+      },
+      {
+        "step_order": 2,
+        "title": "Stir-fry",
+        "description": "Stir-fry pork with onion over high heat until cooked and slightly caramelized."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Serve over rice, garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "d893e92a-c257-444a-9bb9-941d60a22b3e",
+    "name_en": "Kimchi Bokkeumbap Deluxe",
+    "name_ko": "김치볶음밥 디럭스",
+    "description": "Upgraded kimchi fried rice with pork belly and cheese.",
+    "category": "rice",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 420,
+    "protein_g": 18,
+    "carbs_g": 58,
+    "fat_g": 14,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": true,
+    "created_at": "2026-08-09T04:51:14.563066+00:00",
+    "ingredients": [
+      {
+        "name": "Kimchi",
+        "amount": "1 cup",
+        "type": "essential"
+      },
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Pork Belly",
+        "amount": "150g",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Cheese",
+        "amount": "2 slices",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Cook pork",
+        "description": "Stir-fry pork belly until crispy."
+      },
+      {
+        "step_order": 2,
+        "title": "Add kimchi and rice",
+        "description": "Add kimchi and rice. Stir-fry on high heat for 4 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Top and serve",
+        "description": "Top with fried egg, sesame oil, green onion, and cheese."
+      }
+    ]
+  },
+  {
+    "id": "571bf3ed-3ac4-45f3-a9a3-9b6af166001e",
+    "name_en": "Kimchi Fried Rice",
+    "name_ko": "김치볶음밥",
+    "description": "Crispy fried rice with tangy kimchi and a fried egg on top.",
+    "category": "rice",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 380,
+    "protein_g": 12,
+    "carbs_g": 58,
+    "fat_g": 11,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:16.314579+00:00",
+    "ingredients": [
+      {
+        "name": "Kimchi",
+        "amount": "1 cup",
+        "type": "essential"
+      },
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prep the kimchi",
+        "description": "Chop kimchi into bite-sized pieces."
+      },
+      {
+        "step_order": 2,
+        "title": "Fry the rice",
+        "description": "Heat oil in a pan over high heat. Add kimchi and stir-fry for 2 minutes. Add rice and soy sauce, stir-fry for 3–4 minutes until slightly crispy."
+      },
+      {
+        "step_order": 3,
+        "title": "Fry the egg",
+        "description": "In a separate pan, fry eggs sunny-side up."
+      },
+      {
+        "step_order": 4,
+        "title": "Serve",
+        "description": "Top the rice with fried egg, drizzle sesame oil, and garnish with green onion and sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "916a5de4-87d8-4e77-a824-ca0b94b0e602",
+    "name_en": "Kongnamul Bibimbap",
+    "name_ko": "콩나물비빔밥",
+    "description": "Simple bibimbap topped with seasoned soybean sprouts.",
+    "category": "rice",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 320,
+    "protein_g": 10,
+    "carbs_g": 58,
+    "fat_g": 8,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.474807+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Bean Sprouts",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "recommended"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Season sprouts",
+        "description": "Blanch bean sprouts. Toss with soy sauce, sesame oil, and garlic."
+      },
+      {
+        "step_order": 2,
+        "title": "Fry egg",
+        "description": "Fry eggs sunny-side up."
+      },
+      {
+        "step_order": 3,
+        "title": "Assemble",
+        "description": "Place rice in bowl. Top with sprouts, egg, and gochujang. Mix before eating."
+      }
+    ]
+  },
+  {
+    "id": "a90ea148-11be-45a3-8933-4b9f47e1d250",
+    "name_en": "Omurice",
+    "name_ko": "오므라이스",
+    "description": "Korean-style omelette rice with ketchup-seasoned fried rice.",
+    "category": "rice",
+    "cooking_time_min": 25,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 480,
+    "protein_g": 18,
+    "carbs_g": 58,
+    "fat_g": 20,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.294701+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "4",
+        "type": "essential"
+      },
+      {
+        "name": "Ketchup",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Chicken",
+        "amount": "150g",
+        "type": "recommended"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1/4",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make ketchup rice",
+        "description": "Stir-fry chicken, onion, and carrot. Add rice and ketchup. Mix well."
+      },
+      {
+        "step_order": 2,
+        "title": "Make omelette",
+        "description": "Beat 2 eggs and pour into pan. Cook until just set, place rice inside and fold."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Drizzle ketchup on top. Serve immediately."
+      }
+    ]
+  },
+  {
+    "id": "1f37b2d8-cbce-43e7-9bc1-5434fd98823e",
+    "name_en": "Ssamjang Veggie Bowl",
+    "name_ko": "쌈장 채소 덮밥",
+    "description": "Healthy rice bowl with sautéed vegetables and ssamjang dipping sauce.",
+    "category": "rice",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 300,
+    "protein_g": 10,
+    "carbs_g": 52,
+    "fat_g": 8,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.379271+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Ssamjang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Zucchini",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "100g",
+        "type": "essential"
+      },
+      {
+        "name": "Spinach",
+        "amount": "100g",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Sauté vegetables",
+        "description": "Sauté zucchini and mushrooms with a little oil and salt."
+      },
+      {
+        "step_order": 2,
+        "title": "Assemble",
+        "description": "Place rice in bowl, arrange vegetables on top."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Add ssamjang on the side. Top with egg if desired."
+      }
+    ]
+  },
+  {
+    "id": "2a0ab214-60cf-4d6b-8086-c4d5dc23ea8b",
+    "name_en": "Sundubu Dupbap",
+    "name_ko": "순두부덮밥",
+    "description": "Silky soft tofu in spicy broth served over rice.",
+    "category": "rice",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 320,
+    "protein_g": 16,
+    "carbs_g": 48,
+    "fat_g": 10,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.113302+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Tofu",
+        "amount": "300g soft",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make sauce",
+        "description": "Sauté garlic and gochugaru in oil. Add 1 cup water and soy sauce."
+      },
+      {
+        "step_order": 2,
+        "title": "Add tofu",
+        "description": "Gently add soft tofu. Simmer 5 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Crack egg into broth, cook 1 minute. Serve over rice."
+      }
+    ]
+  },
+  {
+    "id": "b9816c6c-78a9-420e-bfaf-092a890c6020",
+    "name_en": "Tuna Mayo Rice Bowl",
+    "name_ko": "참치마요 덮밥",
+    "description": "Quick rice bowl with creamy tuna mayo.",
+    "category": "rice",
+    "cooking_time_min": 10,
+    "difficulty": "easy",
+    "servings": 1,
+    "calories": 420,
+    "protein_g": 22,
+    "carbs_g": 52,
+    "fat_g": 16,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": true,
+    "created_at": "2026-08-09T04:51:14.793948+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "1 cup cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Tuna",
+        "amount": "1 can",
+        "type": "essential"
+      },
+      {
+        "name": "Mayonnaise",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Mix tuna",
+        "description": "Drain tuna and mix with mayonnaise, soy sauce, and sesame oil."
+      },
+      {
+        "step_order": 2,
+        "title": "Assemble",
+        "description": "Place tuna mixture on rice. Top with green onion and sesame seeds."
+      }
+    ]
+  }
+]

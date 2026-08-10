@@ -1,0 +1,7733 @@
+[
+  {
+    "id": "09e197dc-222f-49bd-9fad-61fce9953f76",
+    "name_en": "Andong Jjimdak",
+    "name_ko": "안동찜닭",
+    "description": "Sweet-savory braised chicken with glass noodles from Andong.",
+    "category": "meat",
+    "cooking_time_min": 45,
+    "difficulty": "medium",
+    "servings": 3,
+    "calories": 460,
+    "protein_g": 36,
+    "carbs_g": 40,
+    "fat_g": 16,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:18.116681+00:00",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "amount": "600g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "5 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "4 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Glass Noodles",
+        "amount": "100g",
+        "type": "essential"
+      },
+      {
+        "name": "Potato",
+        "amount": "2 medium",
+        "type": "recommended"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prep the chicken",
+        "description": "Rinse chicken thighs and drumsticks under cold water. Pat dry with paper towel. Score the joints with a knife so the seasoning penetrates deeply."
+      },
+      {
+        "step_order": 2,
+        "title": "Soak the noodles",
+        "description": "Soak glass noodles in cold water for 20 minutes until softened. Drain and set aside."
+      },
+      {
+        "step_order": 3,
+        "title": "Prep the vegetables",
+        "description": "Cut potato and carrot into bite-sized chunks. Slice onion into thick strips. Cut green onion diagonally into 5cm pieces."
+      },
+      {
+        "step_order": 4,
+        "title": "Make the sauce",
+        "description": "In a bowl mix: soy sauce (5 tbsp), sugar (2 tbsp), minced garlic (4 cloves), black pepper (pinch), water (200ml). Stir until sugar dissolves."
+      },
+      {
+        "step_order": 5,
+        "title": "Braise the chicken",
+        "description": "Place chicken in a wide pan. Pour sauce over. Cover with lid and cook on medium heat for 15 minutes, turning chicken halfway through."
+      },
+      {
+        "step_order": 6,
+        "title": "Add vegetables",
+        "description": "Add potato, carrot, and onion. Cook uncovered on medium-low for 10 minutes, stirring occasionally until sauce reduces and coats everything."
+      },
+      {
+        "step_order": 7,
+        "title": "Add noodles & finish",
+        "description": "Add drained glass noodles and green onion. Cook 5 more minutes until noodles turn translucent. Drizzle sesame oil. Serve hot."
+      }
+    ]
+  },
+  {
+    "id": "f4a7f213-eb65-41eb-8fb6-1de460891984",
+    "name_en": "Buldak",
+    "name_ko": "불닭",
+    "description": "Fiery grilled chicken drenched in an ultra-spicy sauce.",
+    "category": "meat",
+    "cooking_time_min": 25,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 380,
+    "protein_g": 32,
+    "carbs_g": 16,
+    "fat_g": 18,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.744118+00:00",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "amount": "500g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "3 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Cheese",
+        "amount": "2 slices",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Marinate",
+        "description": "Mix chicken with all sauce ingredients. Marinate 30 minutes."
+      },
+      {
+        "step_order": 2,
+        "title": "Grill",
+        "description": "Grill or pan-fry chicken over medium-high heat until charred and cooked through."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Top with green onion and melted cheese if desired."
+      }
+    ]
+  },
+  {
+    "id": "1adee2e9-10d5-4516-946e-abe7deea6fc5",
+    "name_en": "Bulgogi",
+    "name_ko": "불고기",
+    "description": "Sweet and savory marinated beef that's perfect with rice.",
+    "category": "meat",
+    "cooking_time_min": 30,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 350,
+    "protein_g": 24,
+    "carbs_g": 15,
+    "fat_g": 20,
+    "is_popular": true,
+    "is_featured": true,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:16.508014+00:00",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "100g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prepare the vegetables",
+        "description": "Slice the onion and green onion thinly."
+      },
+      {
+        "step_order": 2,
+        "title": "Marinate the beef",
+        "description": "Mix beef with soy sauce, sugar, garlic, and sesame oil. Marinate for at least 15 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Cook",
+        "description": "Stir-fry the beef and onion over medium-high heat until fully cooked."
+      },
+      {
+        "step_order": 4,
+        "title": "Serve",
+        "description": "Garnish with green onion and sesame seeds. Enjoy with rice."
+      }
+    ]
+  },
+  {
+    "id": "a79a56b9-fbf0-441e-9bfc-b557f5bf6536",
+    "name_en": "Dak Bokkeum Tang",
+    "name_ko": "닭볶음탕",
+    "description": "Braised spicy chicken in a thick, glossy sauce.",
+    "category": "meat",
+    "cooking_time_min": 40,
+    "difficulty": "medium",
+    "servings": 3,
+    "calories": 400,
+    "protein_g": 32,
+    "carbs_g": 22,
+    "fat_g": 18,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.893832+00:00",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "amount": "600g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "4 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Potato",
+        "amount": "2 medium",
+        "type": "recommended"
+      },
+      {
+        "name": "Onion",
+        "amount": "1",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "100g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Parboil chicken",
+        "description": "Blanch chicken pieces briefly. Drain."
+      },
+      {
+        "step_order": 2,
+        "title": "Make sauce",
+        "description": "Mix gochujang, soy sauce, sugar, garlic, and 1.5 cups water."
+      },
+      {
+        "step_order": 3,
+        "title": "Braise",
+        "description": "Add chicken, potato, onion to sauce in a pot. Simmer 25 minutes."
+      },
+      {
+        "step_order": 4,
+        "title": "Finish",
+        "description": "Add green onion and mushroom. Cook 5 more minutes."
+      }
+    ]
+  },
+  {
+    "id": "4003bed8-fc73-4f28-aa93-d6cf2839eccf",
+    "name_en": "Dak Gangjeong",
+    "name_ko": "닭강정",
+    "description": "Crispy fried chicken glazed in a sweet and spicy sauce.",
+    "category": "meat",
+    "cooking_time_min": 35,
+    "difficulty": "medium",
+    "servings": 3,
+    "calories": 480,
+    "protein_g": 30,
+    "carbs_g": 42,
+    "fat_g": 20,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:18.044958+00:00",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "amount": "500g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "3 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Vinegar",
+        "amount": "1 tbsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tbsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Fry chicken",
+        "description": "Coat chicken in starch and fry until crispy."
+      },
+      {
+        "step_order": 2,
+        "title": "Make glaze",
+        "description": "Cook gochujang, sugar, soy sauce, garlic, and vinegar until sticky."
+      },
+      {
+        "step_order": 3,
+        "title": "Glaze and serve",
+        "description": "Toss fried chicken in glaze. Garnish with sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "0bb849bd-1ace-4e9f-b224-9621d8c8813b",
+    "name_en": "Dakdoritang",
+    "name_ko": "닭도리탕",
+    "description": "Braised spicy chicken with potatoes in a rich sauce.",
+    "category": "meat",
+    "cooking_time_min": 45,
+    "difficulty": "medium",
+    "servings": 3,
+    "calories": 420,
+    "protein_g": 34,
+    "carbs_g": 28,
+    "fat_g": 16,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:17.906371+00:00",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "amount": "500g",
+        "type": "essential"
+      },
+      {
+        "name": "Potato",
+        "amount": "2 medium",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "4 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "100g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Blanch chicken",
+        "description": "Briefly boil chicken pieces, then drain and rinse."
+      },
+      {
+        "step_order": 2,
+        "title": "Make sauce",
+        "description": "Mix gochujang, gochugaru, soy sauce, and garlic with 1 cup water."
+      },
+      {
+        "step_order": 3,
+        "title": "Braise",
+        "description": "Add chicken, potatoes, and onion to the sauce in a pot. Cover and cook on medium heat for 25 minutes."
+      },
+      {
+        "step_order": 4,
+        "title": "Finish",
+        "description": "Uncover and cook 5 more minutes until sauce thickens. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "cac5057c-ce58-4dd0-854f-36ef06ff9f2b",
+    "name_en": "Dakgalbi",
+    "name_ko": "닭갈비",
+    "description": "Spicy stir-fried chicken with rice cakes and vegetables.",
+    "category": "meat",
+    "cooking_time_min": 35,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 410,
+    "protein_g": 30,
+    "carbs_g": 38,
+    "fat_g": 14,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:17.678651+00:00",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "amount": "400g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "3 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Rice Cake",
+        "amount": "150g",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Marinate chicken",
+        "description": "Mix gochujang, gochugaru, soy sauce, sugar, and garlic. Coat chicken pieces and marinate 20 minutes."
+      },
+      {
+        "step_order": 2,
+        "title": "Stir-fry",
+        "description": "Cook chicken in a hot pan until nearly done. Add rice cakes and vegetables."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Stir-fry everything together until sauce caramelizes. Serve hot."
+      }
+    ]
+  },
+  {
+    "id": "4f785fb8-c886-4359-b249-6cae60d36be1",
+    "name_en": "Dwaeji Galbi",
+    "name_ko": "돼지갈비",
+    "description": "Marinated pork ribs grilled to sticky perfection.",
+    "category": "meat",
+    "cooking_time_min": 40,
+    "difficulty": "medium",
+    "servings": 3,
+    "calories": 480,
+    "protein_g": 32,
+    "carbs_g": 18,
+    "fat_g": 28,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:18.197999+00:00",
+    "ingredients": [
+      {
+        "name": "Pork",
+        "amount": "600g ribs",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "4 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "4 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Score and marinate",
+        "description": "Score pork ribs. Mix with soy sauce, sugar, garlic, and sesame oil. Marinate 1 hour."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook",
+        "description": "Grill or pan-fry on medium heat, turning often, for 20-25 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with green onion and sesame seeds. Serve with rice."
+      }
+    ]
+  },
+  {
+    "id": "84cdb55e-9030-4751-9132-fb5262af1acc",
+    "name_en": "Galbi Jjim",
+    "name_ko": "갈비찜",
+    "description": "Braised beef short ribs in a rich soy-based sauce.",
+    "category": "meat",
+    "cooking_time_min": 90,
+    "difficulty": "hard",
+    "servings": 4,
+    "calories": 520,
+    "protein_g": 40,
+    "carbs_g": 24,
+    "fat_g": 26,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.676822+00:00",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "amount": "1kg short ribs",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "5 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "5 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1",
+        "type": "recommended"
+      },
+      {
+        "name": "Potato",
+        "amount": "2 medium",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "100g",
+        "type": "optional"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Parboil ribs",
+        "description": "Boil ribs briefly, rinse. Score the meat."
+      },
+      {
+        "step_order": 2,
+        "title": "Braise",
+        "description": "Add ribs to pot with soy sauce, sugar, garlic, and 2 cups water. Simmer 1 hour."
+      },
+      {
+        "step_order": 3,
+        "title": "Add vegetables",
+        "description": "Add potato, carrot, and mushroom. Cook 20 more minutes."
+      },
+      {
+        "step_order": 4,
+        "title": "Finish",
+        "description": "Drizzle sesame oil. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "a8c7c721-68b7-44bd-b9da-815db0ea9140",
+    "name_en": "Haemul Pajeon",
+    "name_ko": "해물파전",
+    "description": "Crispy seafood and green onion pancake.",
+    "category": "meat",
+    "cooking_time_min": 20,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 320,
+    "protein_g": 18,
+    "carbs_g": 32,
+    "fat_g": 14,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:18.274539+00:00",
+    "ingredients": [
+      {
+        "name": "Seafood Mix",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "8 stalks",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/2 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp dipping",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make batter",
+        "description": "Mix 1 cup flour, eggs, 3/4 cup water, and salt. Add seafood."
+      },
+      {
+        "step_order": 2,
+        "title": "Arrange",
+        "description": "Lay green onions in pan, pour batter over. Cook on medium-high 4 minutes per side."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Slice and serve with soy dipping sauce."
+      }
+    ]
+  },
+  {
+    "id": "0d478055-e136-4365-a38c-081688b5a67a",
+    "name_en": "Jeyuk Bokkeum",
+    "name_ko": "제육볶음",
+    "description": "Spicy stir-fried pork — the most popular Korean BBQ dish to make at home.",
+    "category": "meat",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 420,
+    "protein_g": 28,
+    "carbs_g": 14,
+    "fat_g": 26,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.818587+00:00",
+    "ingredients": [
+      {
+        "name": "Pork",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "3 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Marinate pork",
+        "description": "Mix pork with all sauce ingredients. Rest 15 minutes."
+      },
+      {
+        "step_order": 2,
+        "title": "Stir-fry",
+        "description": "Stir-fry pork with onion on high heat until cooked and slightly caramelized."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with green onion. Serve with rice and lettuce wraps."
+      }
+    ]
+  },
+  {
+    "id": "ccecb95a-c648-45ba-87a2-507b73e6bbcf",
+    "name_en": "Ojingeo Bokkeum",
+    "name_ko": "오징어볶음",
+    "description": "Spicy stir-fried squid with vegetables in gochujang sauce.",
+    "category": "meat",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 280,
+    "protein_g": 22,
+    "carbs_g": 16,
+    "fat_g": 12,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.974111+00:00",
+    "ingredients": [
+      {
+        "name": "Squid",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prep squid",
+        "description": "Clean squid and score/slice into pieces."
+      },
+      {
+        "step_order": 2,
+        "title": "Stir-fry",
+        "description": "Stir-fry garlic and onion. Add squid, gochujang, gochugaru, and soy sauce. Cook 4 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Add green onion. Drizzle sesame oil. Garnish with sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "0e82655a-bf7d-4c79-acc7-15afb2b05e82",
+    "name_en": "Samgyeopsal",
+    "name_ko": "삼겹살",
+    "description": "Grilled pork belly — the quintessential Korean BBQ experience.",
+    "category": "meat",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 520,
+    "protein_g": 28,
+    "carbs_g": 4,
+    "fat_g": 42,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.605021+00:00",
+    "ingredients": [
+      {
+        "name": "Pork Belly",
+        "amount": "400g",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "6 cloves",
+        "type": "recommended"
+      },
+      {
+        "name": "Ssamjang",
+        "amount": "3 tbsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Lettuce",
+        "amount": "1 head",
+        "type": "optional"
+      },
+      {
+        "name": "Kimchi",
+        "amount": "1/2 cup",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prepare",
+        "description": "Slice pork belly into bite-sized pieces. Season lightly with salt."
+      },
+      {
+        "step_order": 2,
+        "title": "Grill",
+        "description": "Grill pork belly on a hot pan or grill until crispy on both sides."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Wrap in lettuce with garlic, ssamjang, and kimchi. Drizzle sesame oil."
+      }
+    ]
+  },
+  {
+    "id": "4a39c03b-72ba-46e5-9504-baab3b60eb8b",
+    "name_en": "Anchovy Noodle Soup",
+    "name_ko": "잔치국수",
+    "description": "Light wheat noodle soup in a clear anchovy broth — served at celebrations.",
+    "category": "noodles",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 310,
+    "protein_g": 12,
+    "carbs_g": 56,
+    "fat_g": 6,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:16.185851+00:00",
+    "ingredients": [
+      {
+        "name": "Wheat Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Anchovy Broth",
+        "amount": "4 cups",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Zucchini",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prepare broth",
+        "description": "Heat anchovy broth with garlic and soy sauce."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook noodles",
+        "description": "Cook noodles in boiling water, drain."
+      },
+      {
+        "step_order": 3,
+        "title": "Assemble",
+        "description": "Place noodles in bowl, ladle hot broth. Top with zucchini, egg strips, and green onion."
+      }
+    ]
+  },
+  {
+    "id": "f8655b9e-1919-415a-971a-4c2651bd633e",
+    "name_en": "Bibim Naengmyeon",
+    "name_ko": "비빔냉면",
+    "description": "Spicy cold buckwheat noodles with gochujang sauce.",
+    "category": "noodles",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 340,
+    "protein_g": 10,
+    "carbs_g": 64,
+    "fat_g": 6,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.711888+00:00",
+    "ingredients": [
+      {
+        "name": "Buckwheat Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Vinegar",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2 hard-boiled",
+        "type": "recommended"
+      },
+      {
+        "name": "Cucumber",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make sauce",
+        "description": "Mix gochujang, vinegar, sugar, and sesame oil."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook noodles",
+        "description": "Boil noodles, rinse with cold water until very cold."
+      },
+      {
+        "step_order": 3,
+        "title": "Mix and serve",
+        "description": "Toss noodles with sauce. Top with egg and cucumber."
+      }
+    ]
+  },
+  {
+    "id": "a14a1e4f-d8ee-4ca8-ac15-cb64011152f2",
+    "name_en": "Japchae",
+    "name_ko": "잡채",
+    "description": "Stir-fried glass noodles with colorful vegetables and beef.",
+    "category": "noodles",
+    "cooking_time_min": 30,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 290,
+    "protein_g": 10,
+    "carbs_g": 48,
+    "fat_g": 8,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:17.10121+00:00",
+    "ingredients": [
+      {
+        "name": "Glass Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Spinach",
+        "amount": "100g",
+        "type": "essential"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "150g",
+        "type": "recommended"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Beef",
+        "amount": "150g",
+        "type": "optional"
+      },
+      {
+        "name": "Egg",
+        "amount": "1",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Soak the noodles",
+        "description": "Soak glass noodles in warm water for 20 minutes. Drain and set aside."
+      },
+      {
+        "step_order": 2,
+        "title": "Sauté vegetables",
+        "description": "Sauté each vegetable separately with a little oil, salt, and garlic. Set aside."
+      },
+      {
+        "step_order": 3,
+        "title": "Season noodles",
+        "description": "Cook drained noodles in boiling water for 3 minutes. Drain and mix with soy sauce, sugar, and sesame oil."
+      },
+      {
+        "step_order": 4,
+        "title": "Combine and serve",
+        "description": "Mix noodles with all vegetables and beef. Garnish with egg strips and sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "de91c0d1-3663-401e-b9be-e95827a71474",
+    "name_en": "Japchae with Beef",
+    "name_ko": "소고기잡채",
+    "description": "Premium japchae with tender marinated beef.",
+    "category": "noodles",
+    "cooking_time_min": 35,
+    "difficulty": "medium",
+    "servings": 3,
+    "calories": 380,
+    "protein_g": 18,
+    "carbs_g": 52,
+    "fat_g": 12,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:17.977806+00:00",
+    "ingredients": [
+      {
+        "name": "Glass Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Beef",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Spinach",
+        "amount": "100g",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "150g",
+        "type": "recommended"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Egg",
+        "amount": "1",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Marinate beef",
+        "description": "Marinate beef strips with soy sauce, sugar, and sesame oil for 15 minutes."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook noodles",
+        "description": "Soak glass noodles, then boil for 3 minutes. Drain and toss with soy sauce and sesame oil."
+      },
+      {
+        "step_order": 3,
+        "title": "Sauté",
+        "description": "Cook beef and each vegetable separately."
+      },
+      {
+        "step_order": 4,
+        "title": "Combine",
+        "description": "Mix everything together. Adjust seasoning. Garnish with egg strips."
+      }
+    ]
+  },
+  {
+    "id": "fc6cbd05-b31a-4ab4-af4d-8dd72b846359",
+    "name_en": "Jjajangmyeon",
+    "name_ko": "짜장면",
+    "description": "Korean-Chinese noodles in a rich black bean sauce.",
+    "category": "noodles",
+    "cooking_time_min": 30,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 520,
+    "protein_g": 22,
+    "carbs_g": 78,
+    "fat_g": 14,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.881357+00:00",
+    "ingredients": [
+      {
+        "name": "Wheat Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Black Bean Paste",
+        "amount": "4 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Pork",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1",
+        "type": "essential"
+      },
+      {
+        "name": "Zucchini",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Potato",
+        "amount": "1 medium",
+        "type": "recommended"
+      },
+      {
+        "name": "Cucumber",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Stir-fry",
+        "description": "Stir-fry pork until cooked. Add onion, zucchini, and potato."
+      },
+      {
+        "step_order": 2,
+        "title": "Add black bean paste",
+        "description": "Add black bean paste and 1 cup water. Simmer 10 minutes until thick."
+      },
+      {
+        "step_order": 3,
+        "title": "Cook noodles",
+        "description": "Boil noodles, drain. Pour sauce on top. Garnish with cucumber strips."
+      }
+    ]
+  },
+  {
+    "id": "69793bb5-a730-454f-94b8-dbf32ad776fd",
+    "name_en": "Jjamppong",
+    "name_ko": "짬뽕",
+    "description": "Spicy Korean-Chinese seafood noodle soup.",
+    "category": "noodles",
+    "cooking_time_min": 30,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 440,
+    "protein_g": 26,
+    "carbs_g": 58,
+    "fat_g": 12,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.959654+00:00",
+    "ingredients": [
+      {
+        "name": "Wheat Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Seafood Mix",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "3 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Cabbage",
+        "amount": "100g",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "100g",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Sauté aromatics",
+        "description": "Stir-fry garlic and gochugaru in oil until fragrant."
+      },
+      {
+        "step_order": 2,
+        "title": "Add vegetables and seafood",
+        "description": "Add onion, cabbage, mushroom, and seafood. Stir-fry 3 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Add broth and noodles",
+        "description": "Add 4 cups water and soy sauce. Boil. Add noodles. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "c3ab26a9-00c0-4405-a1af-7f9c19386187",
+    "name_en": "Kalguksu",
+    "name_ko": "칼국수",
+    "description": "Hand-cut wheat noodles in a light anchovy broth.",
+    "category": "noodles",
+    "cooking_time_min": 30,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 380,
+    "protein_g": 14,
+    "carbs_g": 68,
+    "fat_g": 8,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": true,
+    "created_at": "2026-08-09T04:51:15.791609+00:00",
+    "ingredients": [
+      {
+        "name": "Wheat Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Anchovy Broth",
+        "amount": "4 cups",
+        "type": "essential"
+      },
+      {
+        "name": "Zucchini",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Potato",
+        "amount": "1 small",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prepare broth",
+        "description": "Bring anchovy broth to boil with garlic and soy sauce."
+      },
+      {
+        "step_order": 2,
+        "title": "Add vegetables",
+        "description": "Add zucchini, onion, and potato. Simmer for 10 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Add noodles",
+        "description": "Add noodles and cook 5 minutes. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "29f4d71c-8c56-4bb4-aa39-66bdf59abe02",
+    "name_en": "Kimchi Ramen",
+    "name_ko": "김치 라면",
+    "description": "Instant ramen elevated with fermented kimchi and a soft egg.",
+    "category": "noodles",
+    "cooking_time_min": 12,
+    "difficulty": "easy",
+    "servings": 1,
+    "calories": 540,
+    "protein_g": 18,
+    "carbs_g": 74,
+    "fat_g": 20,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:16.115335+00:00",
+    "ingredients": [
+      {
+        "name": "Kimchi",
+        "amount": "1/2 cup",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "1",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1/2 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Spam",
+        "amount": "100g",
+        "type": "optional"
+      },
+      {
+        "name": "Cheese",
+        "amount": "1 slice",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Cook ramen",
+        "description": "Cook instant ramen with kimchi in the broth."
+      },
+      {
+        "step_order": 2,
+        "title": "Add egg",
+        "description": "Crack egg directly into pot in last 2 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Top with green onion, sesame oil, Spam, or cheese."
+      }
+    ]
+  },
+  {
+    "id": "17ef2e58-064b-46d8-847e-f30f98bb47e1",
+    "name_en": "Kongguksu",
+    "name_ko": "콩국수",
+    "description": "Cold noodles in a creamy chilled soy milk broth — a summer classic.",
+    "category": "noodles",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 360,
+    "protein_g": 18,
+    "carbs_g": 52,
+    "fat_g": 12,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:16.042944+00:00",
+    "ingredients": [
+      {
+        "name": "Wheat Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Milk",
+        "amount": "3 cups unsweetened",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Cucumber",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tbsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Tomato",
+        "amount": "1/2",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Chill broth",
+        "description": "Season soy milk with salt. Refrigerate until very cold."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook noodles",
+        "description": "Boil noodles, rinse with cold water until cold."
+      },
+      {
+        "step_order": 3,
+        "title": "Assemble",
+        "description": "Place noodles in bowl. Pour cold soy milk broth. Top with cucumber and sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "a3d54e4c-47b7-4fda-9b78-368518ffd388",
+    "name_en": "Mul Naengmyeon",
+    "name_ko": "물냉면",
+    "description": "Cold buckwheat noodles in a refreshing icy broth.",
+    "category": "noodles",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 320,
+    "protein_g": 10,
+    "carbs_g": 62,
+    "fat_g": 4,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.63801+00:00",
+    "ingredients": [
+      {
+        "name": "Buckwheat Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Beef Broth",
+        "amount": "4 cups",
+        "type": "essential"
+      },
+      {
+        "name": "Vinegar",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2 hard-boiled",
+        "type": "recommended"
+      },
+      {
+        "name": "Pickled Radish",
+        "amount": "50g",
+        "type": "recommended"
+      },
+      {
+        "name": "Cucumber",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Mustard",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prepare broth",
+        "description": "Mix beef broth with vinegar, sugar, and soy sauce. Chill or add ice."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook noodles",
+        "description": "Boil buckwheat noodles for 3 minutes. Rinse with cold water until very cold."
+      },
+      {
+        "step_order": 3,
+        "title": "Assemble",
+        "description": "Place noodles in bowl. Add cold broth. Top with egg, cucumber, and pickled radish."
+      }
+    ]
+  },
+  {
+    "id": "73524265-8c6c-4046-b5ef-a6880da25607",
+    "name_en": "Ojingeo Bokkeum Noodles",
+    "name_ko": "오징어볶음 국수",
+    "description": "Spicy stir-fried squid tossed with wheat noodles.",
+    "category": "noodles",
+    "cooking_time_min": 25,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 420,
+    "protein_g": 24,
+    "carbs_g": 58,
+    "fat_g": 10,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:16.327518+00:00",
+    "ingredients": [
+      {
+        "name": "Wheat Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Squid",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prep squid",
+        "description": "Clean and slice squid into rings."
+      },
+      {
+        "step_order": 2,
+        "title": "Stir-fry",
+        "description": "Stir-fry garlic, add squid and onion. Add gochujang, gochugaru, and soy sauce."
+      },
+      {
+        "step_order": 3,
+        "title": "Add noodles",
+        "description": "Boil noodles separately, drain. Toss with squid mixture and sesame oil."
+      }
+    ]
+  },
+  {
+    "id": "240a0ec9-e027-4b6f-a836-751d13831424",
+    "name_en": "Ramyeon Upgrade",
+    "name_ko": "라면 업그레이드",
+    "description": "Elevate instant ramen with pantry staples.",
+    "category": "noodles",
+    "cooking_time_min": 10,
+    "difficulty": "easy",
+    "servings": 1,
+    "calories": 520,
+    "protein_g": 16,
+    "carbs_g": 72,
+    "fat_g": 18,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:18.750926+00:00",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "amount": "1",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "essential"
+      },
+      {
+        "name": "Kimchi",
+        "amount": "1/2 cup",
+        "type": "recommended"
+      },
+      {
+        "name": "Spam",
+        "amount": "100g",
+        "type": "optional"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "50g",
+        "type": "optional"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1/2 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Cook ramen",
+        "description": "Cook instant ramen according to package. Add kimchi or mushrooms while boiling."
+      },
+      {
+        "step_order": 2,
+        "title": "Add egg",
+        "description": "Crack egg directly into the pot in the last 2 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Top with green onion, sesame oil, and Spam slices."
+      }
+    ]
+  },
+  {
+    "id": "02b3c162-40b8-4a69-889a-851e8f212f95",
+    "name_en": "Tteok Ramen",
+    "name_ko": "떡라면",
+    "description": "Instant ramen with chewy rice cakes added for extra texture.",
+    "category": "noodles",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 1,
+    "calories": 560,
+    "protein_g": 14,
+    "carbs_g": 86,
+    "fat_g": 16,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:16.254617+00:00",
+    "ingredients": [
+      {
+        "name": "Rice Cake",
+        "amount": "150g",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "1",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Cheese",
+        "amount": "1 slice",
+        "type": "optional"
+      },
+      {
+        "name": "Spam",
+        "amount": "100g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Cook ramen and rice cakes",
+        "description": "Cook instant ramen with rice cakes in the same pot."
+      },
+      {
+        "step_order": 2,
+        "title": "Add egg",
+        "description": "Crack egg in during last 2 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Top with green onion, cheese, or Spam."
+      }
+    ]
+  },
+  {
+    "id": "eaeed762-8fa6-4f84-ad6e-c27f6dc95194",
+    "name_en": "Bibim Gimbap",
+    "name_ko": "비빔김밥",
+    "description": "Spicy mixed rice wrapped in seaweed.",
+    "category": "rice",
+    "cooking_time_min": 30,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 360,
+    "protein_g": 12,
+    "carbs_g": 58,
+    "fat_g": 10,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.561553+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Seaweed Sheet",
+        "amount": "4 sheets",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "recommended"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Spinach",
+        "amount": "100g",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prepare fillings",
+        "description": "Make egg strips, blanch spinach, sauté carrots."
+      },
+      {
+        "step_order": 2,
+        "title": "Season rice",
+        "description": "Mix rice with gochujang and sesame oil."
+      },
+      {
+        "step_order": 3,
+        "title": "Roll and serve",
+        "description": "Spread rice on seaweed, add fillings, roll tightly. Slice and serve."
+      }
+    ]
+  },
+  {
+    "id": "b1fafe32-dc17-4200-97fd-dde5dbd9f369",
+    "name_en": "Bibimbap",
+    "name_ko": "비빔밥",
+    "description": "A colorful mixed rice bowl loaded with vegetables and gochujang.",
+    "category": "rice",
+    "cooking_time_min": 25,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 480,
+    "protein_g": 16,
+    "carbs_g": 72,
+    "fat_g": 14,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:16.7125+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Spinach",
+        "amount": "100g",
+        "type": "essential"
+      },
+      {
+        "name": "Bean Sprouts",
+        "amount": "100g",
+        "type": "essential"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "100g",
+        "type": "recommended"
+      },
+      {
+        "name": "Beef",
+        "amount": "150g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prepare vegetables",
+        "description": "Blanch spinach and bean sprouts. Sauté carrots and mushrooms separately with a little soy sauce and sesame oil."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook the egg",
+        "description": "Fry an egg sunny-side up."
+      },
+      {
+        "step_order": 3,
+        "title": "Assemble",
+        "description": "Place rice in a bowl. Arrange each vegetable in sections on top. Place the fried egg in the center."
+      },
+      {
+        "step_order": 4,
+        "title": "Mix and serve",
+        "description": "Add gochujang and sesame oil. Mix everything together vigorously before eating."
+      }
+    ]
+  },
+  {
+    "id": "d0755f5d-0b2c-4f96-a20a-a07d9f91e8e4",
+    "name_en": "Curry Rice",
+    "name_ko": "카레라이스",
+    "description": "Korean-style mild curry with tender vegetables and chicken.",
+    "category": "rice",
+    "cooking_time_min": 35,
+    "difficulty": "easy",
+    "servings": 3,
+    "calories": 460,
+    "protein_g": 20,
+    "carbs_g": 68,
+    "fat_g": 12,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.215271+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "3 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Curry Powder",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Potato",
+        "amount": "2 medium",
+        "type": "essential"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1",
+        "type": "essential"
+      },
+      {
+        "name": "Chicken",
+        "amount": "300g",
+        "type": "recommended"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "recommended"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Sauté vegetables",
+        "description": "Sauté onion, potato, carrot, and chicken in oil until lightly browned."
+      },
+      {
+        "step_order": 2,
+        "title": "Add water",
+        "description": "Add 3 cups water. Bring to boil and simmer 15 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Add curry",
+        "description": "Add curry powder and stir. Simmer 10 more minutes until thick."
+      },
+      {
+        "step_order": 4,
+        "title": "Serve",
+        "description": "Serve over rice."
+      }
+    ]
+  },
+  {
+    "id": "8133387a-d80b-4737-9bb1-5714951a8280",
+    "name_en": "Dakgalbi Bokkeumbap",
+    "name_ko": "닭갈비볶음밥",
+    "description": "Spicy stir-fried rice with chicken and gochujang sauce.",
+    "category": "rice",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 450,
+    "protein_g": 28,
+    "carbs_g": 55,
+    "fat_g": 12,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": true,
+    "created_at": "2026-08-09T04:51:14.333754+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Chicken",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Cheese",
+        "amount": "2 slices",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Cook chicken",
+        "description": "Stir-fry chicken with gochujang, soy sauce, and garlic until cooked."
+      },
+      {
+        "step_order": 2,
+        "title": "Add rice",
+        "description": "Add cooked rice and stir-fry everything together for 3 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Drizzle sesame oil, top with green onion. Add cheese if desired."
+      }
+    ]
+  },
+  {
+    "id": "304b3c71-0b3f-412c-baf8-16b943d09b38",
+    "name_en": "Doenjang Bibimbap",
+    "name_ko": "된장비빔밥",
+    "description": "Rustic bibimbap seasoned with savory soybean paste.",
+    "category": "rice",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 380,
+    "protein_g": 12,
+    "carbs_g": 65,
+    "fat_g": 10,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:14.924585+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Doenjang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Zucchini",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Bean Sprouts",
+        "amount": "100g",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "recommended"
+      },
+      {
+        "name": "Spinach",
+        "amount": "100g",
+        "type": "recommended"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prep vegetables",
+        "description": "Sauté zucchini and blanch bean sprouts and spinach separately."
+      },
+      {
+        "step_order": 2,
+        "title": "Fry egg",
+        "description": "Fry eggs sunny-side up."
+      },
+      {
+        "step_order": 3,
+        "title": "Assemble",
+        "description": "Place rice in bowl, arrange vegetables, top with egg and doenjang mixed with sesame oil."
+      }
+    ]
+  },
+  {
+    "id": "84489729-5d01-4c30-88be-4240557098b7",
+    "name_en": "Egg Rice Bowl",
+    "name_ko": "계란밥",
+    "description": "The simplest and most comforting Korean meal — rice topped with a runny egg.",
+    "category": "rice",
+    "cooking_time_min": 10,
+    "difficulty": "easy",
+    "servings": 1,
+    "calories": 280,
+    "protein_g": 10,
+    "carbs_g": 48,
+    "fat_g": 8,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:17.292821+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "1 cup cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "1",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1/2 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Fry the egg",
+        "description": "Fry an egg to your preferred doneness."
+      },
+      {
+        "step_order": 2,
+        "title": "Assemble",
+        "description": "Place egg on hot rice. Drizzle soy sauce and sesame oil."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with sesame seeds and mix before eating."
+      }
+    ]
+  },
+  {
+    "id": "8864f9c2-7932-41c3-b0de-5666e0831271",
+    "name_en": "Gimbap",
+    "name_ko": "김밥",
+    "description": "Korean seaweed rice rolls filled with colorful vegetables and egg.",
+    "category": "rice",
+    "cooking_time_min": 40,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 380,
+    "protein_g": 14,
+    "carbs_g": 62,
+    "fat_g": 10,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:14.678111+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Seaweed Sheet",
+        "amount": "4 sheets",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "3",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1",
+        "type": "recommended"
+      },
+      {
+        "name": "Spinach",
+        "amount": "100g",
+        "type": "recommended"
+      },
+      {
+        "name": "Crab Stick",
+        "amount": "4 sticks",
+        "type": "optional"
+      },
+      {
+        "name": "Pickled Radish",
+        "amount": "4 strips",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prepare fillings",
+        "description": "Make egg strips, blanch spinach, sauté carrots with salt and sesame oil."
+      },
+      {
+        "step_order": 2,
+        "title": "Season rice",
+        "description": "Mix cooked rice with sesame oil and salt."
+      },
+      {
+        "step_order": 3,
+        "title": "Roll",
+        "description": "Spread rice on seaweed sheet, add fillings, roll tightly."
+      },
+      {
+        "step_order": 4,
+        "title": "Slice and serve",
+        "description": "Brush outside with sesame oil. Slice into rounds and serve."
+      }
+    ]
+  },
+  {
+    "id": "17a20784-8931-45eb-bb84-9c54a11db554",
+    "name_en": "Jeyuk Dupbap",
+    "name_ko": "제육덮밥",
+    "description": "Spicy stir-fried pork served over steamed rice.",
+    "category": "rice",
+    "cooking_time_min": 25,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 480,
+    "protein_g": 28,
+    "carbs_g": 55,
+    "fat_g": 18,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.011153+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Pork",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "3 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Marinate pork",
+        "description": "Mix pork with gochujang, soy sauce, garlic, and sesame oil. Marinate 15 minutes."
+      },
+      {
+        "step_order": 2,
+        "title": "Stir-fry",
+        "description": "Stir-fry pork with onion over high heat until cooked and slightly caramelized."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Serve over rice, garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "d893e92a-c257-444a-9bb9-941d60a22b3e",
+    "name_en": "Kimchi Bokkeumbap Deluxe",
+    "name_ko": "김치볶음밥 디럭스",
+    "description": "Upgraded kimchi fried rice with pork belly and cheese.",
+    "category": "rice",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 420,
+    "protein_g": 18,
+    "carbs_g": 58,
+    "fat_g": 14,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": true,
+    "created_at": "2026-08-09T04:51:14.563066+00:00",
+    "ingredients": [
+      {
+        "name": "Kimchi",
+        "amount": "1 cup",
+        "type": "essential"
+      },
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Pork Belly",
+        "amount": "150g",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Cheese",
+        "amount": "2 slices",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Cook pork",
+        "description": "Stir-fry pork belly until crispy."
+      },
+      {
+        "step_order": 2,
+        "title": "Add kimchi and rice",
+        "description": "Add kimchi and rice. Stir-fry on high heat for 4 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Top and serve",
+        "description": "Top with fried egg, sesame oil, green onion, and cheese."
+      }
+    ]
+  },
+  {
+    "id": "571bf3ed-3ac4-45f3-a9a3-9b6af166001e",
+    "name_en": "Kimchi Fried Rice",
+    "name_ko": "김치볶음밥",
+    "description": "Crispy fried rice with tangy kimchi and a fried egg on top.",
+    "category": "rice",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 380,
+    "protein_g": 12,
+    "carbs_g": 58,
+    "fat_g": 11,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:16.314579+00:00",
+    "ingredients": [
+      {
+        "name": "Kimchi",
+        "amount": "1 cup",
+        "type": "essential"
+      },
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prep the kimchi",
+        "description": "Chop kimchi into bite-sized pieces."
+      },
+      {
+        "step_order": 2,
+        "title": "Fry the rice",
+        "description": "Heat oil in a pan over high heat. Add kimchi and stir-fry for 2 minutes. Add rice and soy sauce, stir-fry for 3–4 minutes until slightly crispy."
+      },
+      {
+        "step_order": 3,
+        "title": "Fry the egg",
+        "description": "In a separate pan, fry eggs sunny-side up."
+      },
+      {
+        "step_order": 4,
+        "title": "Serve",
+        "description": "Top the rice with fried egg, drizzle sesame oil, and garnish with green onion and sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "916a5de4-87d8-4e77-a824-ca0b94b0e602",
+    "name_en": "Kongnamul Bibimbap",
+    "name_ko": "콩나물비빔밥",
+    "description": "Simple bibimbap topped with seasoned soybean sprouts.",
+    "category": "rice",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 320,
+    "protein_g": 10,
+    "carbs_g": 58,
+    "fat_g": 8,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.474807+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Bean Sprouts",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "recommended"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Season sprouts",
+        "description": "Blanch bean sprouts. Toss with soy sauce, sesame oil, and garlic."
+      },
+      {
+        "step_order": 2,
+        "title": "Fry egg",
+        "description": "Fry eggs sunny-side up."
+      },
+      {
+        "step_order": 3,
+        "title": "Assemble",
+        "description": "Place rice in bowl. Top with sprouts, egg, and gochujang. Mix before eating."
+      }
+    ]
+  },
+  {
+    "id": "a90ea148-11be-45a3-8933-4b9f47e1d250",
+    "name_en": "Omurice",
+    "name_ko": "오므라이스",
+    "description": "Korean-style omelette rice with ketchup-seasoned fried rice.",
+    "category": "rice",
+    "cooking_time_min": 25,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 480,
+    "protein_g": 18,
+    "carbs_g": 58,
+    "fat_g": 20,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.294701+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "4",
+        "type": "essential"
+      },
+      {
+        "name": "Ketchup",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Chicken",
+        "amount": "150g",
+        "type": "recommended"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1/4",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make ketchup rice",
+        "description": "Stir-fry chicken, onion, and carrot. Add rice and ketchup. Mix well."
+      },
+      {
+        "step_order": 2,
+        "title": "Make omelette",
+        "description": "Beat 2 eggs and pour into pan. Cook until just set, place rice inside and fold."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Drizzle ketchup on top. Serve immediately."
+      }
+    ]
+  },
+  {
+    "id": "1f37b2d8-cbce-43e7-9bc1-5434fd98823e",
+    "name_en": "Ssamjang Veggie Bowl",
+    "name_ko": "쌈장 채소 덮밥",
+    "description": "Healthy rice bowl with sautéed vegetables and ssamjang dipping sauce.",
+    "category": "rice",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 300,
+    "protein_g": 10,
+    "carbs_g": 52,
+    "fat_g": 8,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.379271+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Ssamjang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Zucchini",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "100g",
+        "type": "essential"
+      },
+      {
+        "name": "Spinach",
+        "amount": "100g",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Sauté vegetables",
+        "description": "Sauté zucchini and mushrooms with a little oil and salt."
+      },
+      {
+        "step_order": 2,
+        "title": "Assemble",
+        "description": "Place rice in bowl, arrange vegetables on top."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Add ssamjang on the side. Top with egg if desired."
+      }
+    ]
+  },
+  {
+    "id": "2a0ab214-60cf-4d6b-8086-c4d5dc23ea8b",
+    "name_en": "Sundubu Dupbap",
+    "name_ko": "순두부덮밥",
+    "description": "Silky soft tofu in spicy broth served over rice.",
+    "category": "rice",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 320,
+    "protein_g": 16,
+    "carbs_g": 48,
+    "fat_g": 10,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.113302+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "2 cups cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Tofu",
+        "amount": "300g soft",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make sauce",
+        "description": "Sauté garlic and gochugaru in oil. Add 1 cup water and soy sauce."
+      },
+      {
+        "step_order": 2,
+        "title": "Add tofu",
+        "description": "Gently add soft tofu. Simmer 5 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Crack egg into broth, cook 1 minute. Serve over rice."
+      }
+    ]
+  },
+  {
+    "id": "b9816c6c-78a9-420e-bfaf-092a890c6020",
+    "name_en": "Tuna Mayo Rice Bowl",
+    "name_ko": "참치마요 덮밥",
+    "description": "Quick rice bowl with creamy tuna mayo.",
+    "category": "rice",
+    "cooking_time_min": 10,
+    "difficulty": "easy",
+    "servings": 1,
+    "calories": 420,
+    "protein_g": 22,
+    "carbs_g": 52,
+    "fat_g": 16,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": true,
+    "created_at": "2026-08-09T04:51:14.793948+00:00",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": "1 cup cooked",
+        "type": "essential"
+      },
+      {
+        "name": "Tuna",
+        "amount": "1 can",
+        "type": "essential"
+      },
+      {
+        "name": "Mayonnaise",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Mix tuna",
+        "description": "Drain tuna and mix with mayonnaise, soy sauce, and sesame oil."
+      },
+      {
+        "step_order": 2,
+        "title": "Assemble",
+        "description": "Place tuna mixture on rice. Top with green onion and sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "aacf6938-a944-41a7-a6d5-13add8f9d4c4",
+    "name_en": "Doraji Namul",
+    "name_ko": "도라지나물",
+    "description": "Seasoned bellflower root — a traditional Korean side dish.",
+    "category": "side_dishes",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 3,
+    "calories": 70,
+    "protein_g": 2,
+    "carbs_g": 14,
+    "fat_g": 2,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.036982+00:00",
+    "ingredients": [
+      {
+        "name": "Bellflower Root",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/2 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prep",
+        "description": "Rinse bellflower root, squeeze out bitterness. Shred into strips."
+      },
+      {
+        "step_order": 2,
+        "title": "Sauté",
+        "description": "Sauté with garlic and sesame oil until softened."
+      },
+      {
+        "step_order": 3,
+        "title": "Season",
+        "description": "Season with salt and soy sauce. Garnish with sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "21d11746-9df4-4dd0-b4ef-fee0b60d9488",
+    "name_en": "Dubu Buchim",
+    "name_ko": "두부부침",
+    "description": "Simple pan-fried tofu with a savory soy dipping sauce.",
+    "category": "side_dishes",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 180,
+    "protein_g": 12,
+    "carbs_g": 6,
+    "fat_g": 12,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:18.739988+00:00",
+    "ingredients": [
+      {
+        "name": "Tofu",
+        "amount": "300g firm",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/4 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Slice tofu",
+        "description": "Slice tofu into 1cm slabs. Pat dry with paper towel."
+      },
+      {
+        "step_order": 2,
+        "title": "Pan-fry",
+        "description": "Fry in oil over medium-high heat until golden on both sides."
+      },
+      {
+        "step_order": 3,
+        "title": "Dipping sauce",
+        "description": "Mix soy sauce, sesame oil, gochugaru, and green onion. Serve alongside."
+      }
+    ]
+  },
+  {
+    "id": "bea57cf9-1711-48de-8ce8-0548a59d2a71",
+    "name_en": "Dubu Jorim",
+    "name_ko": "두부조림",
+    "description": "Pan-fried braised tofu in a spicy soy glaze.",
+    "category": "side_dishes",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 220,
+    "protein_g": 14,
+    "carbs_g": 12,
+    "fat_g": 12,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:18.825437+00:00",
+    "ingredients": [
+      {
+        "name": "Tofu",
+        "amount": "300g firm",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Pan-fry tofu",
+        "description": "Slice tofu and pan-fry on both sides until golden."
+      },
+      {
+        "step_order": 2,
+        "title": "Make sauce",
+        "description": "Mix soy sauce, gochugaru, garlic, sesame oil, and 3 tbsp water."
+      },
+      {
+        "step_order": 3,
+        "title": "Braise",
+        "description": "Pour sauce over tofu. Cook on medium heat until sauce is absorbed. Garnish with green onion and sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "40240fe6-bcde-4797-aef1-ea7392dfb21c",
+    "name_en": "Eomuk Bokkeum",
+    "name_ko": "어묵볶음",
+    "description": "Stir-fried fish cake — a classic Korean side dish.",
+    "category": "side_dishes",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 3,
+    "calories": 160,
+    "protein_g": 8,
+    "carbs_g": 16,
+    "fat_g": 8,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:18.438546+00:00",
+    "ingredients": [
+      {
+        "name": "Fish Cake",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prep fish cake",
+        "description": "Slice fish cake into strips or bite-sized pieces."
+      },
+      {
+        "step_order": 2,
+        "title": "Stir-fry",
+        "description": "Stir-fry fish cake with garlic, soy sauce, and sugar for 3-4 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Add green onion and sesame oil. Garnish with sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "0aa91e03-3125-4bd7-a818-d4e347bd2570",
+    "name_en": "Gaji Namul",
+    "name_ko": "가지나물",
+    "description": "Steamed eggplant seasoned with soy sauce and sesame oil.",
+    "category": "side_dishes",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 80,
+    "protein_g": 2,
+    "carbs_g": 10,
+    "fat_g": 4,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:18.664913+00:00",
+    "ingredients": [
+      {
+        "name": "Eggplant",
+        "amount": "2 medium",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Steam eggplant",
+        "description": "Steam or microwave eggplant until soft. Tear into strips."
+      },
+      {
+        "step_order": 2,
+        "title": "Season",
+        "description": "Mix with soy sauce, sesame oil, garlic, and gochugaru."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with green onion and sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "5c8b95ab-6c0b-40d1-a631-9f2bff8c443c",
+    "name_en": "Gamja Jorim",
+    "name_ko": "감자조림",
+    "description": "Sweet and sticky braised potatoes — a lunchbox staple.",
+    "category": "side_dishes",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 3,
+    "calories": 180,
+    "protein_g": 4,
+    "carbs_g": 36,
+    "fat_g": 4,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:18.367473+00:00",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "amount": "3 medium",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Cube potatoes",
+        "description": "Cut potatoes into bite-sized cubes. Rinse in cold water."
+      },
+      {
+        "step_order": 2,
+        "title": "Braise",
+        "description": "Add potatoes to pan with soy sauce, sugar, garlic, and 1/2 cup water. Cook on medium until sauce reduces."
+      },
+      {
+        "step_order": 3,
+        "title": "Glaze",
+        "description": "Stir constantly in final minutes until potatoes are glazed. Drizzle sesame oil and sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "f9eac12f-063d-4284-ad12-6f11339e1211",
+    "name_en": "Gyeran Mari",
+    "name_ko": "계란말이",
+    "description": "Korean rolled omelette — a lunch box staple.",
+    "category": "side_dishes",
+    "cooking_time_min": 15,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 160,
+    "protein_g": 12,
+    "carbs_g": 4,
+    "fat_g": 10,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:17.836517+00:00",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "amount": "4",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/4 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1/4",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Beat eggs",
+        "description": "Beat eggs with salt and finely chopped green onion and carrot."
+      },
+      {
+        "step_order": 2,
+        "title": "Roll",
+        "description": "Pour a thin layer of egg into a lightly oiled pan. When nearly set, roll from one side to the other. Push to the side and pour more egg. Repeat until all egg is used."
+      },
+      {
+        "step_order": 3,
+        "title": "Slice and serve",
+        "description": "Let rest for 1 minute, then slice into rounds."
+      }
+    ]
+  },
+  {
+    "id": "ccebc013-8ca5-4da1-a327-9d666575da27",
+    "name_en": "Hobak Jeon",
+    "name_ko": "호박전",
+    "description": "Pan-fried zucchini fritters — light and savory.",
+    "category": "side_dishes",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 140,
+    "protein_g": 6,
+    "carbs_g": 16,
+    "fat_g": 6,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:18.459572+00:00",
+    "ingredients": [
+      {
+        "name": "Zucchini",
+        "amount": "1 medium",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/2 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp dipping",
+        "type": "recommended"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Slice zucchini",
+        "description": "Slice zucchini into 0.5cm rounds. Season with salt and let sit 5 minutes. Pat dry."
+      },
+      {
+        "step_order": 2,
+        "title": "Coat and fry",
+        "description": "Dust slices in flour, then dip in beaten egg. Fry in a lightly oiled pan until golden on both sides."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Serve with soy sauce for dipping."
+      }
+    ]
+  },
+  {
+    "id": "6e70e986-059f-4c64-898f-69126afd2547",
+    "name_en": "Jangjorim",
+    "name_ko": "장조림",
+    "description": "Soy-braised beef — a classic Korean meal-prep side dish.",
+    "category": "side_dishes",
+    "cooking_time_min": 45,
+    "difficulty": "medium",
+    "servings": 4,
+    "calories": 200,
+    "protein_g": 22,
+    "carbs_g": 8,
+    "fat_g": 8,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:18.529745+00:00",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "amount": "400g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "4 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "5 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Egg",
+        "amount": "4 hard-boiled",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Boil the beef",
+        "description": "Boil beef with green onion until tender, about 30 minutes. Reserve 1.5 cups broth."
+      },
+      {
+        "step_order": 2,
+        "title": "Shred",
+        "description": "Let beef cool slightly, then shred or slice."
+      },
+      {
+        "step_order": 3,
+        "title": "Braise",
+        "description": "Simmer beef in broth with soy sauce, sugar, and garlic for 10 minutes until sauce reduces."
+      },
+      {
+        "step_order": 4,
+        "title": "Add eggs",
+        "description": "Add hard-boiled eggs and cook 5 more minutes. Store refrigerated for up to a week."
+      }
+    ]
+  },
+  {
+    "id": "8e1a0bb3-7a0b-4982-8262-8ea6b3e15247",
+    "name_en": "Kimchi Jeon (Quick)",
+    "name_ko": "빠른 김치전",
+    "description": "Even faster kimchi pancake when you need something quick.",
+    "category": "side_dishes",
+    "cooking_time_min": 12,
+    "difficulty": "easy",
+    "servings": 1,
+    "calories": 280,
+    "protein_g": 8,
+    "carbs_g": 38,
+    "fat_g": 10,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:18.974739+00:00",
+    "ingredients": [
+      {
+        "name": "Kimchi",
+        "amount": "3/4 cup",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "1",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp dipping",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make batter",
+        "description": "Mix 1/2 cup flour, 1 egg, 1/2 cup water, and kimchi (with juice)."
+      },
+      {
+        "step_order": 2,
+        "title": "Pan fry",
+        "description": "Cook in oiled pan over medium-high heat, 3 minutes per side."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Slice and serve with soy sauce."
+      }
+    ]
+  },
+  {
+    "id": "a3141555-e63d-404e-b7b4-b8a698cdff4c",
+    "name_en": "Kimchi Pajeon",
+    "name_ko": "김치파전",
+    "description": "Green onion and kimchi pancake — extra crispy.",
+    "category": "side_dishes",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 300,
+    "protein_g": 8,
+    "carbs_g": 42,
+    "fat_g": 10,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:18.819903+00:00",
+    "ingredients": [
+      {
+        "name": "Kimchi",
+        "amount": "1/2 cup",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "5 stalks",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "1",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/4 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp dipping",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make batter",
+        "description": "Mix 1 cup flour, egg, 3/4 cup water, salt, kimchi, and green onion."
+      },
+      {
+        "step_order": 2,
+        "title": "Pan-fry",
+        "description": "Pour into hot oiled pan. Cook on medium-high 4 minutes per side until crispy."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Slice and serve with soy sauce."
+      }
+    ]
+  },
+  {
+    "id": "8ccac938-0622-432e-af22-0724bea33498",
+    "name_en": "Kimchi Pancake",
+    "name_ko": "김치전",
+    "description": "Crispy, savory pancake loaded with tangy kimchi.",
+    "category": "side_dishes",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 310,
+    "protein_g": 9,
+    "carbs_g": 42,
+    "fat_g": 12,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": true,
+    "created_at": "2026-07-26T09:24:17.499004+00:00",
+    "ingredients": [
+      {
+        "name": "Kimchi",
+        "amount": "1 cup",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "1",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/4 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make batter",
+        "description": "Mix 1 cup flour, 1 egg, 3/4 cup water, and salt. Add chopped kimchi (and kimchi juice for extra flavor)."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook",
+        "description": "Pour batter into a hot oiled pan. Press flat and cook on medium-high heat for 3–4 minutes per side until golden and crispy."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Slice and serve with soy sauce dipping sauce."
+      }
+    ]
+  },
+  {
+    "id": "a990c883-c09b-42e8-b2e6-61b71627059f",
+    "name_en": "Kongjorim",
+    "name_ko": "콩조림",
+    "description": "Sweet and savory braised black soybeans — a traditional banchan.",
+    "category": "side_dishes",
+    "cooking_time_min": 40,
+    "difficulty": "easy",
+    "servings": 4,
+    "calories": 160,
+    "protein_g": 10,
+    "carbs_g": 20,
+    "fat_g": 4,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:18.890868+00:00",
+    "ingredients": [
+      {
+        "name": "Black Soybeans",
+        "amount": "1 cup",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Soak beans",
+        "description": "Soak black soybeans overnight. Drain."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook",
+        "description": "Boil beans until tender, about 30 minutes. Drain, reserve 1/2 cup liquid."
+      },
+      {
+        "step_order": 3,
+        "title": "Braise",
+        "description": "Add beans back with soy sauce, sugar, and reserved liquid. Cook until glazed. Drizzle sesame oil."
+      }
+    ]
+  },
+  {
+    "id": "92f112b8-a4fb-46a1-aedf-208d33a3cc82",
+    "name_en": "Kongnamul Guk",
+    "name_ko": "콩나물국",
+    "description": "Clear soybean sprout soup — light, clean, and restorative.",
+    "category": "side_dishes",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 80,
+    "protein_g": 6,
+    "carbs_g": 8,
+    "fat_g": 3,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.180532+00:00",
+    "ingredients": [
+      {
+        "name": "Bean Sprouts",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/2 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make broth",
+        "description": "Add bean sprouts and garlic to 3 cups cold water. Bring to boil WITHOUT opening the lid for 5 minutes."
+      },
+      {
+        "step_order": 2,
+        "title": "Season",
+        "description": "Season with soy sauce and salt."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Garnish with green onion and sesame oil."
+      }
+    ]
+  },
+  {
+    "id": "957c5a47-98bf-4d2f-a290-92473965d1ab",
+    "name_en": "Kongnamul Muchim",
+    "name_ko": "콩나물무침",
+    "description": "Seasoned soybean sprouts — simple, crunchy, and full of flavor.",
+    "category": "side_dishes",
+    "cooking_time_min": 10,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 80,
+    "protein_g": 6,
+    "carbs_g": 8,
+    "fat_g": 3,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:17.752159+00:00",
+    "ingredients": [
+      {
+        "name": "Bean Sprouts",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove minced",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Blanch sprouts",
+        "description": "Boil soybean sprouts for 2–3 minutes. Drain and let cool slightly."
+      },
+      {
+        "step_order": 2,
+        "title": "Season",
+        "description": "Mix sprouts with soy sauce, sesame oil, garlic, and gochugaru."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with green onion and sesame seeds. Serve warm or chilled."
+      }
+    ]
+  },
+  {
+    "id": "a8208bdd-1fc4-4df0-a162-81a2a021cf8e",
+    "name_en": "Mu Jorim",
+    "name_ko": "무조림",
+    "description": "Braised radish in a sweet soy glaze — tender and full of flavor.",
+    "category": "side_dishes",
+    "cooking_time_min": 25,
+    "difficulty": "easy",
+    "servings": 3,
+    "calories": 100,
+    "protein_g": 2,
+    "carbs_g": 22,
+    "fat_g": 2,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:18.968588+00:00",
+    "ingredients": [
+      {
+        "name": "Radish",
+        "amount": "400g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Cut radish",
+        "description": "Cut radish into thick rounds or rectangles."
+      },
+      {
+        "step_order": 2,
+        "title": "Braise",
+        "description": "Add radish, soy sauce, sugar, garlic, gochugaru, and 1/2 cup water. Cook on medium 20 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Drizzle sesame oil. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "91c62911-8257-4e45-b402-0b5fe135c22c",
+    "name_en": "Musaengchae",
+    "name_ko": "무생채",
+    "description": "Spicy radish salad — crunchy, refreshing, and mildly sweet.",
+    "category": "side_dishes",
+    "cooking_time_min": 10,
+    "difficulty": "easy",
+    "servings": 3,
+    "calories": 60,
+    "protein_g": 2,
+    "carbs_g": 12,
+    "fat_g": 2,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:18.515322+00:00",
+    "ingredients": [
+      {
+        "name": "Radish",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1.5 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Vinegar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/2 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "optional"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Julienne radish",
+        "description": "Cut radish into thin matchstick strips."
+      },
+      {
+        "step_order": 2,
+        "title": "Season",
+        "description": "Mix with gochugaru, vinegar, sugar, salt, and garlic."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with green onion and sesame seeds. Best served chilled."
+      }
+    ]
+  },
+  {
+    "id": "d5abbe91-8249-4695-86c7-54e129c64e8d",
+    "name_en": "Oi Muchim",
+    "name_ko": "오이무침",
+    "description": "Spicy cucumber salad — refreshing and quick.",
+    "category": "side_dishes",
+    "cooking_time_min": 10,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 50,
+    "protein_g": 2,
+    "carbs_g": 8,
+    "fat_g": 2,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:18.900009+00:00",
+    "ingredients": [
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1/2 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prep cucumber",
+        "description": "Slice cucumber thinly. Salt lightly and let sit 5 minutes. Squeeze out moisture."
+      },
+      {
+        "step_order": 2,
+        "title": "Season",
+        "description": "Mix cucumbers with gochugaru, soy sauce, sesame oil, garlic, and sugar."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with green onion and sesame seeds. Best eaten immediately."
+      }
+    ]
+  },
+  {
+    "id": "80dc4fc7-0d77-4645-b6d1-a049a6e9be34",
+    "name_en": "Sigeumchi Namul",
+    "name_ko": "시금치나물",
+    "description": "Lightly seasoned blanched spinach — a clean, simple side dish.",
+    "category": "side_dishes",
+    "cooking_time_min": 10,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 60,
+    "protein_g": 4,
+    "carbs_g": 6,
+    "fat_g": 3,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:18.231624+00:00",
+    "ingredients": [
+      {
+        "name": "Spinach",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Blanch spinach",
+        "description": "Boil spinach for 30 seconds. Drain and squeeze out excess water."
+      },
+      {
+        "step_order": 2,
+        "title": "Season",
+        "description": "Mix spinach with soy sauce, sesame oil, and garlic."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "0b2778f1-1403-49e9-96e6-37dbf5335213",
+    "name_en": "Spinach Doenjang Soup",
+    "name_ko": "시금치된장국",
+    "description": "Light soybean paste soup with fresh spinach.",
+    "category": "side_dishes",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 80,
+    "protein_g": 6,
+    "carbs_g": 8,
+    "fat_g": 3,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.109667+00:00",
+    "ingredients": [
+      {
+        "name": "Spinach",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Doenjang",
+        "amount": "1.5 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "essential"
+      },
+      {
+        "name": "Anchovy Broth",
+        "amount": "3 cups",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Tofu",
+        "amount": "100g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make broth",
+        "description": "Bring anchovy broth (or water) to boil. Dissolve doenjang."
+      },
+      {
+        "step_order": 2,
+        "title": "Add spinach",
+        "description": "Add spinach and garlic. Cook 3 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Add tofu if using. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "71688a54-5d35-4915-b473-f55e5ff67a58",
+    "name_en": "Steamed Egg",
+    "name_ko": "계란찜",
+    "description": "Fluffy, custardy steamed egg — a beloved Korean side dish.",
+    "category": "side_dishes",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 120,
+    "protein_g": 10,
+    "carbs_g": 2,
+    "fat_g": 7,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:17.399514+00:00",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "amount": "3",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/2 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1/2 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Beat eggs",
+        "description": "Whisk eggs with 1 cup of water and salt until well combined."
+      },
+      {
+        "step_order": 2,
+        "title": "Steam",
+        "description": "Pour into a clay pot or oven-safe bowl. Steam over low heat for 10–12 minutes until just set."
+      },
+      {
+        "step_order": 3,
+        "title": "Garnish",
+        "description": "Top with green onion and a drizzle of sesame oil. Serve immediately."
+      }
+    ]
+  },
+  {
+    "id": "02ddf148-dcf1-41cc-9c51-cab4bb0b04d9",
+    "name_en": "Sukju Namul",
+    "name_ko": "숙주나물",
+    "description": "Seasoned mung bean sprouts — light and crunchy.",
+    "category": "side_dishes",
+    "cooking_time_min": 10,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 60,
+    "protein_g": 4,
+    "carbs_g": 6,
+    "fat_g": 3,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:18.588226+00:00",
+    "ingredients": [
+      {
+        "name": "Mung Bean Sprouts",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/4 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Blanch",
+        "description": "Blanch mung bean sprouts in boiling water for 1 minute. Drain and cool."
+      },
+      {
+        "step_order": 2,
+        "title": "Season",
+        "description": "Mix with soy sauce, sesame oil, garlic, and salt."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with green onion and sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "189b8497-dd45-4231-b193-6423ac1e1b30",
+    "name_en": "Altang",
+    "name_ko": "알탕",
+    "description": "Spicy fish roe soup — a beloved Korean comfort stew.",
+    "category": "stews",
+    "cooking_time_min": 20,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 220,
+    "protein_g": 18,
+    "carbs_g": 8,
+    "fat_g": 10,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.461822+00:00",
+    "ingredients": [
+      {
+        "name": "Fish Roe",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "essential"
+      },
+      {
+        "name": "Tofu",
+        "amount": "150g",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "80g",
+        "type": "optional"
+      },
+      {
+        "name": "Perilla Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make broth",
+        "description": "Boil 3 cups water with garlic, gochugaru, and soy sauce."
+      },
+      {
+        "step_order": 2,
+        "title": "Add roe and tofu",
+        "description": "Add fish roe and tofu. Simmer 10 minutes gently."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Add green onion and perilla oil. Serve hot."
+      }
+    ]
+  },
+  {
+    "id": "3f7ce242-c084-494e-bde1-e6c1e2872644",
+    "name_en": "Budae Jjigae",
+    "name_ko": "부대찌개",
+    "description": "Army stew — a fusion of Korean and American flavors.",
+    "category": "stews",
+    "cooking_time_min": 25,
+    "difficulty": "medium",
+    "servings": 3,
+    "calories": 480,
+    "protein_g": 26,
+    "carbs_g": 42,
+    "fat_g": 20,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:18.383901+00:00",
+    "ingredients": [
+      {
+        "name": "Spam",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Kimchi",
+        "amount": "1 cup",
+        "type": "essential"
+      },
+      {
+        "name": "Tofu",
+        "amount": "150g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Rice Cake",
+        "amount": "150g",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "100g",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Arrange ingredients",
+        "description": "Arrange Spam, kimchi, tofu, and other ingredients in a pot side by side."
+      },
+      {
+        "step_order": 2,
+        "title": "Add broth",
+        "description": "Mix gochujang, gochugaru, and soy sauce with 3 cups of water. Pour over ingredients."
+      },
+      {
+        "step_order": 3,
+        "title": "Boil",
+        "description": "Bring to a boil over medium heat. Cook for 15 minutes until all ingredients are cooked through."
+      },
+      {
+        "step_order": 4,
+        "title": "Serve",
+        "description": "Garnish with green onion. Mix and eat from the pot."
+      }
+    ]
+  },
+  {
+    "id": "a6d7b7a4-8d6d-4621-9fe0-2c805dc6f1a6",
+    "name_en": "Budae Jjigae Deluxe",
+    "name_ko": "부대찌개 디럭스",
+    "description": "Upgraded army stew with extra toppings and rice cakes.",
+    "category": "stews",
+    "cooking_time_min": 25,
+    "difficulty": "medium",
+    "servings": 3,
+    "calories": 520,
+    "protein_g": 28,
+    "carbs_g": 50,
+    "fat_g": 22,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:16.877377+00:00",
+    "ingredients": [
+      {
+        "name": "Spam",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Kimchi",
+        "amount": "1 cup",
+        "type": "essential"
+      },
+      {
+        "name": "Tofu",
+        "amount": "150g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Rice Cake",
+        "amount": "150g",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "100g",
+        "type": "recommended"
+      },
+      {
+        "name": "Cheese",
+        "amount": "2 slices",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Arrange",
+        "description": "Arrange all ingredients in a wide pot."
+      },
+      {
+        "step_order": 2,
+        "title": "Add broth",
+        "description": "Mix gochujang and soy sauce with 3 cups water. Pour over."
+      },
+      {
+        "step_order": 3,
+        "title": "Boil and finish",
+        "description": "Bring to boil, cook 15 minutes. Top with cheese before serving."
+      }
+    ]
+  },
+  {
+    "id": "a2a7f715-d62f-4fe4-8839-5a128dbe149f",
+    "name_en": "Dakgalbi Jjigae",
+    "name_ko": "닭갈비찌개",
+    "description": "Spicy braised chicken stew with vegetables.",
+    "category": "stews",
+    "cooking_time_min": 30,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 380,
+    "protein_g": 28,
+    "carbs_g": 22,
+    "fat_g": 16,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.095126+00:00",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "amount": "400g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "3 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Potato",
+        "amount": "1 medium",
+        "type": "recommended"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Marinate",
+        "description": "Mix chicken with gochujang, gochugaru, soy sauce, and garlic."
+      },
+      {
+        "step_order": 2,
+        "title": "Braise",
+        "description": "Cook chicken with potato and onion in 1.5 cups water. Simmer 20 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Thicken sauce. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "a92aa661-1cdd-4448-a065-854d200a1c29",
+    "name_en": "Doenjang Jjigae",
+    "name_ko": "된장찌개",
+    "description": "Hearty soybean paste stew with tofu and vegetables.",
+    "category": "stews",
+    "cooking_time_min": 25,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 270,
+    "protein_g": 14,
+    "carbs_g": 18,
+    "fat_g": 12,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": true,
+    "created_at": "2026-07-26T09:24:16.829024+00:00",
+    "ingredients": [
+      {
+        "name": "Doenjang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Tofu",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Zucchini",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "essential"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "100g",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Anchovy Broth",
+        "amount": "2 cups",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prepare broth",
+        "description": "Bring 2 cups of water (or anchovy broth) to a boil."
+      },
+      {
+        "step_order": 2,
+        "title": "Add paste",
+        "description": "Dissolve doenjang in the broth. Add garlic."
+      },
+      {
+        "step_order": 3,
+        "title": "Add vegetables",
+        "description": "Add onion, zucchini, and mushrooms. Simmer for 10 minutes."
+      },
+      {
+        "step_order": 4,
+        "title": "Finish",
+        "description": "Add tofu and simmer 5 more minutes. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "f1ed7f7a-e71b-495c-bdd3-8be5bf96e808",
+    "name_en": "Doenjang Sundubu Jjigae",
+    "name_ko": "된장순두부찌개",
+    "description": "Soft tofu stew with earthy soybean paste broth.",
+    "category": "stews",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 240,
+    "protein_g": 14,
+    "carbs_g": 10,
+    "fat_g": 12,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:16.801788+00:00",
+    "ingredients": [
+      {
+        "name": "Tofu",
+        "amount": "300g soft",
+        "type": "essential"
+      },
+      {
+        "name": "Doenjang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Anchovy Broth",
+        "amount": "2 cups",
+        "type": "essential"
+      },
+      {
+        "name": "Zucchini",
+        "amount": "1/4",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "80g",
+        "type": "recommended"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "optional"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make broth",
+        "description": "Dissolve doenjang in anchovy broth with garlic."
+      },
+      {
+        "step_order": 2,
+        "title": "Add vegetables and tofu",
+        "description": "Add zucchini, mushroom, and soft tofu. Simmer 8 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Add egg if desired. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "79991c0f-4a60-4fb2-8a8c-d07142f4b9f7",
+    "name_en": "Galbitang",
+    "name_ko": "갈비탕",
+    "description": "Clear, rich beef short rib soup — a special occasion classic.",
+    "category": "stews",
+    "cooking_time_min": 80,
+    "difficulty": "hard",
+    "servings": 4,
+    "calories": 450,
+    "protein_g": 38,
+    "carbs_g": 10,
+    "fat_g": 24,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": true,
+    "created_at": "2026-07-26T09:24:17.579839+00:00",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "amount": "800g short ribs",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "5 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "3 stalks",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Soak the ribs",
+        "description": "Soak beef short ribs in cold water for 1 hour to remove blood. Drain."
+      },
+      {
+        "step_order": 2,
+        "title": "Blanch",
+        "description": "Boil ribs briefly, then drain and rinse under cold water."
+      },
+      {
+        "step_order": 3,
+        "title": "Simmer",
+        "description": "Add clean ribs to a large pot with water, garlic, and onion. Simmer for 1 hour until tender."
+      },
+      {
+        "step_order": 4,
+        "title": "Season and serve",
+        "description": "Season with salt. Serve in a bowl with green onion and a drizzle of sesame oil."
+      }
+    ]
+  },
+  {
+    "id": "f9d4dc71-a9f5-4444-a7fd-19464be2d04d",
+    "name_en": "Gamja Tang",
+    "name_ko": "감자탕",
+    "description": "Rich pork bone soup with potatoes and greens.",
+    "category": "stews",
+    "cooking_time_min": 60,
+    "difficulty": "hard",
+    "servings": 4,
+    "calories": 520,
+    "protein_g": 42,
+    "carbs_g": 32,
+    "fat_g": 22,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:18.306512+00:00",
+    "ingredients": [
+      {
+        "name": "Pork",
+        "amount": "600g pork neck bones",
+        "type": "essential"
+      },
+      {
+        "name": "Potato",
+        "amount": "3 medium",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Doenjang",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "5 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "3 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Perilla Oil",
+        "amount": "1 tbsp",
+        "type": "optional"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Parboil bones",
+        "description": "Boil pork bones briefly, then drain and rinse well."
+      },
+      {
+        "step_order": 2,
+        "title": "Make broth",
+        "description": "Add clean bones to 6 cups of water with garlic. Boil 30 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Season",
+        "description": "Add gochugaru, doenjang, and potatoes. Simmer 20 more minutes until potatoes are tender."
+      },
+      {
+        "step_order": 4,
+        "title": "Finish",
+        "description": "Add greens, drizzle perilla oil, garnish with green onion and sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "664c5f84-e0a1-467f-b67d-2861a40df74c",
+    "name_en": "Gochujang Jjigae",
+    "name_ko": "고추장찌개",
+    "description": "Bold fiery stew built on gochujang with pork and vegetables.",
+    "category": "stews",
+    "cooking_time_min": 25,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 290,
+    "protein_g": 16,
+    "carbs_g": 18,
+    "fat_g": 14,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.018956+00:00",
+    "ingredients": [
+      {
+        "name": "Gochujang",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Pork",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Zucchini",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Potato",
+        "amount": "1 small",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Tofu",
+        "amount": "150g",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "80g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Sauté pork",
+        "description": "Stir-fry pork with garlic and gochujang."
+      },
+      {
+        "step_order": 2,
+        "title": "Simmer",
+        "description": "Add 2 cups water, potato, and zucchini. Simmer 15 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Add tofu and mushroom. Cook 5 more minutes. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "e7ec4015-7127-4dac-b7d3-627263a8cc10",
+    "name_en": "Haejang Guk",
+    "name_ko": "해장국",
+    "description": "Korean hangover soup with bean sprouts and dried cabbage.",
+    "category": "stews",
+    "cooking_time_min": 40,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 320,
+    "protein_g": 22,
+    "carbs_g": 16,
+    "fat_g": 14,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.23948+00:00",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Bean Sprouts",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Doenjang",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "3 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make beef broth",
+        "description": "Boil beef until tender. Reserve broth. Slice beef."
+      },
+      {
+        "step_order": 2,
+        "title": "Add vegetables",
+        "description": "Add bean sprouts, doenjang, gochugaru, garlic, and soy sauce to broth. Simmer 15 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Add beef back. Garnish with green onion. Add egg if desired."
+      }
+    ]
+  },
+  {
+    "id": "61e7d46c-b44b-43be-8357-bd844f347f2e",
+    "name_en": "Haemul Doenjang Jjigae",
+    "name_ko": "해물된장찌개",
+    "description": "Soybean paste stew with fresh seafood and tofu.",
+    "category": "stews",
+    "cooking_time_min": 25,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 240,
+    "protein_g": 18,
+    "carbs_g": 12,
+    "fat_g": 10,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:16.944566+00:00",
+    "ingredients": [
+      {
+        "name": "Doenjang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Seafood Mix",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Tofu",
+        "amount": "150g",
+        "type": "essential"
+      },
+      {
+        "name": "Zucchini",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Anchovy Broth",
+        "amount": "2 cups",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make broth",
+        "description": "Dissolve doenjang in anchovy broth with garlic."
+      },
+      {
+        "step_order": 2,
+        "title": "Add ingredients",
+        "description": "Add zucchini, seafood, and tofu. Simmer 12 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "80dffcd8-cbd9-4d70-821a-ceadfb603ace",
+    "name_en": "Haemul Sundubu Jjigae",
+    "name_ko": "해물순두부찌개",
+    "description": "Soft tofu stew loaded with fresh seafood.",
+    "category": "stews",
+    "cooking_time_min": 20,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 260,
+    "protein_g": 20,
+    "carbs_g": 8,
+    "fat_g": 12,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": true,
+    "created_at": "2026-08-09T04:51:16.486547+00:00",
+    "ingredients": [
+      {
+        "name": "Tofu",
+        "amount": "300g soft",
+        "type": "essential"
+      },
+      {
+        "name": "Seafood Mix",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Sauté",
+        "description": "Sauté garlic and gochugaru in sesame oil."
+      },
+      {
+        "step_order": 2,
+        "title": "Add seafood",
+        "description": "Add seafood and stir-fry briefly. Add 2 cups water and soy sauce."
+      },
+      {
+        "step_order": 3,
+        "title": "Add tofu",
+        "description": "Gently add soft tofu. Simmer 5 minutes. Crack egg in. Garnish and serve."
+      }
+    ]
+  },
+  {
+    "id": "a3f2157c-b47e-4857-baeb-b658eb3242d1",
+    "name_en": "Kimchi Guk",
+    "name_ko": "김칫국",
+    "description": "Light kimchi soup — simpler and brothier than kimchi jjigae.",
+    "category": "stews",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 180,
+    "protein_g": 10,
+    "carbs_g": 12,
+    "fat_g": 8,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.313587+00:00",
+    "ingredients": [
+      {
+        "name": "Kimchi",
+        "amount": "1 cup",
+        "type": "essential"
+      },
+      {
+        "name": "Tofu",
+        "amount": "150g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Simmer kimchi",
+        "description": "Add kimchi and garlic to 3 cups water. Bring to boil, simmer 10 minutes."
+      },
+      {
+        "step_order": 2,
+        "title": "Add tofu",
+        "description": "Add tofu and soy sauce. Cook 5 more minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Drizzle sesame oil. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "aa53faef-6a75-4534-ba34-8735739053b4",
+    "name_en": "Kimchi Jjigae",
+    "name_ko": "김치찌개",
+    "description": "A classic comfort stew that never gets old.",
+    "category": "stews",
+    "cooking_time_min": 25,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 320,
+    "protein_g": 18,
+    "carbs_g": 12,
+    "fat_g": 16,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:16.622254+00:00",
+    "ingredients": [
+      {
+        "name": "Kimchi",
+        "amount": "1.5 cups",
+        "type": "essential"
+      },
+      {
+        "name": "Tofu",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Pork",
+        "amount": "150g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Sauté the pork",
+        "description": "Stir-fry pork in a pot until lightly browned."
+      },
+      {
+        "step_order": 2,
+        "title": "Add kimchi",
+        "description": "Add kimchi and gochugaru. Stir-fry together for 2 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Simmer",
+        "description": "Add 2 cups of water and soy sauce. Bring to a boil, then simmer for 15 minutes."
+      },
+      {
+        "step_order": 4,
+        "title": "Add tofu and serve",
+        "description": "Add cubed tofu and simmer for 5 more minutes. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "a328a653-e7f3-4339-bd02-fb82d6bc945b",
+    "name_en": "Kimchi Stew with Spam",
+    "name_ko": "스팸김치찌개",
+    "description": "A nostalgic twist on kimchi jjigae with savory Spam.",
+    "category": "stews",
+    "cooking_time_min": 25,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 360,
+    "protein_g": 18,
+    "carbs_g": 14,
+    "fat_g": 22,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:18.05159+00:00",
+    "ingredients": [
+      {
+        "name": "Kimchi",
+        "amount": "1.5 cups",
+        "type": "essential"
+      },
+      {
+        "name": "Spam",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Tofu",
+        "amount": "150g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Brown the Spam",
+        "description": "Cut Spam into cubes and lightly fry until golden."
+      },
+      {
+        "step_order": 2,
+        "title": "Add kimchi",
+        "description": "Add kimchi and gochugaru to the pan. Stir-fry for 2 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Simmer",
+        "description": "Add 2 cups water and soy sauce. Bring to a boil and simmer 15 minutes."
+      },
+      {
+        "step_order": 4,
+        "title": "Finish",
+        "description": "Add tofu and simmer 5 more minutes. Top with green onion."
+      }
+    ]
+  },
+  {
+    "id": "15f639de-b319-4756-bb87-5810676d3eaf",
+    "name_en": "Kimchi Sundubu Jjigae",
+    "name_ko": "김치순두부찌개",
+    "description": "Soft tofu stew with tangy kimchi for extra depth.",
+    "category": "stews",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 270,
+    "protein_g": 14,
+    "carbs_g": 10,
+    "fat_g": 14,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:16.548441+00:00",
+    "ingredients": [
+      {
+        "name": "Tofu",
+        "amount": "300g soft",
+        "type": "essential"
+      },
+      {
+        "name": "Kimchi",
+        "amount": "1/2 cup",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Pork",
+        "amount": "100g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Cook",
+        "description": "Sauté kimchi, garlic, and pork. Add water and soy sauce."
+      },
+      {
+        "step_order": 2,
+        "title": "Add tofu",
+        "description": "Add tofu and simmer 5 minutes. Add egg. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "931c0795-c560-4370-8f03-48cb6517136f",
+    "name_en": "Kkori Gomtang",
+    "name_ko": "꼬리곰탕",
+    "description": "Rich oxtail bone broth soup, slow-simmered for hours.",
+    "category": "stews",
+    "cooking_time_min": 180,
+    "difficulty": "hard",
+    "servings": 4,
+    "calories": 420,
+    "protein_g": 36,
+    "carbs_g": 8,
+    "fat_g": 22,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.391329+00:00",
+    "ingredients": [
+      {
+        "name": "Oxtail",
+        "amount": "1kg",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "5 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "3 stalks",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Blanch oxtail",
+        "description": "Boil oxtail briefly, rinse thoroughly."
+      },
+      {
+        "step_order": 2,
+        "title": "Slow simmer",
+        "description": "Cover with fresh water, add garlic and onion. Simmer 2.5-3 hours."
+      },
+      {
+        "step_order": 3,
+        "title": "Season",
+        "description": "Season with salt. Garnish with green onion. Serve with rice."
+      }
+    ]
+  },
+  {
+    "id": "fefd856b-6764-44c1-bb41-3cc579b42901",
+    "name_en": "Kongbiji Jjigae",
+    "name_ko": "콩비지찌개",
+    "description": "Creamy ground soybean stew with kimchi.",
+    "category": "stews",
+    "cooking_time_min": 30,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 260,
+    "protein_g": 16,
+    "carbs_g": 14,
+    "fat_g": 12,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.534092+00:00",
+    "ingredients": [
+      {
+        "name": "Soybean Pulp",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Kimchi",
+        "amount": "1/2 cup",
+        "type": "essential"
+      },
+      {
+        "name": "Pork",
+        "amount": "100g",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Sauté",
+        "description": "Sauté pork, garlic, and kimchi with sesame oil."
+      },
+      {
+        "step_order": 2,
+        "title": "Add soybean pulp",
+        "description": "Add soybean pulp and 1 cup water. Simmer 15 minutes stirring often."
+      },
+      {
+        "step_order": 3,
+        "title": "Season",
+        "description": "Add soy sauce. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "a0038947-6e56-4500-ac97-8de0cf25b92c",
+    "name_en": "Miyeok Guk",
+    "name_ko": "미역국",
+    "description": "Korean seaweed soup — traditionally eaten on birthdays.",
+    "category": "stews",
+    "cooking_time_min": 30,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 180,
+    "protein_g": 14,
+    "carbs_g": 8,
+    "fat_g": 8,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:18.603801+00:00",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "amount": "150g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Soak seaweed",
+        "description": "Soak 30g dried seaweed in cold water for 20 minutes. Drain and cut into pieces."
+      },
+      {
+        "step_order": 2,
+        "title": "Sauté",
+        "description": "Sauté beef strips in sesame oil. Add seaweed and soy sauce and stir-fry for 2 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Simmer",
+        "description": "Add 4 cups water and garlic. Simmer for 20 minutes."
+      },
+      {
+        "step_order": 4,
+        "title": "Season",
+        "description": "Season with salt. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "3e34fe2b-3871-4691-ae64-c96fd7ec89ea",
+    "name_en": "Samgyetang",
+    "name_ko": "삼계탕",
+    "description": "Whole chicken stuffed with rice and ginseng, simmered to perfection.",
+    "category": "stews",
+    "cooking_time_min": 90,
+    "difficulty": "hard",
+    "servings": 2,
+    "calories": 480,
+    "protein_g": 42,
+    "carbs_g": 28,
+    "fat_g": 18,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.169876+00:00",
+    "ingredients": [
+      {
+        "name": "Whole Chicken",
+        "amount": "1 small",
+        "type": "essential"
+      },
+      {
+        "name": "Rice",
+        "amount": "1/2 cup",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "6 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Ginseng",
+        "amount": "1 root",
+        "type": "optional"
+      },
+      {
+        "name": "Jujube",
+        "amount": "4 pieces",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Stuff chicken",
+        "description": "Stuff chicken cavity with rice, garlic, and ginseng."
+      },
+      {
+        "step_order": 2,
+        "title": "Simmer",
+        "description": "Place in pot, cover with water. Simmer 1 hour until chicken is very tender."
+      },
+      {
+        "step_order": 3,
+        "title": "Season and serve",
+        "description": "Season broth with salt. Serve whole chicken in the broth with green onion."
+      }
+    ]
+  },
+  {
+    "id": "70d24535-a2af-4b28-b80f-454c88aad0fa",
+    "name_en": "Sogogi Muguk",
+    "name_ko": "소고기뭇국",
+    "description": "Clear radish and beef soup — clean, comforting, everyday Korean.",
+    "category": "stews",
+    "cooking_time_min": 35,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 220,
+    "protein_g": 16,
+    "carbs_g": 14,
+    "fat_g": 8,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:18.676758+00:00",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/2 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Sauté beef",
+        "description": "Sauté beef with sesame oil and soy sauce for 2 minutes."
+      },
+      {
+        "step_order": 2,
+        "title": "Add radish",
+        "description": "Add cubed radish (200g) and 4 cups water. Bring to a boil."
+      },
+      {
+        "step_order": 3,
+        "title": "Simmer",
+        "description": "Simmer 20 minutes until radish is tender and translucent."
+      },
+      {
+        "step_order": 4,
+        "title": "Season",
+        "description": "Add garlic, season with salt. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "684bba44-33c0-4e6b-a1d5-e03ec5ae9c8b",
+    "name_en": "Sundubu Jjigae",
+    "name_ko": "순두부찌개",
+    "description": "Silky soft tofu stew with a spicy, savory broth.",
+    "category": "stews",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 240,
+    "protein_g": 14,
+    "carbs_g": 8,
+    "fat_g": 14,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": true,
+    "created_at": "2026-07-26T09:24:17.21101+00:00",
+    "ingredients": [
+      {
+        "name": "Tofu",
+        "amount": "300g soft",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Pork",
+        "amount": "100g",
+        "type": "optional"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "100g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Sauté aromatics",
+        "description": "Sauté garlic and gochugaru in sesame oil for 1 minute."
+      },
+      {
+        "step_order": 2,
+        "title": "Add broth",
+        "description": "Add 1.5 cups of water (or anchovy broth) and soy sauce. Bring to a boil."
+      },
+      {
+        "step_order": 3,
+        "title": "Add tofu",
+        "description": "Gently spoon in soft tofu. Simmer for 5 minutes without stirring too much."
+      },
+      {
+        "step_order": 4,
+        "title": "Add egg and serve",
+        "description": "Crack an egg directly into the stew. Cook for 1–2 minutes. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "d47eab3c-99df-4999-90ac-781f86052361",
+    "name_en": "Yukgaejang",
+    "name_ko": "육개장",
+    "description": "Fiery shredded beef soup with bean sprouts.",
+    "category": "stews",
+    "cooking_time_min": 60,
+    "difficulty": "hard",
+    "servings": 3,
+    "calories": 360,
+    "protein_g": 28,
+    "carbs_g": 12,
+    "fat_g": 18,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:16.40754+00:00",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "amount": "400g",
+        "type": "essential"
+      },
+      {
+        "name": "Bean Sprouts",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "4 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "3 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Boil beef",
+        "description": "Boil beef until tender, about 40 minutes. Reserve broth. Shred beef."
+      },
+      {
+        "step_order": 2,
+        "title": "Sauté",
+        "description": "Sauté gochugaru and garlic in sesame oil. Add shredded beef."
+      },
+      {
+        "step_order": 3,
+        "title": "Simmer",
+        "description": "Add beef broth, bean sprouts, and soy sauce. Simmer 15 minutes."
+      },
+      {
+        "step_order": 4,
+        "title": "Finish",
+        "description": "Add green onion. Adjust seasoning. Serve hot with rice."
+      }
+    ]
+  },
+  {
+    "id": "34d7768d-3f80-4e6d-b82f-b8fef8cc9d94",
+    "name_en": "Dak Twigim",
+    "name_ko": "닭튀김",
+    "description": "Crispy Korean fried chicken without the sauce.",
+    "category": "street_food",
+    "cooking_time_min": 30,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 420,
+    "protein_g": 30,
+    "carbs_g": 28,
+    "fat_g": 22,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.727302+00:00",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "amount": "500g",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Season chicken",
+        "description": "Season chicken with salt and garlic. Rest 15 minutes."
+      },
+      {
+        "step_order": 2,
+        "title": "Coat and fry",
+        "description": "Coat in starch and fry until golden and crispy, about 12 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with sesame seeds and green onion."
+      }
+    ]
+  },
+  {
+    "id": "3b551d41-b58f-4874-a1dd-405cec530894",
+    "name_en": "Eomuk Tang",
+    "name_ko": "어묵탕",
+    "description": "Fish cake skewers simmered in a savory broth — a beloved street food.",
+    "category": "street_food",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 3,
+    "calories": 180,
+    "protein_g": 10,
+    "carbs_g": 20,
+    "fat_g": 6,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.332875+00:00",
+    "ingredients": [
+      {
+        "name": "Fish Cake",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Anchovy Broth",
+        "amount": "4 cups",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make broth",
+        "description": "Bring anchovy broth to boil with garlic and soy sauce."
+      },
+      {
+        "step_order": 2,
+        "title": "Add fish cakes",
+        "description": "Thread fish cakes on skewers and simmer in broth 10 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with green onion. Serve with broth in a cup."
+      }
+    ]
+  },
+  {
+    "id": "c20dfa40-5e76-46e8-a0bf-bff0a2206d71",
+    "name_en": "Gunmandu",
+    "name_ko": "군만두",
+    "description": "Pan-fried Korean dumplings — crispy on the bottom, juicy inside.",
+    "category": "street_food",
+    "cooking_time_min": 25,
+    "difficulty": "medium",
+    "servings": 3,
+    "calories": 320,
+    "protein_g": 14,
+    "carbs_g": 36,
+    "fat_g": 14,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.499615+00:00",
+    "ingredients": [
+      {
+        "name": "Dumpling Wrappers",
+        "amount": "20 pieces",
+        "type": "essential"
+      },
+      {
+        "name": "Pork",
+        "amount": "200g ground",
+        "type": "essential"
+      },
+      {
+        "name": "Tofu",
+        "amount": "100g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Cabbage",
+        "amount": "100g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make filling",
+        "description": "Mix pork, crumbled tofu, garlic, soy sauce, sesame oil, and green onion."
+      },
+      {
+        "step_order": 2,
+        "title": "Wrap",
+        "description": "Place filling in wrappers, fold and seal edges."
+      },
+      {
+        "step_order": 3,
+        "title": "Pan-fry",
+        "description": "Fry in oiled pan until bottom is golden. Add 1/4 cup water, cover and steam 5 minutes."
+      }
+    ]
+  },
+  {
+    "id": "bba92518-8519-43ed-a378-14126650b10a",
+    "name_en": "Hotteok",
+    "name_ko": "호떡",
+    "description": "Sweet Korean pancakes filled with brown sugar and cinnamon.",
+    "category": "street_food",
+    "cooking_time_min": 40,
+    "difficulty": "medium",
+    "servings": 4,
+    "calories": 320,
+    "protein_g": 6,
+    "carbs_g": 58,
+    "fat_g": 10,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.256167+00:00",
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "amount": "4 tbsp brown sugar",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/4 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Cinnamon",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "2 tbsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Peanuts",
+        "amount": "2 tbsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make dough",
+        "description": "Mix 2 cups flour, 1 tsp yeast, 1 tsp sugar, 3/4 cup warm water. Rest 1 hour."
+      },
+      {
+        "step_order": 2,
+        "title": "Make filling",
+        "description": "Mix brown sugar, cinnamon, and sesame seeds."
+      },
+      {
+        "step_order": 3,
+        "title": "Pan-fry",
+        "description": "Flatten dough, add filling, seal. Pan-fry until golden, pressing flat with spatula."
+      }
+    ]
+  },
+  {
+    "id": "ba971f5e-a8cf-44ac-b435-36ac62ec5758",
+    "name_en": "Soondae Bokkeum",
+    "name_ko": "순대볶음",
+    "description": "Spicy stir-fried blood sausage with vegetables.",
+    "category": "street_food",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 380,
+    "protein_g": 18,
+    "carbs_g": 32,
+    "fat_g": 18,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.574373+00:00",
+    "ingredients": [
+      {
+        "name": "Soondae",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Slice soondae",
+        "description": "Slice soondae into bite-sized pieces."
+      },
+      {
+        "step_order": 2,
+        "title": "Stir-fry",
+        "description": "Stir-fry garlic and onion. Add soondae, gochujang, gochugaru, and soy sauce."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Toss with green onion and sesame oil."
+      }
+    ]
+  },
+  {
+    "id": "97566d15-ec87-40c7-aaa3-4c6ca57b2780",
+    "name_en": "Sundae Tteokbokki",
+    "name_ko": "순대떡볶이",
+    "description": "The ultimate Korean street food combo: tteokbokki with soondae.",
+    "category": "street_food",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 440,
+    "protein_g": 16,
+    "carbs_g": 62,
+    "fat_g": 14,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.657604+00:00",
+    "ingredients": [
+      {
+        "name": "Rice Cake",
+        "amount": "250g",
+        "type": "essential"
+      },
+      {
+        "name": "Soondae",
+        "amount": "150g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Fish Cake",
+        "amount": "100g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make sauce",
+        "description": "Mix gochujang, gochugaru, sugar, and soy sauce with 2 cups water."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook rice cakes",
+        "description": "Boil rice cakes in sauce for 10 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Add soondae",
+        "description": "Add soondae and fish cake. Cook 3 more minutes. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "0cac7965-de6f-4a6a-bc1d-083c788d93b7",
+    "name_en": "Tteokbokki",
+    "name_ko": "떡볶이",
+    "description": "Spicy, chewy rice cakes in a sweet and fiery gochujang sauce.",
+    "category": "street_food",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 320,
+    "protein_g": 8,
+    "carbs_g": 62,
+    "fat_g": 4,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:17.010025+00:00",
+    "ingredients": [
+      {
+        "name": "Rice Cake",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "optional"
+      },
+      {
+        "name": "Spam",
+        "amount": "100g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make the sauce",
+        "description": "Mix gochujang, gochugaru, sugar, and soy sauce with 2 cups of water in a pan."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook the rice cakes",
+        "description": "Bring sauce to a boil. Add rice cakes and cook on medium heat for 10–15 minutes, stirring often."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Once sauce thickens and coats the rice cakes, remove from heat. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "3be41c63-0c18-45a5-a22c-bf443d814237",
+    "name_en": "Twigim",
+    "name_ko": "튀김",
+    "description": "Korean street food fritters — vegetables and fish cake in crispy batter.",
+    "category": "street_food",
+    "cooking_time_min": 25,
+    "difficulty": "medium",
+    "servings": 3,
+    "calories": 340,
+    "protein_g": 8,
+    "carbs_g": 42,
+    "fat_g": 16,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.402851+00:00",
+    "ingredients": [
+      {
+        "name": "Zucchini",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Fish Cake",
+        "amount": "150g",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "1",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/4 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp dipping",
+        "type": "recommended"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make batter",
+        "description": "Mix 1 cup flour, 1 egg, 3/4 cup cold water, and salt."
+      },
+      {
+        "step_order": 2,
+        "title": "Coat and fry",
+        "description": "Dip vegetables and fish cake in batter. Deep or shallow fry until golden."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Drain on paper towel. Serve with soy sauce dip."
+      }
+    ]
+  },
+  {
+    "id": "9b1e634c-040e-4e1d-9594-f65452918e2e",
+    "name_en": "Broccoli Muchim",
+    "name_ko": "브로콜리무침",
+    "description": "Blanched broccoli tossed in a garlicky soy dressing.",
+    "category": "vegetables",
+    "cooking_time_min": 10,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 60,
+    "protein_g": 4,
+    "carbs_g": 8,
+    "fat_g": 2,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.993777+00:00",
+    "ingredients": [
+      {
+        "name": "Broccoli",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1/2 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Blanch",
+        "description": "Blanch broccoli florets for 2 minutes. Drain and cool."
+      },
+      {
+        "step_order": 2,
+        "title": "Season",
+        "description": "Mix with soy sauce, sesame oil, and garlic."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "f2aa82c8-3389-4c09-9625-c929e6508f9e",
+    "name_en": "Buchu Jeon",
+    "name_ko": "부추전",
+    "description": "Crispy chive pancakes — simple and satisfying.",
+    "category": "vegetables",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 180,
+    "protein_g": 6,
+    "carbs_g": 24,
+    "fat_g": 8,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:20.196935+00:00",
+    "ingredients": [
+      {
+        "name": "Chives",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/4 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp dipping",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make batter",
+        "description": "Mix 1/2 cup flour, eggs, 1/2 cup water, and salt. Add chopped chives."
+      },
+      {
+        "step_order": 2,
+        "title": "Pan-fry",
+        "description": "Cook in oiled pan over medium-high heat until golden on both sides."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Serve with soy sauce dip."
+      }
+    ]
+  },
+  {
+    "id": "212a7194-cee2-4573-98a1-3f1943d98053",
+    "name_en": "Cabbage Doenjang Muchim",
+    "name_ko": "양배추된장무침",
+    "description": "Quick cabbage salad with doenjang dressing.",
+    "category": "vegetables",
+    "cooking_time_min": 10,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 60,
+    "protein_g": 3,
+    "carbs_g": 10,
+    "fat_g": 2,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:20.049685+00:00",
+    "ingredients": [
+      {
+        "name": "Cabbage",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Doenjang",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "essential"
+      },
+      {
+        "name": "Vinegar",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Shred cabbage",
+        "description": "Shred cabbage thinly. Blanch briefly or eat raw."
+      },
+      {
+        "step_order": 2,
+        "title": "Mix dressing",
+        "description": "Mix doenjang, sesame oil, garlic, and vinegar."
+      },
+      {
+        "step_order": 3,
+        "title": "Toss and serve",
+        "description": "Toss cabbage with dressing. Garnish with sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "aa58e15d-c5f2-4af7-b3bf-cc5df7e27a7c",
+    "name_en": "Gamja Guk",
+    "name_ko": "감자국",
+    "description": "Simple potato soup in a light anchovy broth.",
+    "category": "vegetables",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 120,
+    "protein_g": 4,
+    "carbs_g": 22,
+    "fat_g": 3,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:20.256848+00:00",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "amount": "2 medium",
+        "type": "essential"
+      },
+      {
+        "name": "Anchovy Broth",
+        "amount": "3 cups",
+        "type": "essential"
+      },
+      {
+        "name": "Doenjang",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/4 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make broth",
+        "description": "Bring anchovy broth to boil. Dissolve doenjang with garlic."
+      },
+      {
+        "step_order": 2,
+        "title": "Add potato",
+        "description": "Add cubed potato. Simmer 12 minutes until tender."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Season with salt. Garnish with green onion and sesame oil."
+      }
+    ]
+  },
+  {
+    "id": "353a418e-4a8d-4119-952a-ac38a574d44d",
+    "name_en": "Hobak Doenjang Muchim",
+    "name_ko": "호박된장무침",
+    "description": "Zucchini seasoned with doenjang — nutty and savory.",
+    "category": "vegetables",
+    "cooking_time_min": 10,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 70,
+    "protein_g": 3,
+    "carbs_g": 10,
+    "fat_g": 3,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.867209+00:00",
+    "ingredients": [
+      {
+        "name": "Zucchini",
+        "amount": "1 medium",
+        "type": "essential"
+      },
+      {
+        "name": "Doenjang",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Slice zucchini",
+        "description": "Slice zucchini into half-moons. Sauté in a little oil until soft."
+      },
+      {
+        "step_order": 2,
+        "title": "Season",
+        "description": "Mix with doenjang, sesame oil, and garlic."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with green onion and sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "4077385d-6e8d-4e17-b605-d4acfde8b31d",
+    "name_en": "Homemade Kimchi",
+    "name_ko": "홈메이드 김치",
+    "description": "Traditional homemade napa cabbage kimchi.",
+    "category": "vegetables",
+    "cooking_time_min": 60,
+    "difficulty": "hard",
+    "servings": 10,
+    "calories": 30,
+    "protein_g": 2,
+    "carbs_g": 6,
+    "fat_g": 0,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.79608+00:00",
+    "ingredients": [
+      {
+        "name": "Napa Cabbage",
+        "amount": "1 head",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "5 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "8 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "4 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "5 stalks",
+        "type": "essential"
+      },
+      {
+        "name": "Fish Sauce",
+        "amount": "2 tbsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Ginger",
+        "amount": "1 tbsp grated",
+        "type": "recommended"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Salt cabbage",
+        "description": "Quarter cabbage and salt between leaves. Let sit 2 hours, turning occasionally. Rinse and drain."
+      },
+      {
+        "step_order": 2,
+        "title": "Make paste",
+        "description": "Mix gochugaru, garlic, ginger, fish sauce, and sugar into a paste."
+      },
+      {
+        "step_order": 3,
+        "title": "Mix",
+        "description": "Toss cabbage and green onion with paste, coating every leaf."
+      },
+      {
+        "step_order": 4,
+        "title": "Ferment",
+        "description": "Pack into jar. Leave at room temperature 1-2 days, then refrigerate."
+      }
+    ]
+  },
+  {
+    "id": "87299c9e-5c7d-46a6-91a1-ff282e818aac",
+    "name_en": "Japchae Namul Bowl",
+    "name_ko": "잡채나물 덮밥",
+    "description": "Light noodle and vegetable bowl seasoned with soy and sesame.",
+    "category": "vegetables",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 280,
+    "protein_g": 8,
+    "carbs_g": 48,
+    "fat_g": 8,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:20.329161+00:00",
+    "ingredients": [
+      {
+        "name": "Glass Noodles",
+        "amount": "150g",
+        "type": "essential"
+      },
+      {
+        "name": "Spinach",
+        "amount": "100g",
+        "type": "essential"
+      },
+      {
+        "name": "Bean Sprouts",
+        "amount": "100g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "recommended"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1/2",
+        "type": "optional"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Cook noodles and veg",
+        "description": "Cook glass noodles 3 minutes, drain. Blanch spinach and sprouts separately."
+      },
+      {
+        "step_order": 2,
+        "title": "Season",
+        "description": "Toss everything with soy sauce, sesame oil, and garlic."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Plate and garnish with sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "21c922d8-d13e-4e64-a4e4-129751d0f062",
+    "name_en": "Mu Doenjang Guk",
+    "name_ko": "무된장국",
+    "description": "Simple radish and doenjang soup.",
+    "category": "vegetables",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 90,
+    "protein_g": 4,
+    "carbs_g": 14,
+    "fat_g": 3,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:19.931343+00:00",
+    "ingredients": [
+      {
+        "name": "Radish",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Doenjang",
+        "amount": "1.5 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "1 clove",
+        "type": "essential"
+      },
+      {
+        "name": "Anchovy Broth",
+        "amount": "3 cups",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Tofu",
+        "amount": "100g",
+        "type": "optional"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/4 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make broth",
+        "description": "Bring anchovy broth to boil. Dissolve doenjang."
+      },
+      {
+        "step_order": 2,
+        "title": "Add radish",
+        "description": "Add cubed radish and garlic. Simmer 12 minutes until tender."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Add tofu if using. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "4484bb3d-ac89-4869-9610-8dd1f14b7cf0",
+    "name_en": "Oi Naengchae",
+    "name_ko": "오이냉채",
+    "description": "Cold cucumber salad with a tangy-sweet dressing.",
+    "category": "vegetables",
+    "cooking_time_min": 10,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 50,
+    "protein_g": 1,
+    "carbs_g": 10,
+    "fat_g": 2,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:20.135614+00:00",
+    "ingredients": [
+      {
+        "name": "Cucumber",
+        "amount": "2 medium",
+        "type": "essential"
+      },
+      {
+        "name": "Vinegar",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/2 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prep cucumber",
+        "description": "Slice cucumber thinly. Salt and let sit 5 minutes. Squeeze out moisture."
+      },
+      {
+        "step_order": 2,
+        "title": "Season",
+        "description": "Mix with vinegar, sugar, sesame oil, and gochugaru."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with sesame seeds. Serve immediately chilled."
+      }
+    ]
+  }
+]

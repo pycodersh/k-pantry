@@ -1,0 +1,998 @@
+[
+  {
+    "id": "4a39c03b-72ba-46e5-9504-baab3b60eb8b",
+    "name_en": "Anchovy Noodle Soup",
+    "name_ko": "잔치국수",
+    "description": "Light wheat noodle soup in a clear anchovy broth — served at celebrations.",
+    "category": "noodles",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 310,
+    "protein_g": 12,
+    "carbs_g": 56,
+    "fat_g": 6,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:16.185851+00:00",
+    "ingredients": [
+      {
+        "name": "Wheat Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Anchovy Broth",
+        "amount": "4 cups",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Zucchini",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prepare broth",
+        "description": "Heat anchovy broth with garlic and soy sauce."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook noodles",
+        "description": "Cook noodles in boiling water, drain."
+      },
+      {
+        "step_order": 3,
+        "title": "Assemble",
+        "description": "Place noodles in bowl, ladle hot broth. Top with zucchini, egg strips, and green onion."
+      }
+    ]
+  },
+  {
+    "id": "f8655b9e-1919-415a-971a-4c2651bd633e",
+    "name_en": "Bibim Naengmyeon",
+    "name_ko": "비빔냉면",
+    "description": "Spicy cold buckwheat noodles with gochujang sauce.",
+    "category": "noodles",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 340,
+    "protein_g": 10,
+    "carbs_g": 64,
+    "fat_g": 6,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.711888+00:00",
+    "ingredients": [
+      {
+        "name": "Buckwheat Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Vinegar",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2 hard-boiled",
+        "type": "recommended"
+      },
+      {
+        "name": "Cucumber",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make sauce",
+        "description": "Mix gochujang, vinegar, sugar, and sesame oil."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook noodles",
+        "description": "Boil noodles, rinse with cold water until very cold."
+      },
+      {
+        "step_order": 3,
+        "title": "Mix and serve",
+        "description": "Toss noodles with sauce. Top with egg and cucumber."
+      }
+    ]
+  },
+  {
+    "id": "a14a1e4f-d8ee-4ca8-ac15-cb64011152f2",
+    "name_en": "Japchae",
+    "name_ko": "잡채",
+    "description": "Stir-fried glass noodles with colorful vegetables and beef.",
+    "category": "noodles",
+    "cooking_time_min": 30,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 290,
+    "protein_g": 10,
+    "carbs_g": 48,
+    "fat_g": 8,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:17.10121+00:00",
+    "ingredients": [
+      {
+        "name": "Glass Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Spinach",
+        "amount": "100g",
+        "type": "essential"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "150g",
+        "type": "recommended"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Beef",
+        "amount": "150g",
+        "type": "optional"
+      },
+      {
+        "name": "Egg",
+        "amount": "1",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Soak the noodles",
+        "description": "Soak glass noodles in warm water for 20 minutes. Drain and set aside."
+      },
+      {
+        "step_order": 2,
+        "title": "Sauté vegetables",
+        "description": "Sauté each vegetable separately with a little oil, salt, and garlic. Set aside."
+      },
+      {
+        "step_order": 3,
+        "title": "Season noodles",
+        "description": "Cook drained noodles in boiling water for 3 minutes. Drain and mix with soy sauce, sugar, and sesame oil."
+      },
+      {
+        "step_order": 4,
+        "title": "Combine and serve",
+        "description": "Mix noodles with all vegetables and beef. Garnish with egg strips and sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "de91c0d1-3663-401e-b9be-e95827a71474",
+    "name_en": "Japchae with Beef",
+    "name_ko": "소고기잡채",
+    "description": "Premium japchae with tender marinated beef.",
+    "category": "noodles",
+    "cooking_time_min": 35,
+    "difficulty": "medium",
+    "servings": 3,
+    "calories": 380,
+    "protein_g": 18,
+    "carbs_g": 52,
+    "fat_g": 12,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:17.977806+00:00",
+    "ingredients": [
+      {
+        "name": "Glass Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Beef",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Spinach",
+        "amount": "100g",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "150g",
+        "type": "recommended"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Egg",
+        "amount": "1",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Marinate beef",
+        "description": "Marinate beef strips with soy sauce, sugar, and sesame oil for 15 minutes."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook noodles",
+        "description": "Soak glass noodles, then boil for 3 minutes. Drain and toss with soy sauce and sesame oil."
+      },
+      {
+        "step_order": 3,
+        "title": "Sauté",
+        "description": "Cook beef and each vegetable separately."
+      },
+      {
+        "step_order": 4,
+        "title": "Combine",
+        "description": "Mix everything together. Adjust seasoning. Garnish with egg strips."
+      }
+    ]
+  },
+  {
+    "id": "fc6cbd05-b31a-4ab4-af4d-8dd72b846359",
+    "name_en": "Jjajangmyeon",
+    "name_ko": "짜장면",
+    "description": "Korean-Chinese noodles in a rich black bean sauce.",
+    "category": "noodles",
+    "cooking_time_min": 30,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 520,
+    "protein_g": 22,
+    "carbs_g": 78,
+    "fat_g": 14,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.881357+00:00",
+    "ingredients": [
+      {
+        "name": "Wheat Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Black Bean Paste",
+        "amount": "4 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Pork",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1",
+        "type": "essential"
+      },
+      {
+        "name": "Zucchini",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Potato",
+        "amount": "1 medium",
+        "type": "recommended"
+      },
+      {
+        "name": "Cucumber",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Stir-fry",
+        "description": "Stir-fry pork until cooked. Add onion, zucchini, and potato."
+      },
+      {
+        "step_order": 2,
+        "title": "Add black bean paste",
+        "description": "Add black bean paste and 1 cup water. Simmer 10 minutes until thick."
+      },
+      {
+        "step_order": 3,
+        "title": "Cook noodles",
+        "description": "Boil noodles, drain. Pour sauce on top. Garnish with cucumber strips."
+      }
+    ]
+  },
+  {
+    "id": "69793bb5-a730-454f-94b8-dbf32ad776fd",
+    "name_en": "Jjamppong",
+    "name_ko": "짬뽕",
+    "description": "Spicy Korean-Chinese seafood noodle soup.",
+    "category": "noodles",
+    "cooking_time_min": 30,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 440,
+    "protein_g": 26,
+    "carbs_g": 58,
+    "fat_g": 12,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.959654+00:00",
+    "ingredients": [
+      {
+        "name": "Wheat Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Seafood Mix",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "3 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Cabbage",
+        "amount": "100g",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "100g",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Sauté aromatics",
+        "description": "Stir-fry garlic and gochugaru in oil until fragrant."
+      },
+      {
+        "step_order": 2,
+        "title": "Add vegetables and seafood",
+        "description": "Add onion, cabbage, mushroom, and seafood. Stir-fry 3 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Add broth and noodles",
+        "description": "Add 4 cups water and soy sauce. Boil. Add noodles. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "c3ab26a9-00c0-4405-a1af-7f9c19386187",
+    "name_en": "Kalguksu",
+    "name_ko": "칼국수",
+    "description": "Hand-cut wheat noodles in a light anchovy broth.",
+    "category": "noodles",
+    "cooking_time_min": 30,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 380,
+    "protein_g": 14,
+    "carbs_g": 68,
+    "fat_g": 8,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": true,
+    "created_at": "2026-08-09T04:51:15.791609+00:00",
+    "ingredients": [
+      {
+        "name": "Wheat Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Anchovy Broth",
+        "amount": "4 cups",
+        "type": "essential"
+      },
+      {
+        "name": "Zucchini",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Potato",
+        "amount": "1 small",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prepare broth",
+        "description": "Bring anchovy broth to boil with garlic and soy sauce."
+      },
+      {
+        "step_order": 2,
+        "title": "Add vegetables",
+        "description": "Add zucchini, onion, and potato. Simmer for 10 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Add noodles",
+        "description": "Add noodles and cook 5 minutes. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "29f4d71c-8c56-4bb4-aa39-66bdf59abe02",
+    "name_en": "Kimchi Ramen",
+    "name_ko": "김치 라면",
+    "description": "Instant ramen elevated with fermented kimchi and a soft egg.",
+    "category": "noodles",
+    "cooking_time_min": 12,
+    "difficulty": "easy",
+    "servings": 1,
+    "calories": 540,
+    "protein_g": 18,
+    "carbs_g": 74,
+    "fat_g": 20,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:16.115335+00:00",
+    "ingredients": [
+      {
+        "name": "Kimchi",
+        "amount": "1/2 cup",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "1",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1/2 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Spam",
+        "amount": "100g",
+        "type": "optional"
+      },
+      {
+        "name": "Cheese",
+        "amount": "1 slice",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Cook ramen",
+        "description": "Cook instant ramen with kimchi in the broth."
+      },
+      {
+        "step_order": 2,
+        "title": "Add egg",
+        "description": "Crack egg directly into pot in last 2 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Top with green onion, sesame oil, Spam, or cheese."
+      }
+    ]
+  },
+  {
+    "id": "17ef2e58-064b-46d8-847e-f30f98bb47e1",
+    "name_en": "Kongguksu",
+    "name_ko": "콩국수",
+    "description": "Cold noodles in a creamy chilled soy milk broth — a summer classic.",
+    "category": "noodles",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 360,
+    "protein_g": 18,
+    "carbs_g": 52,
+    "fat_g": 12,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:16.042944+00:00",
+    "ingredients": [
+      {
+        "name": "Wheat Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Milk",
+        "amount": "3 cups unsweetened",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Cucumber",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tbsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Tomato",
+        "amount": "1/2",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Chill broth",
+        "description": "Season soy milk with salt. Refrigerate until very cold."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook noodles",
+        "description": "Boil noodles, rinse with cold water until cold."
+      },
+      {
+        "step_order": 3,
+        "title": "Assemble",
+        "description": "Place noodles in bowl. Pour cold soy milk broth. Top with cucumber and sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "a3d54e4c-47b7-4fda-9b78-368518ffd388",
+    "name_en": "Mul Naengmyeon",
+    "name_ko": "물냉면",
+    "description": "Cold buckwheat noodles in a refreshing icy broth.",
+    "category": "noodles",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 320,
+    "protein_g": 10,
+    "carbs_g": 62,
+    "fat_g": 4,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:15.63801+00:00",
+    "ingredients": [
+      {
+        "name": "Buckwheat Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Beef Broth",
+        "amount": "4 cups",
+        "type": "essential"
+      },
+      {
+        "name": "Vinegar",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2 hard-boiled",
+        "type": "recommended"
+      },
+      {
+        "name": "Pickled Radish",
+        "amount": "50g",
+        "type": "recommended"
+      },
+      {
+        "name": "Cucumber",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Mustard",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prepare broth",
+        "description": "Mix beef broth with vinegar, sugar, and soy sauce. Chill or add ice."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook noodles",
+        "description": "Boil buckwheat noodles for 3 minutes. Rinse with cold water until very cold."
+      },
+      {
+        "step_order": 3,
+        "title": "Assemble",
+        "description": "Place noodles in bowl. Add cold broth. Top with egg, cucumber, and pickled radish."
+      }
+    ]
+  },
+  {
+    "id": "73524265-8c6c-4046-b5ef-a6880da25607",
+    "name_en": "Ojingeo Bokkeum Noodles",
+    "name_ko": "오징어볶음 국수",
+    "description": "Spicy stir-fried squid tossed with wheat noodles.",
+    "category": "noodles",
+    "cooking_time_min": 25,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 420,
+    "protein_g": 24,
+    "carbs_g": 58,
+    "fat_g": 10,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:16.327518+00:00",
+    "ingredients": [
+      {
+        "name": "Wheat Noodles",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Squid",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prep squid",
+        "description": "Clean and slice squid into rings."
+      },
+      {
+        "step_order": 2,
+        "title": "Stir-fry",
+        "description": "Stir-fry garlic, add squid and onion. Add gochujang, gochugaru, and soy sauce."
+      },
+      {
+        "step_order": 3,
+        "title": "Add noodles",
+        "description": "Boil noodles separately, drain. Toss with squid mixture and sesame oil."
+      }
+    ]
+  },
+  {
+    "id": "240a0ec9-e027-4b6f-a836-751d13831424",
+    "name_en": "Ramyeon Upgrade",
+    "name_ko": "라면 업그레이드",
+    "description": "Elevate instant ramen with pantry staples.",
+    "category": "noodles",
+    "cooking_time_min": 10,
+    "difficulty": "easy",
+    "servings": 1,
+    "calories": 520,
+    "protein_g": 16,
+    "carbs_g": 72,
+    "fat_g": 18,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:18.750926+00:00",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "amount": "1",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "essential"
+      },
+      {
+        "name": "Kimchi",
+        "amount": "1/2 cup",
+        "type": "recommended"
+      },
+      {
+        "name": "Spam",
+        "amount": "100g",
+        "type": "optional"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "50g",
+        "type": "optional"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1/2 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Cook ramen",
+        "description": "Cook instant ramen according to package. Add kimchi or mushrooms while boiling."
+      },
+      {
+        "step_order": 2,
+        "title": "Add egg",
+        "description": "Crack egg directly into the pot in the last 2 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Top with green onion, sesame oil, and Spam slices."
+      }
+    ]
+  },
+  {
+    "id": "02b3c162-40b8-4a69-889a-851e8f212f95",
+    "name_en": "Tteok Ramen",
+    "name_ko": "떡라면",
+    "description": "Instant ramen with chewy rice cakes added for extra texture.",
+    "category": "noodles",
+    "cooking_time_min": 15,
+    "difficulty": "easy",
+    "servings": 1,
+    "calories": 560,
+    "protein_g": 14,
+    "carbs_g": 86,
+    "fat_g": 16,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:16.254617+00:00",
+    "ingredients": [
+      {
+        "name": "Rice Cake",
+        "amount": "150g",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "1",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "recommended"
+      },
+      {
+        "name": "Cheese",
+        "amount": "1 slice",
+        "type": "optional"
+      },
+      {
+        "name": "Spam",
+        "amount": "100g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Cook ramen and rice cakes",
+        "description": "Cook instant ramen with rice cakes in the same pot."
+      },
+      {
+        "step_order": 2,
+        "title": "Add egg",
+        "description": "Crack egg in during last 2 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Top with green onion, cheese, or Spam."
+      }
+    ]
+  }
+]

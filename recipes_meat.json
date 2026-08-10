@@ -1,0 +1,1078 @@
+[
+  {
+    "id": "09e197dc-222f-49bd-9fad-61fce9953f76",
+    "name_en": "Andong Jjimdak",
+    "name_ko": "안동찜닭",
+    "description": "Sweet-savory braised chicken with glass noodles from Andong.",
+    "category": "meat",
+    "cooking_time_min": 45,
+    "difficulty": "medium",
+    "servings": 3,
+    "calories": 460,
+    "protein_g": 36,
+    "carbs_g": 40,
+    "fat_g": 16,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:18.116681+00:00",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "amount": "600g",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "5 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "4 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Glass Noodles",
+        "amount": "100g",
+        "type": "essential"
+      },
+      {
+        "name": "Potato",
+        "amount": "2 medium",
+        "type": "recommended"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prep the chicken",
+        "description": "Rinse chicken thighs and drumsticks under cold water. Pat dry with paper towel. Score the joints with a knife so the seasoning penetrates deeply."
+      },
+      {
+        "step_order": 2,
+        "title": "Soak the noodles",
+        "description": "Soak glass noodles in cold water for 20 minutes until softened. Drain and set aside."
+      },
+      {
+        "step_order": 3,
+        "title": "Prep the vegetables",
+        "description": "Cut potato and carrot into bite-sized chunks. Slice onion into thick strips. Cut green onion diagonally into 5cm pieces."
+      },
+      {
+        "step_order": 4,
+        "title": "Make the sauce",
+        "description": "In a bowl mix: soy sauce (5 tbsp), sugar (2 tbsp), minced garlic (4 cloves), black pepper (pinch), water (200ml). Stir until sugar dissolves."
+      },
+      {
+        "step_order": 5,
+        "title": "Braise the chicken",
+        "description": "Place chicken in a wide pan. Pour sauce over. Cover with lid and cook on medium heat for 15 minutes, turning chicken halfway through."
+      },
+      {
+        "step_order": 6,
+        "title": "Add vegetables",
+        "description": "Add potato, carrot, and onion. Cook uncovered on medium-low for 10 minutes, stirring occasionally until sauce reduces and coats everything."
+      },
+      {
+        "step_order": 7,
+        "title": "Add noodles & finish",
+        "description": "Add drained glass noodles and green onion. Cook 5 more minutes until noodles turn translucent. Drizzle sesame oil. Serve hot."
+      }
+    ]
+  },
+  {
+    "id": "f4a7f213-eb65-41eb-8fb6-1de460891984",
+    "name_en": "Buldak",
+    "name_ko": "불닭",
+    "description": "Fiery grilled chicken drenched in an ultra-spicy sauce.",
+    "category": "meat",
+    "cooking_time_min": 25,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 380,
+    "protein_g": 32,
+    "carbs_g": 16,
+    "fat_g": 18,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.744118+00:00",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "amount": "500g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "3 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Cheese",
+        "amount": "2 slices",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Marinate",
+        "description": "Mix chicken with all sauce ingredients. Marinate 30 minutes."
+      },
+      {
+        "step_order": 2,
+        "title": "Grill",
+        "description": "Grill or pan-fry chicken over medium-high heat until charred and cooked through."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Top with green onion and melted cheese if desired."
+      }
+    ]
+  },
+  {
+    "id": "1adee2e9-10d5-4516-946e-abe7deea6fc5",
+    "name_en": "Bulgogi",
+    "name_ko": "불고기",
+    "description": "Sweet and savory marinated beef that's perfect with rice.",
+    "category": "meat",
+    "cooking_time_min": 30,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 350,
+    "protein_g": 24,
+    "carbs_g": 15,
+    "fat_g": 20,
+    "is_popular": true,
+    "is_featured": true,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:16.508014+00:00",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "1 stalk",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "100g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prepare the vegetables",
+        "description": "Slice the onion and green onion thinly."
+      },
+      {
+        "step_order": 2,
+        "title": "Marinate the beef",
+        "description": "Mix beef with soy sauce, sugar, garlic, and sesame oil. Marinate for at least 15 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Cook",
+        "description": "Stir-fry the beef and onion over medium-high heat until fully cooked."
+      },
+      {
+        "step_order": 4,
+        "title": "Serve",
+        "description": "Garnish with green onion and sesame seeds. Enjoy with rice."
+      }
+    ]
+  },
+  {
+    "id": "a79a56b9-fbf0-441e-9bfc-b557f5bf6536",
+    "name_en": "Dak Bokkeum Tang",
+    "name_ko": "닭볶음탕",
+    "description": "Braised spicy chicken in a thick, glossy sauce.",
+    "category": "meat",
+    "cooking_time_min": 40,
+    "difficulty": "medium",
+    "servings": 3,
+    "calories": 400,
+    "protein_g": 32,
+    "carbs_g": 22,
+    "fat_g": 18,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.893832+00:00",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "amount": "600g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "4 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Potato",
+        "amount": "2 medium",
+        "type": "recommended"
+      },
+      {
+        "name": "Onion",
+        "amount": "1",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "100g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Parboil chicken",
+        "description": "Blanch chicken pieces briefly. Drain."
+      },
+      {
+        "step_order": 2,
+        "title": "Make sauce",
+        "description": "Mix gochujang, soy sauce, sugar, garlic, and 1.5 cups water."
+      },
+      {
+        "step_order": 3,
+        "title": "Braise",
+        "description": "Add chicken, potato, onion to sauce in a pot. Simmer 25 minutes."
+      },
+      {
+        "step_order": 4,
+        "title": "Finish",
+        "description": "Add green onion and mushroom. Cook 5 more minutes."
+      }
+    ]
+  },
+  {
+    "id": "4003bed8-fc73-4f28-aa93-d6cf2839eccf",
+    "name_en": "Dak Gangjeong",
+    "name_ko": "닭강정",
+    "description": "Crispy fried chicken glazed in a sweet and spicy sauce.",
+    "category": "meat",
+    "cooking_time_min": 35,
+    "difficulty": "medium",
+    "servings": 3,
+    "calories": 480,
+    "protein_g": 30,
+    "carbs_g": 42,
+    "fat_g": 20,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:18.044958+00:00",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "amount": "500g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "3 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Vinegar",
+        "amount": "1 tbsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tbsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Fry chicken",
+        "description": "Coat chicken in starch and fry until crispy."
+      },
+      {
+        "step_order": 2,
+        "title": "Make glaze",
+        "description": "Cook gochujang, sugar, soy sauce, garlic, and vinegar until sticky."
+      },
+      {
+        "step_order": 3,
+        "title": "Glaze and serve",
+        "description": "Toss fried chicken in glaze. Garnish with sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "0bb849bd-1ace-4e9f-b224-9621d8c8813b",
+    "name_en": "Dakdoritang",
+    "name_ko": "닭도리탕",
+    "description": "Braised spicy chicken with potatoes in a rich sauce.",
+    "category": "meat",
+    "cooking_time_min": 45,
+    "difficulty": "medium",
+    "servings": 3,
+    "calories": 420,
+    "protein_g": 34,
+    "carbs_g": 28,
+    "fat_g": 16,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:17.906371+00:00",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "amount": "500g",
+        "type": "essential"
+      },
+      {
+        "name": "Potato",
+        "amount": "2 medium",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "4 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "100g",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Blanch chicken",
+        "description": "Briefly boil chicken pieces, then drain and rinse."
+      },
+      {
+        "step_order": 2,
+        "title": "Make sauce",
+        "description": "Mix gochujang, gochugaru, soy sauce, and garlic with 1 cup water."
+      },
+      {
+        "step_order": 3,
+        "title": "Braise",
+        "description": "Add chicken, potatoes, and onion to the sauce in a pot. Cover and cook on medium heat for 25 minutes."
+      },
+      {
+        "step_order": 4,
+        "title": "Finish",
+        "description": "Uncover and cook 5 more minutes until sauce thickens. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "cac5057c-ce58-4dd0-854f-36ef06ff9f2b",
+    "name_en": "Dakgalbi",
+    "name_ko": "닭갈비",
+    "description": "Spicy stir-fried chicken with rice cakes and vegetables.",
+    "category": "meat",
+    "cooking_time_min": 35,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 410,
+    "protein_g": 30,
+    "carbs_g": 38,
+    "fat_g": 14,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-07-26T09:24:17.678651+00:00",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "amount": "400g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "3 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "3 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Rice Cake",
+        "amount": "150g",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Marinate chicken",
+        "description": "Mix gochujang, gochugaru, soy sauce, sugar, and garlic. Coat chicken pieces and marinate 20 minutes."
+      },
+      {
+        "step_order": 2,
+        "title": "Stir-fry",
+        "description": "Cook chicken in a hot pan until nearly done. Add rice cakes and vegetables."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Stir-fry everything together until sauce caramelizes. Serve hot."
+      }
+    ]
+  },
+  {
+    "id": "4f785fb8-c886-4359-b249-6cae60d36be1",
+    "name_en": "Dwaeji Galbi",
+    "name_ko": "돼지갈비",
+    "description": "Marinated pork ribs grilled to sticky perfection.",
+    "category": "meat",
+    "cooking_time_min": 40,
+    "difficulty": "medium",
+    "servings": 3,
+    "calories": 480,
+    "protein_g": 32,
+    "carbs_g": 18,
+    "fat_g": 28,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:18.197999+00:00",
+    "ingredients": [
+      {
+        "name": "Pork",
+        "amount": "600g ribs",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "4 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "4 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Score and marinate",
+        "description": "Score pork ribs. Mix with soy sauce, sugar, garlic, and sesame oil. Marinate 1 hour."
+      },
+      {
+        "step_order": 2,
+        "title": "Cook",
+        "description": "Grill or pan-fry on medium heat, turning often, for 20-25 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with green onion and sesame seeds. Serve with rice."
+      }
+    ]
+  },
+  {
+    "id": "84cdb55e-9030-4751-9132-fb5262af1acc",
+    "name_en": "Galbi Jjim",
+    "name_ko": "갈비찜",
+    "description": "Braised beef short ribs in a rich soy-based sauce.",
+    "category": "meat",
+    "cooking_time_min": 90,
+    "difficulty": "hard",
+    "servings": 4,
+    "calories": 520,
+    "protein_g": 40,
+    "carbs_g": 24,
+    "fat_g": 26,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.676822+00:00",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "amount": "1kg short ribs",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "5 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "5 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1",
+        "type": "recommended"
+      },
+      {
+        "name": "Potato",
+        "amount": "2 medium",
+        "type": "recommended"
+      },
+      {
+        "name": "Mushroom",
+        "amount": "100g",
+        "type": "optional"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Parboil ribs",
+        "description": "Boil ribs briefly, rinse. Score the meat."
+      },
+      {
+        "step_order": 2,
+        "title": "Braise",
+        "description": "Add ribs to pot with soy sauce, sugar, garlic, and 2 cups water. Simmer 1 hour."
+      },
+      {
+        "step_order": 3,
+        "title": "Add vegetables",
+        "description": "Add potato, carrot, and mushroom. Cook 20 more minutes."
+      },
+      {
+        "step_order": 4,
+        "title": "Finish",
+        "description": "Drizzle sesame oil. Garnish with green onion."
+      }
+    ]
+  },
+  {
+    "id": "a8c7c721-68b7-44bd-b9da-815db0ea9140",
+    "name_en": "Haemul Pajeon",
+    "name_ko": "해물파전",
+    "description": "Crispy seafood and green onion pancake.",
+    "category": "meat",
+    "cooking_time_min": 20,
+    "difficulty": "medium",
+    "servings": 2,
+    "calories": 320,
+    "protein_g": 18,
+    "carbs_g": 32,
+    "fat_g": 14,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:18.274539+00:00",
+    "ingredients": [
+      {
+        "name": "Seafood Mix",
+        "amount": "200g",
+        "type": "essential"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "8 stalks",
+        "type": "essential"
+      },
+      {
+        "name": "Egg",
+        "amount": "2",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/2 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp dipping",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Make batter",
+        "description": "Mix 1 cup flour, eggs, 3/4 cup water, and salt. Add seafood."
+      },
+      {
+        "step_order": 2,
+        "title": "Arrange",
+        "description": "Lay green onions in pan, pour batter over. Cook on medium-high 4 minutes per side."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Slice and serve with soy dipping sauce."
+      }
+    ]
+  },
+  {
+    "id": "0d478055-e136-4365-a38c-081688b5a67a",
+    "name_en": "Jeyuk Bokkeum",
+    "name_ko": "제육볶음",
+    "description": "Spicy stir-fried pork — the most popular Korean BBQ dish to make at home.",
+    "category": "meat",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 420,
+    "protein_g": 28,
+    "carbs_g": 14,
+    "fat_g": 26,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.818587+00:00",
+    "ingredients": [
+      {
+        "name": "Pork",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "3 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Marinate pork",
+        "description": "Mix pork with all sauce ingredients. Rest 15 minutes."
+      },
+      {
+        "step_order": 2,
+        "title": "Stir-fry",
+        "description": "Stir-fry pork with onion on high heat until cooked and slightly caramelized."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Garnish with green onion. Serve with rice and lettuce wraps."
+      }
+    ]
+  },
+  {
+    "id": "ccecb95a-c648-45ba-87a2-507b73e6bbcf",
+    "name_en": "Ojingeo Bokkeum",
+    "name_ko": "오징어볶음",
+    "description": "Spicy stir-fried squid with vegetables in gochujang sauce.",
+    "category": "meat",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 280,
+    "protein_g": 22,
+    "carbs_g": 16,
+    "fat_g": 12,
+    "is_popular": false,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.974111+00:00",
+    "ingredients": [
+      {
+        "name": "Squid",
+        "amount": "300g",
+        "type": "essential"
+      },
+      {
+        "name": "Gochujang",
+        "amount": "2 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Gochugaru",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves",
+        "type": "essential"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tsp",
+        "type": "optional"
+      },
+      {
+        "name": "Sesame Seeds",
+        "amount": "1 tsp",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prep squid",
+        "description": "Clean squid and score/slice into pieces."
+      },
+      {
+        "step_order": 2,
+        "title": "Stir-fry",
+        "description": "Stir-fry garlic and onion. Add squid, gochujang, gochugaru, and soy sauce. Cook 4 minutes."
+      },
+      {
+        "step_order": 3,
+        "title": "Finish",
+        "description": "Add green onion. Drizzle sesame oil. Garnish with sesame seeds."
+      }
+    ]
+  },
+  {
+    "id": "0e82655a-bf7d-4c79-acc7-15afb2b05e82",
+    "name_en": "Samgyeopsal",
+    "name_ko": "삼겹살",
+    "description": "Grilled pork belly — the quintessential Korean BBQ experience.",
+    "category": "meat",
+    "cooking_time_min": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "calories": 520,
+    "protein_g": 28,
+    "carbs_g": 4,
+    "fat_g": 42,
+    "is_popular": true,
+    "is_featured": false,
+    "is_recently_added": false,
+    "created_at": "2026-08-09T04:51:17.605021+00:00",
+    "ingredients": [
+      {
+        "name": "Pork Belly",
+        "amount": "400g",
+        "type": "essential"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp",
+        "type": "essential"
+      },
+      {
+        "name": "Sesame Oil",
+        "amount": "1 tbsp",
+        "type": "essential"
+      },
+      {
+        "name": "Garlic",
+        "amount": "6 cloves",
+        "type": "recommended"
+      },
+      {
+        "name": "Ssamjang",
+        "amount": "3 tbsp",
+        "type": "recommended"
+      },
+      {
+        "name": "Green Onion",
+        "amount": "2 stalks",
+        "type": "recommended"
+      },
+      {
+        "name": "Lettuce",
+        "amount": "1 head",
+        "type": "optional"
+      },
+      {
+        "name": "Kimchi",
+        "amount": "1/2 cup",
+        "type": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "step_order": 1,
+        "title": "Prepare",
+        "description": "Slice pork belly into bite-sized pieces. Season lightly with salt."
+      },
+      {
+        "step_order": 2,
+        "title": "Grill",
+        "description": "Grill pork belly on a hot pan or grill until crispy on both sides."
+      },
+      {
+        "step_order": 3,
+        "title": "Serve",
+        "description": "Wrap in lettuce with garlic, ssamjang, and kimchi. Drizzle sesame oil."
+      }
+    ]
+  }
+]
